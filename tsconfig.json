@@ -15,7 +15,7 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],  "paths": { "my-api": ["projects/app-main//src/api"] }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false

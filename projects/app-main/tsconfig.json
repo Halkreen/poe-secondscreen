@@ -1,0 +1,15 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "baseUrl": "tsconfig",
+        "rootDir": "./src",
+        "lib": ["es2018", "dom"],
+        "declaration": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "target": "es6",
+        "types": ["node"]
+    },
+    "include": ["./src/**/*.ts"]
+}

@@ -3,5 +3,315 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "app-renderer": {
+      "projectType": "application",
+      "schematics": {},
+      "root": "projects/app-renderer",
+      "sourceRoot": "projects/app-renderer/src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-builders/custom-webpack:browser",
+          "options": {
+            "outputPath": "dist/app-renderer",
+            "index": "projects/app-renderer/src/index.html",
+            "main": "projects/app-renderer/src/main.ts",
+            "polyfills": "projects/app-renderer/src/polyfills.ts",
+            "tsConfig": "projects/app-renderer/tsconfig.app.json",
+            "aot": true,
+            "assets": [
+              "projects/app-renderer/src/favicon.ico",
+              "projects/app-renderer/src/assets"
+            ],
+            "styles": [
+              "projects/app-renderer/src/styles.css"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "projects/app-renderer/src/environments/environment.ts",
+                  "with": "projects/app-renderer/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "app-renderer:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "app-renderer:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "app-renderer:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/app-renderer/src/test.ts",
+            "polyfills": "projects/app-renderer/src/polyfills.ts",
+            "tsConfig": "projects/app-renderer/tsconfig.spec.json",
+            "karmaConfig": "projects/app-renderer/karma.conf.js",
+            "assets": [
+              "projects/app-renderer/src/favicon.ico",
+              "projects/app-renderer/src/assets"
+            ],
+            "styles": [
+              "projects/app-renderer/src/styles.css"
+            ],
+            "scripts": []
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/app-renderer/tsconfig.app.json",
+              "projects/app-renderer/tsconfig.spec.json",
+              "projects/app-renderer/e2e/tsconfig.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "projects/app-renderer/e2e/protractor.conf.js",
+            "devServerTarget": "app-renderer:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "app-renderer:serve:production"
+            }
+          }
+        }
+      }
+    },
+    "app-main": {
+      "projectType": "application",
+      "root": "projects/app-main/",
+      "sourceRoot": "projects/app-main/src",
+      "architect": {
+        "build": {
+          "builder": "@richapps/ngnode:build",
+          "options": {
+            "outputPath": "dist/app-main",
+            "main": [
+              "projects/app-main/src/main.ts",
+              "projects/app-main/src/preload.ts"
+            ],
+            "tsConfig": "projects/app-main/tsconfig.json",
+            "webpackConfigObject": {
+              "externals": {
+                "electron": "commonjs electron",
+                "assert": "commonjs assert",
+                "async_hooks": "commonjs async_hooks",
+                "buffer": "commonjs buffer",
+                "child_process": "commonjs child_process",
+                "cluster": "commonjs cluster",
+                "console": "commonjs console",
+                "constants": "commonjs constants",
+                "crypto": "commonjs crypto",
+                "dgram": "commonjs dgram",
+                "dns": "commonjs dns",
+                "domain": "commonjs domain",
+                "events": "commonjs events",
+                "fs": "commonjs fs",
+                "http": "commonjs http",
+                "http2": "commonjs http2",
+                "https": "commonjs https",
+                "inspector": "commonjs inspector",
+                "module": "commonjs module",
+                "net": "commonjs net",
+                "os": "commonjs os",
+                "path": "commonjs path",
+                "perf_hooks": "commonjs perf_hooks",
+                "process": "commonjs process",
+                "punycode": "commonjs punycode",
+                "querystring": "commonjs querystring",
+                "readline": "commonjs readline",
+                "repl": "commonjs repl",
+                "stream": "commonjs stream",
+                "string_decoder": "commonjs string_decoder",
+                "timers": "commonjs timers",
+                "tls": "commonjs tls",
+                "trace_events": "commonjs trace_events",
+                "tty": "commonjs tty",
+                "url": "commonjs url",
+                "util": "commonjs util",
+                "v8": "commonjs v8",
+                "vm": "commonjs vm",
+                "wasi": "commonjs wasi",
+                "worker_threads": "commonjs worker_threads",
+                "zlib": "commonjs zlib"
+              },
+              "node": {
+                "__dirname": false,
+                "__filename": false
+              }
+            }
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "projects/app-main/src/environments/environment.ts",
+                  "with": "projects/app-main/src/environments/environment.prod.ts"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "app-electron": {
+      "projectType": "application",
+      "root": "projects/app-electron/",
+      "sourceRoot": "projects/app-electron/src",
+      "architect": {
+        "build": {
+          "builder": "@da-mkay/ng-builder-electron:build",
+          "options": {
+            "outputPath": "dist/app-electron",
+            "packageJsonPath": "projects/app-electron/src/package.json",
+            "main": "main/main.js",
+            "mainTarget": {
+              "target": "app-main:build",
+              "options": {
+                "outputPath": "dist/app-electron/main"
+              }
+            },
+            "rendererTargets": [
+              {
+                "target": "app-renderer:build",
+                "options": {
+                  "outputPath": "dist/app-electron/renderer",
+                  "baseHref": "./index.html",
+                  "customWebpackConfig": {
+                    "path": "projects/app-renderer/webpack_electron.config.js"
+                  }
+                }
+              }
+            ]
+          },
+          "configurations": {
+            "production": {
+              "mainTargetOverrides": {
+                "target": "app-main:build:production"
+              },
+              "rendererTargetsOverrides": [
+                {
+                  "target": "app-renderer:build:production"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@da-mkay/ng-builder-electron:serve",
+          "options": {
+            "buildTarget": {
+              "target": "app-electron:build",
+              "options": {
+                "outputPath": "dist/app-electron-serve",
+                "mainTarget": {
+                  "options": {
+                    "outputPath": "dist/app-electron-serve/main",
+                    "watch": true
+                  }
+                },
+                "rendererTargets": [
+                  {
+                    "options": {
+                      "outputPath": "dist/app-electron-serve/renderer",
+                      "watch": true
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "configurations": {
+            "production": {
+              "buildTargetOverrides": {
+                "target": "app-electron:build:production"
+              }
+            }
+          }
+        },
+        "package": {
+          "builder": "@da-mkay/ng-builder-electron:package",
+          "options": {
+            "buildTarget": {
+              "target": "app-electron:build",
+              "options": {
+                "outputPath": "dist/app-electron-package/app",
+                "mainTarget": {
+                  "options": {
+                    "outputPath": "dist/app-electron-package/app/main"
+                  }
+                },
+                "rendererTargets": [
+                  {
+                    "options": {
+                      "outputPath": "dist/app-electron-package/app/renderer"
+                    }
+                  }
+                ]
+              }
+            },
+            "electronBuilderConfig": {
+              "config": {
+                "appId": "some.app.id",
+                "directories": {
+                  "app": "dist/app-electron-package/app",
+                  "output": "dist/app-electron-package/pkg"
+                }
+              }
+            }
+          },
+          "configurations": {
+            "production": {
+              "buildTargetOverrides": {
+                "target": "app-electron:build:production"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "app-renderer"
 }
