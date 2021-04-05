@@ -294,10 +294,14 @@
             },
             "electronBuilderConfig": {
               "config": {
-                "appId": "some.app.id",
+                "appId": "com.electron.poe-secondscreen",
+                "productName": "PoE: Second Screen",
                 "directories": {
                   "app": "dist/app-electron-package/app",
                   "output": "dist/app-electron-package/pkg"
+                },
+                "win": {
+                  "target": "portable"
                 }
               }
             }

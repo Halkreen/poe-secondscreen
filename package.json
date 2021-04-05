@@ -1,13 +1,21 @@
 {
   "name": "poe-secondscreen",
   "version": "0.0.0",
+  "description": "A second screen helper for PoE leveling",
+  "author": {
+    "name": "halkreen"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "start:dev": "ng serve app-electron",
+    "start:prod": "ng serve app-electron --configuration=production",
+    "build:debug": " ng run app-electron:package",
+    "build:release": " ng run app-electron:package --configuration=production"
   },
   "private": true,
   "dependencies": {

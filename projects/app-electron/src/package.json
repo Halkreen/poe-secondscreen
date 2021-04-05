@@ -1,6 +1,10 @@
 {
-    "name": "app",
+    "name": "poe-secondscreen",
     "version": "0.0.0",
+    "description": "A second screen helper for PoE leveling",
+    "author": {
+      "name": "halkreen"
+    },
     "private": true,
     "dependencies": {
     },

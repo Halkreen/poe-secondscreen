@@ -1,10 +1,11 @@
 import { join } from 'path';
-import { app, BrowserWindow, ipcMain } from 'electron';
+import { app, BrowserWindow, globalShortcut } from 'electron';
 import { environment } from './environments/environment';
+
 
 console.log('Running production build:', environment.production);
 
-function createWindow() {
+function createWindow(): void {
     const win = new BrowserWindow({
         width: 800,
         height: 600,
@@ -15,12 +16,22 @@ function createWindow() {
         },
     });
 
-    // TODO: customize to your needs:
-    ipcMain.on('messageFromRenderer', (event, message) => {
-        console.log('Received message from renderer:', message);
-        win.webContents.send('messageFromMain', 'This is a message from main!');
+
+    // ipcMain.on('messageFromRenderer', (event, message) => {
+    //     console.log('Received message from renderer:', message);
+    //     win.webContents.send('messageFromMain', 'This is a message from main!');
+    // });
+    globalShortcut.register('Alt+CommandOrControl+I', () => {
+        win.webContents.send('messageFromMain', 'dummy message');
     });
+
     win.loadURL('file://' + (process.platform === 'win32' ? '/' : '') + join(__dirname, '../renderer/index.html').replace(/\\/g, '/'));
+
+    if (environment.production) {
+        win.removeMenu();
+    } else {
+        win.webContents.openDevTools();
+    }
 }
 
 app.whenReady().then(createWindow);
