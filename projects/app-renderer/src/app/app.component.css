@@ -3,3 +3,11 @@
   flex: 1;
   height: 100%;
 }
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  align-items: center;
+}

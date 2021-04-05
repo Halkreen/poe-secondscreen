@@ -1,0 +1,13 @@
+.card {
+  background-color: rgb(71, 71, 71);
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.spinner-content {
+  text-align: center;
+  margin-top: -62px;
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+}
