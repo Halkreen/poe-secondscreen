@@ -1,1 +1,8 @@
-<mat-slider min="1" max="100" step="1" value="1"></mat-slider>
+<mat-grid-list cols="4" rowHeight="100%">
+  <mat-grid-tile [colspan]="3" [style.background]="'lightblue'">
+    <app-left-panel></app-left-panel>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="1" [style.background]="'lightgreen'">
+    <app-right-panel></app-right-panel>
+  </mat-grid-tile>
+</mat-grid-list>

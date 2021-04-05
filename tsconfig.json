@@ -18,6 +18,7 @@
     ],  "paths": { "my-api": ["projects/app-main//src/api"] }
   },
   "angularCompilerOptions": {
-    "enableI18nLegacyMessageIdFormat": false
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictTemplates": true,
   }
 }
