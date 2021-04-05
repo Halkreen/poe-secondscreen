@@ -19,3 +19,9 @@ h2,
 h3 {
   font-weight: 600;
 }
+
+.snackbar {
+  background-color: rgba(253, 185, 80);
+  color: black;
+  padding: 0 !important;
+}

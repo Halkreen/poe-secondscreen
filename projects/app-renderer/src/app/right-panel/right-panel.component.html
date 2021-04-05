@@ -4,9 +4,9 @@
       class="example-margin"
       color="primary"
       mode="determinate"
-      value="14"
+      [value]="level$ | async"
     >
     </mat-progress-spinner>
-    <h2 class="spinner-content">14</h2>
+    <h2 class="spinner-content">{{ level$ | async }}</h2>
   </mat-card-content>
 </mat-card>
