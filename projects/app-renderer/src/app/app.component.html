@@ -1,6 +1,7 @@
 <mat-grid-list gutterSize="0" cols="4" rowHeight="100%">
   <mat-grid-tile [colspan]="3">
     <app-left-panel
+      *ngIf="data"
       class="left-panel"
       [currentStep]="currentStep"
       [previousStep]="previousStep"

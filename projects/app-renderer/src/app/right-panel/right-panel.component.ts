@@ -6,7 +6,9 @@ import {
 } from '@angular/core';
 import { Observable } from 'rxjs';
 import { distinctUntilChanged, tap } from 'rxjs/operators';
-import { LevelService } from '../services/shortcut.service';
+import { DialogService } from '../services/dialog.service';
+import { LevelService } from '../services/level.service';
+import { LevelingData } from '../types/leveling-data';
 
 @Component({
   selector: 'app-right-panel',
@@ -19,5 +21,12 @@ export class RightPanelComponent {
     distinctUntilChanged()
   );
 
-  constructor(private readonly levelService: LevelService) {}
+  constructor(
+    private readonly dialogService: DialogService,
+    private readonly levelService: LevelService
+  ) {}
+
+  public openDialog(): void {
+    this.dialogService.openDialog();
+  }
 }

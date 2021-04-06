@@ -20,8 +20,10 @@ export class LevelService {
 
     this.window = (window as any) as CustomWindow;
     if (this.window.api) {
-      this.window.api.onMainMessage(() => {
-        this.levelUp();
+      this.window.api.onMainMessage((data) => {
+        if (data === 'levelUp') {
+          this.levelUp();
+        }
       });
     }
   }

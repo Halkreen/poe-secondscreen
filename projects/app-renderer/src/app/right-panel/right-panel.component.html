@@ -12,7 +12,12 @@
     <h2 class="spinner-content">{{ level$ | async }}</h2>
   </mat-card-content>
 </mat-card>
-<button mat-flat-button color="accent" class="import-button">
+<button
+  mat-flat-button
+  color="accent"
+  class="import-button"
+  (click)="openDialog()"
+>
   New leveling
 </button>
 <!-- <div class="credits">Icons made by Freepik from www.flaticon.com</div> -->

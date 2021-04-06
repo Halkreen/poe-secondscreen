@@ -3,7 +3,8 @@ import { CommonModule } from '@angular/common';
 import { RightPanelComponent } from './right-panel.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatCardModule } from '@angular/material/card';
-import { LevelService } from '../services/shortcut.service';
+import { LevelService } from '../services/level.service';
+import { DialogService } from '../services/dialog.service';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatButtonModule } from '@angular/material/button';
 
@@ -17,6 +18,6 @@ import { MatButtonModule } from '@angular/material/button';
     MatButtonModule,
   ],
   exports: [RightPanelComponent],
-  providers: [LevelService],
+  providers: [LevelService, DialogService],
 })
 export class RightPanelModule {}
