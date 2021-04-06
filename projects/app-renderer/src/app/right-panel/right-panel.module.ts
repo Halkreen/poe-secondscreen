@@ -4,7 +4,8 @@ import { RightPanelComponent } from './right-panel.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatCardModule } from '@angular/material/card';
 import { LevelService } from '../services/shortcut.service';
-import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [RightPanelComponent],
@@ -13,6 +14,7 @@ import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
     MatProgressSpinnerModule,
     MatCardModule,
     MatSnackBarModule,
+    MatButtonModule,
   ],
   exports: [RightPanelComponent],
   providers: [LevelService],

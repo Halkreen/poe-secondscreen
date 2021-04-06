@@ -50,3 +50,10 @@
   border-image-slice: 1;
   margin-bottom: 20px;
 }
+
+.import-button {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: rgba(253, 185, 80);
+}
