@@ -13,7 +13,6 @@ export class AppComponent {
       gear: [
         {
           type: 'helmet',
-          linksNumber: 4,
           sockets: ['B', 'B', 'B', 'G'],
           gems: [
             'Stormblast Mine',
@@ -24,7 +23,6 @@ export class AppComponent {
         },
         {
           type: 'body_armor',
-          linksNumber: 4,
           sockets: ['B', 'B', 'B', 'G', 'R', 'R'],
           gems: [
             'Stormblast Mine',
@@ -37,7 +35,6 @@ export class AppComponent {
         },
         {
           type: 'gloves',
-          linksNumber: 4,
           sockets: ['B', 'B', 'B', 'G'],
           gems: [
             'Stormblast Mine',
@@ -48,7 +45,6 @@ export class AppComponent {
         },
         {
           type: 'boots',
-          linksNumber: 4,
           sockets: ['B', 'B', 'B', 'G'],
           gems: [
             'Stormblast Mine',
@@ -59,7 +55,6 @@ export class AppComponent {
         },
         {
           type: 'two_handed',
-          linksNumber: 4,
           sockets: ['B', 'B', 'B', 'G', 'R', 'R'],
           gems: [
             'Stormblast Mine',
