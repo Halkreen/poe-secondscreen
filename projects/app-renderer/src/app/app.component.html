@@ -1,13 +1,23 @@
 <mat-grid-list gutterSize="0" cols="4" rowHeight="100%">
   <mat-grid-tile [colspan]="3">
     <app-left-panel
-      *ngIf="data"
+      *ngIf="data; else noData"
       class="left-panel"
       [currentStep]="currentStep"
       [previousStep]="previousStep"
       [levelThresholds]="levelThresholds"
       [level]="level$ | async"
     ></app-left-panel>
+    <ng-template #noData>
+      <div class="left-panel centered">
+        <p class="empty-view-text">
+          No data found, exile. <br />
+          <span class="empty-view-subtext"
+            >Import your leveling file with <b>New leveling</b> button</span
+          >
+        </p>
+      </div>
+    </ng-template>
   </mat-grid-tile>
   <mat-grid-tile [colspan]="1" [style.background]="'rgba(40, 40, 40, 0.5)'">
     <app-right-panel class="right-panel"></app-right-panel>

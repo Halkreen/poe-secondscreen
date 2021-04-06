@@ -12,3 +12,21 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.empty-view-text {
+  font-family: "Nunoto Sans", sans-serif;
+  font-size: 48px;
+  text-align: center;
+}
+
+.empty-view-subtext {
+  font-family: "Halant", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.left-panel.centered {
+  justify-content: center;
+  align-items: center;
+}
