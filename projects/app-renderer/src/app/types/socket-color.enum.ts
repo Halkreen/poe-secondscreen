@@ -1,5 +1,5 @@
 export const enum SocketColorEnum {
-  GREEN,
-  RED,
-  BLUE,
+  GREEN = 'G',
+  RED = 'R',
+  BLUE = 'B',
 }

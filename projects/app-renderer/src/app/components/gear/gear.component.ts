@@ -1,4 +1,6 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { Gem } from '../../types/gem';
+import { Link } from '../../types/link';
 
 @Component({
   selector: 'app-gear',
@@ -6,4 +8,8 @@ import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
   styleUrls: ['./gear.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class GearComponent {}
+export class GearComponent {
+  @Input() public icon: string;
+  @Input() public links: Link[];
+  @Input() public gems: Gem[];
+}

@@ -1,2 +1,29 @@
-
-
+<div class="gear-content">
+  <div class="gear-icon">
+    <img src="assets/{{ icon }}.png" alt="{{ icon }}" class="gear-img" />
+  </div>
+  <div class="links little">
+    <ng-template ngFor let-link [ngForOf]="links">
+      <div class="{{ link.socketColor }} socket"></div>
+      <div *ngIf="link.isLinked" class="link"></div>
+    </ng-template>
+  </div>
+  <div class="links left">
+    <ng-template ngFor let-gem [ngForOf]="gems">
+      <p *ngIf="!gem.isNew" class="change">
+        {{ gem.gemName }}
+      </p>
+      <p *ngIf="gem.isNew" class="change active">
+        {{ gem.gemName }}
+        <button
+          mat-icon-button
+          color="accent"
+          aria-label="New gem"
+          class="active"
+        >
+          <mat-icon>swap_vert</mat-icon>
+        </button>
+      </p>
+    </ng-template>
+  </div>
+</div>

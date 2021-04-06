@@ -1,4 +1,5 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { Gem } from '../../types/gem';
 
 @Component({
   selector: 'app-gem',
@@ -7,6 +8,5 @@ import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class GemComponent {
-  @Input() public gemName: string;
-  @Input() public isNewGem: boolean;
+  @Input() public gem: Gem;
 }
