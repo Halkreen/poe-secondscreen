@@ -1,9 +1,11 @@
 .fade-1 {
   opacity: 0.4;
+  min-width: 84px;
 }
 
 .fade-2 {
   opacity: 0.2;
+  min-width: 64px;
 }
 
 .row {

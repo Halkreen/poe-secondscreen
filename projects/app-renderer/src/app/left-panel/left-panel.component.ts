@@ -1,6 +1,10 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { Gear } from '../types/gear';
-import { formatGems, formatLinks } from '../utils/json-formatter';
+import { LevelingData } from '../types/leveling-data';
+import {
+  findGearPiece,
+  formatGems,
+  formatLinks,
+} from '../utils/json-formatter';
 
 @Component({
   selector: 'app-left-panel',
@@ -9,8 +13,12 @@ import { formatGems, formatLinks } from '../utils/json-formatter';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class LeftPanelComponent {
-  @Input() public gear: Gear[];
+  @Input() public currentStep: LevelingData;
+  @Input() public previousStep: LevelingData;
+  @Input() public levelThresholds: number[];
+  @Input() public level: number;
 
   public formatLinks = formatLinks;
   public formatGems = formatGems;
+  public findGearPiece = findGearPiece;
 }

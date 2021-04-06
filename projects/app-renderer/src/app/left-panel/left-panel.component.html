@@ -1,41 +1,73 @@
 <div class="container">
-  <app-level-carousel></app-level-carousel>
+  <app-level-carousel
+    [currentLevel]="level"
+    [levelThresholds]="levelThresholds"
+  ></app-level-carousel>
   <div class="separator"></div>
   <div class="main">
     <div class="content">
       <app-gear
-        [gems]="formatGems(gear[0].gems)"
-        [icon]="gear[0].type"
-        [links]="formatLinks(gear[0].sockets)"
+        [gems]="
+          formatGems(
+            findGearPiece(currentStep.gear, 'helmet').gems,
+            findGearPiece(previousStep?.gear, 'helmet')?.gems
+          )
+        "
+        [icon]="findGearPiece(currentStep.gear, 'helmet').type"
+        [links]="formatLinks(findGearPiece(currentStep.gear, 'helmet').sockets)"
       >
       </app-gear>
 
       <app-gear
-        [gems]="formatGems(gear[2].gems)"
-        [icon]="gear[2].type"
-        [links]="formatLinks(gear[2].sockets)"
+        [gems]="
+          formatGems(
+            findGearPiece(currentStep.gear, 'gloves').gems,
+            findGearPiece(previousStep?.gear, 'gloves')?.gems
+          )
+        "
+        [icon]="findGearPiece(currentStep.gear, 'gloves').type"
+        [links]="formatLinks(findGearPiece(currentStep.gear, 'gloves').sockets)"
       >
       </app-gear>
 
       <app-gear
-        [gems]="formatGems(gear[3].gems)"
-        [icon]="gear[3].type"
-        [links]="formatLinks(gear[3].sockets)"
+        [gems]="
+          formatGems(
+            findGearPiece(currentStep.gear, 'boots').gems,
+            findGearPiece(previousStep?.gear, 'boots')?.gems
+          )
+        "
+        [icon]="findGearPiece(currentStep.gear, 'boots').type"
+        [links]="formatLinks(findGearPiece(currentStep.gear, 'boots').sockets)"
       >
       </app-gear>
     </div>
     <div class="content">
       <app-gear
-        [gems]="formatGems(gear[1].gems)"
-        [icon]="gear[1].type"
-        [links]="formatLinks(gear[1].sockets)"
+        [gems]="
+          formatGems(
+            findGearPiece(currentStep.gear, 'body_armor').gems,
+            findGearPiece(previousStep?.gear, 'body_armor')?.gems
+          )
+        "
+        [icon]="findGearPiece(currentStep.gear, 'body_armor').type"
+        [links]="
+          formatLinks(findGearPiece(currentStep.gear, 'body_armor').sockets)
+        "
       >
       </app-gear>
 
       <app-gear
-        [gems]="formatGems(gear[4].gems)"
-        [icon]="gear[4].type"
-        [links]="formatLinks(gear[4].sockets)"
+        [gems]="
+          formatGems(
+            findGearPiece(currentStep.gear, 'two_handed').gems,
+            findGearPiece(previousStep?.gear, 'two_handed')?.gems
+          )
+        "
+        [icon]="findGearPiece(currentStep.gear, 'two_handed').type"
+        [links]="
+          formatLinks(findGearPiece(currentStep.gear, 'two_handed').sockets)
+        "
       >
       </app-gear>
     </div>

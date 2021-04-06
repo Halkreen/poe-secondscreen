@@ -2,7 +2,10 @@
   <mat-grid-tile [colspan]="3">
     <app-left-panel
       class="left-panel"
-      [gear]="dummyData[0].gear"
+      [currentStep]="currentStep"
+      [previousStep]="previousStep"
+      [levelThresholds]="levelThresholds"
+      [level]="level$ | async"
     ></app-left-panel>
   </mat-grid-tile>
   <mat-grid-tile [colspan]="1" [style.background]="'rgba(40, 40, 40, 0.5)'">

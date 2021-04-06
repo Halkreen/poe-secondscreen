@@ -2,7 +2,6 @@ import { Injectable, NgZone } from '@angular/core';
 import { CustomWindow } from 'my-api';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { PizzaPartyComponent } from '../components/level-up-snackbar.component';
 
 @Injectable({
   providedIn: 'root',
@@ -39,9 +38,8 @@ export class LevelService {
   }
 
   public openSnackBar(): void {
-    this.snackBar.openFromComponent(PizzaPartyComponent, {
+    this.snackBar.open('Level Up 👍', 'Close', {
       duration: 2000,
-      panelClass: 'snackbar',
     });
   }
 }
