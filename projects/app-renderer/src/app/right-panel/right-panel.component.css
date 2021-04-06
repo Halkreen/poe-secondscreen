@@ -1,7 +1,7 @@
 .card {
   background-color: rgb(71, 71, 71);
-  width: 100px;
-  height: 100px;
+  width: 128px;
+  height: 158px;
   margin: 10px;
 }
 
@@ -10,4 +10,43 @@
   margin-top: -62px;
   color: #fff;
   font-family: "Nunito Sans", sans-serif;
+}
+
+.credits {
+  text-align: center;
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 10px;
+}
+
+.card-title {
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.separator {
+  width: 100%;
+  border-top: 1px solid;
+  border-image-source: linear-gradient(
+    to right,
+    rgba(253, 185, 80, 0) 0%,
+    rgba(253, 185, 80, 0) 14%,
+    rgba(253, 185, 80, 0.28) 28%,
+    rgba(253, 185, 80, 0.93) 48%,
+    #fdb950 50%,
+    rgba(253, 185, 80, 0.28) 72%,
+    rgba(253, 185, 80, 0) 86%,
+    rgba(253, 185, 80, 0) 100%
+  );
+  border-image-slice: 1;
+  margin-bottom: 20px;
 }

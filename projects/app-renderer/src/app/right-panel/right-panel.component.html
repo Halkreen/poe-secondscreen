@@ -1,5 +1,7 @@
 <mat-card class="card">
-  <mat-card-content>
+  <mat-card-content class="center">
+    <mat-card-title class="card-title">Current Level</mat-card-title>
+    <div class="separator"></div>
     <mat-progress-spinner
       class="example-margin"
       color="primary"
@@ -10,3 +12,4 @@
     <h2 class="spinner-content">{{ level$ | async }}</h2>
   </mat-card-content>
 </mat-card>
+<div class="credits">Icons made by Freepik from www.flaticon.com</div>
