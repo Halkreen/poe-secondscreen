@@ -1,8 +1,8 @@
 import { Gem } from '../types/gem';
 import { Link } from '../types/link';
-import { SocketColorEnum } from '../types/socket-color.enum';
+import { SocketColor } from '../types/socket-color.enum';
 
-export function formatLinks(sockets: SocketColorEnum[]): Link[] {
+export function formatLinks(sockets: SocketColor[]): Link[] {
   const links: Link[] = [];
   sockets.forEach((socket, index) => {
     links.push({

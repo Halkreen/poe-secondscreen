@@ -1,6 +1,6 @@
-import { SocketColorEnum } from './socket-color.enum';
+import { SocketColor } from './socket-color.enum';
 
 export interface Link {
-  socketColor: SocketColorEnum;
+  socketColor: SocketColor;
   isLinked: boolean;
 }

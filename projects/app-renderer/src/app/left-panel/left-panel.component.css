@@ -1,20 +1,3 @@
-.fade-1 {
-  opacity: 0.4;
-}
-
-.fade-2 {
-  opacity: 0.2;
-}
-
-.row {
-  flex-direction: row;
-  display: flex;
-  flex: 1;
-  padding: 10px;
-  justify-content: center;
-  background-color: rgb(51, 51, 51);
-}
-
 .separator {
   border-top: 1px solid;
   border-image-source: linear-gradient(
@@ -30,12 +13,6 @@
   );
   border-image-slice: 1;
   margin-bottom: 10px;
-}
-
-.row > h1,
-.row > h2,
-.row > h3 {
-  margin: 8px;
 }
 
 .content {

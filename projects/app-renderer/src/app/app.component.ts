@@ -1,4 +1,6 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { LevelingData } from './types/leveling-data';
+import { SocketColor } from './types/socket-color.enum';
 
 @Component({
   selector: 'app-root',
@@ -7,13 +9,18 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AppComponent {
-  public dummyData: any = [
+  public dummyData: LevelingData[] = [
     {
       level: 10,
       gear: [
         {
           type: 'helmet',
-          sockets: ['B', 'B', 'B', 'G'],
+          sockets: [
+            SocketColor.BLUE,
+            SocketColor.BLUE,
+            SocketColor.BLUE,
+            SocketColor.GREEN,
+          ],
           gems: [
             'Stormblast Mine',
             'Added Lightning',
@@ -23,7 +30,14 @@ export class AppComponent {
         },
         {
           type: 'body_armor',
-          sockets: ['B', 'B', 'B', 'G', 'R', 'R'],
+          sockets: [
+            SocketColor.BLUE,
+            SocketColor.BLUE,
+            SocketColor.BLUE,
+            SocketColor.GREEN,
+            SocketColor.RED,
+            SocketColor.RED,
+          ],
           gems: [
             'Stormblast Mine',
             'Added Lightning',
@@ -35,7 +49,12 @@ export class AppComponent {
         },
         {
           type: 'gloves',
-          sockets: ['B', 'B', 'B', 'G'],
+          sockets: [
+            SocketColor.BLUE,
+            SocketColor.BLUE,
+            SocketColor.BLUE,
+            SocketColor.GREEN,
+          ],
           gems: [
             'Stormblast Mine',
             'Added Lightning',
@@ -45,7 +64,12 @@ export class AppComponent {
         },
         {
           type: 'boots',
-          sockets: ['B', 'B', 'B', 'G'],
+          sockets: [
+            SocketColor.BLUE,
+            SocketColor.BLUE,
+            SocketColor.BLUE,
+            SocketColor.GREEN,
+          ],
           gems: [
             'Stormblast Mine',
             'Added Lightning',
@@ -55,7 +79,14 @@ export class AppComponent {
         },
         {
           type: 'two_handed',
-          sockets: ['B', 'B', 'B', 'G', 'R', 'R'],
+          sockets: [
+            SocketColor.BLUE,
+            SocketColor.BLUE,
+            SocketColor.BLUE,
+            SocketColor.GREEN,
+            SocketColor.RED,
+            SocketColor.RED,
+          ],
           gems: [
             'Stormblast Mine',
             'Added Lightning',

@@ -5,6 +5,7 @@ import { MatBadgeModule } from '@angular/material/badge';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { GearModule } from '../components/gear/gear.module';
+import { LevelCarouselModule } from '../components/level-carousel/level-carousel.module';
 
 @NgModule({
   declarations: [LeftPanelComponent],
@@ -14,6 +15,7 @@ import { GearModule } from '../components/gear/gear.module';
     MatButtonModule,
     MatIconModule,
     GearModule,
+    LevelCarouselModule,
   ],
   exports: [LeftPanelComponent],
 })
