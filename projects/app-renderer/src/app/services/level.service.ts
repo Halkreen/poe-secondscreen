@@ -53,6 +53,11 @@ export class LevelService {
     });
   }
 
+  public resetData(): void {
+    this.notable$.next(1);
+    this.level$.next(1);
+  }
+
   public openSnackBar(message: string): void {
     this.snackBar.open(`${message} 👍`, 'Close', {
       duration: 2000,

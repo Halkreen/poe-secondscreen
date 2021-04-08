@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { Observable } from 'rxjs';
-import { distinctUntilChanged, map } from 'rxjs/operators';
+import { map } from 'rxjs/operators';
 import { DialogService } from '../services/dialog.service';
 import { LevelService } from '../services/level.service';
 import { Notable } from '../types/notable';
@@ -17,7 +17,6 @@ export class RightPanelComponent {
   @Input() public notableData: Notable[] = [];
 
   public readonly notable$: Observable<Notable | null> = this.levelService.characterNotable$.pipe(
-    distinctUntilChanged(),
     map((notableOrder: number) => {
       if (this.noData && this.notableData) {
         return null;

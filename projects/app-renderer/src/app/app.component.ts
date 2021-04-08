@@ -6,7 +6,7 @@ import {
   OnInit,
 } from '@angular/core';
 import { EMPTY, Observable, Subject } from 'rxjs';
-import { switchMap, takeUntil, tap } from 'rxjs/operators';
+import { switchMap, takeUntil } from 'rxjs/operators';
 import { DialogService } from './services/dialog.service';
 import { LevelService } from './services/level.service';
 import { CharactersData } from './types/character-data';
@@ -86,6 +86,7 @@ export class AppComponent implements OnDestroy, OnInit {
       );
     }
     this.notables = data.notables;
+    this.levelService.resetData();
   }
 
   public goToNextStep(): void {
