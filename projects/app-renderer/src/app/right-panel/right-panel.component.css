@@ -133,7 +133,7 @@
 .notes {
   height: 37%;
   width: calc(100% - 60px);
-  padding: 30px;
+  padding: 0 30px 30px 30px;
 }
 
 .notes-box {
