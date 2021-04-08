@@ -49,4 +49,10 @@ export class DialogService {
       duration: 2000,
     });
   }
+
+  public sendApplicationReady(): void {
+    if (this.window.api) {
+      this.window.api.sendToMain('applicationReady');
+    }
+  }
 }

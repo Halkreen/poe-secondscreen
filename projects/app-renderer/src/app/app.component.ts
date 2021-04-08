@@ -1,4 +1,5 @@
 import {
+  AfterViewInit,
   ChangeDetectionStrategy,
   ChangeDetectorRef,
   Component,
@@ -19,7 +20,7 @@ import { Notable } from './types/notable';
   styleUrls: ['./app.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AppComponent implements OnDestroy, OnInit {
+export class AppComponent implements OnDestroy, OnInit, AfterViewInit {
   public data: LevelingData[] = [];
   public notables: Notable[] = [];
 
@@ -40,6 +41,10 @@ export class AppComponent implements OnDestroy, OnInit {
     private readonly dialogService: DialogService,
     private readonly cdr: ChangeDetectorRef
   ) {}
+
+  public ngAfterViewInit(): void {
+    this.dialogService.sendApplicationReady();
+  }
 
   public ngOnInit(): void {
     this.dialogService.data$

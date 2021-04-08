@@ -1,15 +1,10 @@
 import { join } from 'path';
 import { readFile } from 'fs';
-import {
-  app,
-  BrowserWindow,
-  globalShortcut,
-  ipcMain,
-  dialog,
-  remote,
-} from 'electron';
+import { app, BrowserWindow, globalShortcut, ipcMain, dialog } from 'electron';
 import { environment } from './environments/environment';
 import Store = require('electron-store');
+
+let queue = [];
 
 function processJson(
   win: BrowserWindow,
@@ -18,7 +13,6 @@ function processJson(
   persist: boolean = false
 ): void {
   readFile(path, 'utf-8', (err, data) => {
-    let timeout = 0;
     if (err) {
       win.webContents.send('messageFromMain', 'err: ' + err.message);
       return;
@@ -26,21 +20,35 @@ function processJson(
 
     if (persist) {
       store.set('data.path', path);
-    } else {
-      timeout = 3000;
     }
-    setTimeout(() => {
-      // TODO: This is bad. I need to send an event when the renderer is ready,
-      // and then flush the pending commands to the renderer
+
+    // No need to wait in this case, app is ready
+    if (!levelingData) {
       win.webContents.send('messageFromMain', 'levelingData: ' + data);
-      if (levelingData) {
-        win.webContents.send(
-          'messageFromMain',
-          'levelsAndNotable: ' + JSON.stringify(levelingData)
-        );
-      }
-    }, timeout);
+      return;
+    }
+    sendDataInQueue(data, JSON.stringify(levelingData));
   });
+}
+
+function sendDataInQueue(data: string, levelingData: string): void {
+  queue = [
+    {
+      channel: 'messageFromMain',
+      message: 'levelingData: ' + data,
+    },
+    {
+      channel: 'messageFromMain',
+      message: 'levelsAndNotable: ' + levelingData,
+    },
+  ];
+}
+
+function flushQueue(win: BrowserWindow): void {
+  queue.forEach((action) => {
+    win.webContents.send(action.channel, action.message);
+  });
+  queue = [];
 }
 
 function createWindow(): BrowserWindow {
@@ -76,6 +84,10 @@ function createWindow(): BrowserWindow {
       if (jsonData.notable) {
         store.set('data.notable', jsonData.notable);
       }
+    }
+
+    if (message === 'applicationReady') {
+      flushQueue(win);
     }
   });
 
