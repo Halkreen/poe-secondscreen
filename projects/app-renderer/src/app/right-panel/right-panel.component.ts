@@ -1,14 +1,9 @@
-import {
-  ChangeDetectionStrategy,
-  Component,
-  NgZone,
-  OnInit,
-} from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { Observable } from 'rxjs';
-import { distinctUntilChanged, tap } from 'rxjs/operators';
+import { distinctUntilChanged, map } from 'rxjs/operators';
 import { DialogService } from '../services/dialog.service';
 import { LevelService } from '../services/level.service';
-import { LevelingData } from '../types/leveling-data';
+import { Notable } from '../types/notable';
 
 @Component({
   selector: 'app-right-panel',
@@ -17,8 +12,18 @@ import { LevelingData } from '../types/leveling-data';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class RightPanelComponent {
-  public readonly level$: Observable<number> = this.levelService.characterLevel$.pipe(
-    distinctUntilChanged()
+  @Input() public level = 1;
+  @Input() public noData = true;
+  @Input() public notableData: Notable[] = [];
+
+  public readonly notable$: Observable<Notable | null> = this.levelService.characterNotable$.pipe(
+    distinctUntilChanged(),
+    map((notableOrder: number) => {
+      if (this.noData && this.notableData) {
+        return null;
+      }
+      return this.notableData.find((notable) => notable.order === notableOrder);
+    })
   );
 
   constructor(

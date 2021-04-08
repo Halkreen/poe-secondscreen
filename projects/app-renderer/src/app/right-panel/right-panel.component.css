@@ -13,10 +13,10 @@
 }
 
 .credits {
-  text-align: center;
   color: #fff;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 10px;
+  font-size: 14px;
+  padding-bottom: 10px;
 }
 
 .card-title {
@@ -57,4 +57,75 @@
   font-size: 18px;
   background-color: rgba(253, 185, 80);
   margin: 10px;
+}
+
+.passive-icon-type__notable {
+  width: 100px;
+  height: 100px;
+}
+.passive-icon-container {
+  position: relative;
+  margin: 0px auto;
+}
+
+.passive-icon-type__keystone {
+  width: 175px;
+  height: 175px;
+}
+
+.passive-icon-type__keystone .passive-icon-frame {
+  width: 175px;
+  height: 175px;
+  background-image: url(../../assets/keystone.png);
+  background-repeat: round;
+}
+
+.passive-icon-type__keystone a,
+.passive-icon-type__keystone img {
+  left: 36px;
+  top: 36px;
+  height: 100px;
+  width: 100px;
+}
+.passive-icon-type__notable .passive-icon-frame {
+  width: 100px;
+  height: 100px;
+  background-image: url(../../assets/notable.png);
+  background-repeat: round;
+}
+.passive-icon-frame {
+  position: absolute;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.passive-icon-type__notable a,
+.passive-icon-type__notable img {
+  left: 14px;
+  top: 14px;
+  width: 72px;
+  height: 72px;
+}
+.passive-icon-container a {
+  position: absolute;
+  z-index: 0;
+}
+
+.nextNotable {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+}
+.nextNotable > strong {
+  font-size: 24px;
+  color: rgba(253, 185, 80);
+}
+
+.shortcut-code {
+  padding: 5px;
+  border: 1px solid rgba(253, 185, 80);
+  border-radius: 10px;
+  font-weight: 500;
+  line-height: 20px;
 }

@@ -1,4 +1,4 @@
-<mat-card class="card">
+<mat-card class="card" *ngIf="!noData">
   <mat-card-content class="center">
     <mat-card-title class="card-title">Current Level</mat-card-title>
     <div class="separator"></div>
@@ -6,12 +6,55 @@
       class="example-margin"
       color="accent"
       mode="determinate"
-      [value]="level$ | async"
+      [value]="level"
     >
     </mat-progress-spinner>
-    <h2 class="spinner-content">{{ level$ | async }}</h2>
+    <h2 class="spinner-content">{{ level }}</h2>
   </mat-card-content>
 </mat-card>
+<div *ngIf="!noData">
+  <ng-template
+    let-notable
+    [ngTemplateOutletContext]="{ $implicit: notable$ | async }"
+    [ngTemplateOutlet]="notableSection"
+    #notableSection
+  >
+    <div
+      *ngIf="notable?.isKeystone"
+      class="passive-icon-container passive-icon-type__keystone"
+    >
+      <div class="passive-icon-frame"></div>
+      <a href="#" title="{{ notable.name }}"
+        ><img
+          alt="{{ notable.name }}"
+          src="{{ notable?.imgLink }}"
+          decoding="async"
+          width="128"
+          height="128"
+      /></a>
+    </div>
+
+    <div
+      *ngIf="!notable?.isKeystone"
+      class="passive-icon-container passive-icon-type__notable"
+    >
+      <div class="passive-icon-frame"></div>
+      <a *ngIf="notable?.imgLink" href="#" title="{{ notable.name }}"
+        ><img
+          alt="{{ notable.name }}"
+          src="{{ notable?.imgLink }}"
+          decoding="async"
+          width="128"
+          height="128"
+      /></a>
+    </div>
+
+    <p class="nextNotable">
+      Next {{ notable?.isKeystone ? "keystone" : "notable passive" }}:
+      <br /><strong>{{ notable?.name }}</strong>
+    </p>
+  </ng-template>
+</div>
 <button
   mat-flat-button
   color="accent"
@@ -20,4 +63,8 @@
 >
   New leveling
 </button>
-<!-- <div class="credits">Icons made by Freepik from www.flaticon.com</div> -->
+<div class="credits" *ngIf="!noData">
+  <!-- Icons made by Freepik from www.flaticon.com -->
+  <code class="shortcut-code">Ctrl+Alt+L</code> - Level up<br /><br />
+  <code class="shortcut-code">Ctrl+Alt+P</code> - Next notable passive
+</div>

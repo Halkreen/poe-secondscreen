@@ -2,7 +2,7 @@ import { Injectable, NgZone } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { CustomWindow } from 'my-api';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { LevelingData } from '../types/leveling-data';
+import { CharactersData } from '../types/character-data';
 
 @Injectable({
   providedIn: 'root',
@@ -10,10 +10,10 @@ import { LevelingData } from '../types/leveling-data';
 export class DialogService {
   private window: CustomWindow;
 
-  private dataSubject$: BehaviorSubject<LevelingData[]> = new BehaviorSubject<
-    LevelingData[]
-  >(null);
-  public data$: Observable<LevelingData[]>;
+  private dataSubject$: BehaviorSubject<CharactersData> = new BehaviorSubject<CharactersData>(
+    null
+  );
+  public data$: Observable<CharactersData>;
 
   constructor(
     private readonly zone: NgZone,
@@ -37,9 +37,9 @@ export class DialogService {
     }
   }
 
-  public setData(data: LevelingData[]): void {
+  public setData(data: CharactersData): void {
     this.zone.run(() => {
-      this.dataSubject$.next(data.sort((a, b) => a.level - b.level));
+      this.dataSubject$.next(data);
       this.openSnackBar();
     });
   }

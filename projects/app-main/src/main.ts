@@ -43,8 +43,12 @@ function createWindow(): void {
     }
   });
 
-  globalShortcut.register('Alt+CommandOrControl+I', () => {
+  globalShortcut.register('Alt+CommandOrControl+L', () => {
     win.webContents.send('messageFromMain', 'levelUp');
+  });
+
+  globalShortcut.register('Alt+CommandOrControl+P', () => {
+    win.webContents.send('messageFromMain', 'nextNotable');
   });
 
   win.loadURL(

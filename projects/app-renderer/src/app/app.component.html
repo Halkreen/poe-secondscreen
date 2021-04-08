@@ -1,7 +1,7 @@
 <mat-grid-list gutterSize="0" cols="4" rowHeight="100%">
   <mat-grid-tile [colspan]="3">
     <app-left-panel
-      *ngIf="data; else noData"
+      *ngIf="data.length; else noData"
       class="left-panel"
       [currentStep]="currentStep"
       [previousStep]="previousStep"
@@ -20,6 +20,12 @@
     </ng-template>
   </mat-grid-tile>
   <mat-grid-tile [colspan]="1" [style.background]="'rgba(40, 40, 40, 0.5)'">
-    <app-right-panel class="right-panel"></app-right-panel>
+    <app-right-panel
+      [level]="level$ | async"
+      [noData]="!data.length"
+      [notableData]="notables"
+      class="right-panel"
+      [class.centered]="!data.length"
+    ></app-right-panel>
   </mat-grid-tile>
 </mat-grid-list>
