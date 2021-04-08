@@ -11,6 +11,7 @@ import { switchMap, takeUntil } from 'rxjs/operators';
 import { DialogService } from './services/dialog.service';
 import { LevelService } from './services/level.service';
 import { CharactersData } from './types/character-data';
+import { ItemToLookFor } from './types/itemToLookFor';
 import { LevelingData } from './types/leveling-data';
 import { Notable } from './types/notable';
 
@@ -23,6 +24,7 @@ import { Notable } from './types/notable';
 export class AppComponent implements OnDestroy, OnInit, AfterViewInit {
   public data: LevelingData[] = [];
   public notables: Notable[] = [];
+  public items: ItemToLookFor[] = [];
 
   public currentIndex = 0;
 
@@ -92,6 +94,7 @@ export class AppComponent implements OnDestroy, OnInit, AfterViewInit {
       );
     }
     this.notables = data.notables;
+    this.items = data.itemsToLookFor;
     if (this.firstTime) {
       this.firstTime = false;
     } else {

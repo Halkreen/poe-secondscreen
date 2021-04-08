@@ -55,6 +55,17 @@
     </p>
   </ng-template>
 </div>
+<div *ngIf="!noData" class="notes">
+  <div class="notes-box">
+    <h3 class="notes-title">Sockets to look for</h3>
+    <div *ngFor="let item of visibleItems" class="linkWrapper">
+      <ng-template ngFor let-link [ngForOf]="formatLinks(item.links)">
+        <div class="{{ link.socketColor }} socket"></div>
+        <div *ngIf="link.isLinked" class="link"></div>
+      </ng-template>
+    </div>
+  </div>
+</div>
 <button
   mat-flat-button
   color="accent"
