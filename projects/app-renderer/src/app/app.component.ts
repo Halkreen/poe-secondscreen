@@ -30,6 +30,7 @@ export class AppComponent implements OnDestroy, OnInit {
   public previousStep: LevelingData | null = null;
 
   public levelThresholds: number[] = [];
+  public firstTime = true;
 
   public level$: Observable<number> = this.levelService.characterLevel$;
   public destroy$: Subject<void> = new Subject<void>();
@@ -86,7 +87,11 @@ export class AppComponent implements OnDestroy, OnInit {
       );
     }
     this.notables = data.notables;
-    this.levelService.resetData();
+    if (this.firstTime) {
+      this.firstTime = false;
+    } else {
+      this.levelService.resetData();
+    }
   }
 
   public goToNextStep(): void {
