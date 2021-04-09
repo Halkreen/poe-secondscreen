@@ -42,7 +42,9 @@ Here's how the JSON should be organized:
                         // Item holding the links
                         "type": "helmet",
                         // Items links (B = Blue, G = Green, R = Red)
-                        "sockets": ["B", "G", "B"],
+                        // If wrote together, sockets will form a link
+                        // (["BB", "GB", "R"] will form a gear piece like that "B-B G-B R")
+                        "sockets": ["BG", "B"],
                         // Corresponding gems
                         "gems": ["Frost bomb", "Onslaught", "Orb of Storms"]
                     },
@@ -84,7 +86,9 @@ Here's how the JSON should be organized:
                 // If not set, item will be displayed forever after "level" is reached
                 "levelMax": 23,
                 // Items links (B = Blue, G = Green, R = Red)
-                "links": ["B", "G", "R"]
+                // If wrote together, sockets will form a link
+                // (["BB", "GB", "R"] will form a gear piece like that "B-B G-B R")
+                "links": ["BGR"]
             }
             ...
         ]

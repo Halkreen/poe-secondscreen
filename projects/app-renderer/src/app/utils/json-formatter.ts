@@ -3,16 +3,43 @@ import { Gem } from '../types/gem';
 import { Link } from '../types/link';
 import { SocketColor } from '../types/socket-color.enum';
 
-export function formatLinks(sockets: SocketColor[]): Link[] {
+function findSocketColor(socket: string): SocketColor {
+  if (socket === 'R') {
+    return SocketColor.RED;
+  }
+
+  if (socket === 'G') {
+    return SocketColor.GREEN;
+  }
+
+  if (socket === 'B') {
+    return SocketColor.BLUE;
+  }
+
+  return SocketColor.RED;
+}
+
+export function formatLinks(sockets: string[]): Link[] {
   const links: Link[] = [];
   if (!sockets) {
     return [];
   }
-  sockets.forEach((socket, index) => {
-    links.push({
-      socketColor: socket,
-      isLinked: index !== sockets.length - 1,
-    });
+
+  sockets.forEach((socket) => {
+    if (socket.length > 1) {
+      for (let i = 0; i < socket.length; i++) {
+        const socketItem = socket.charAt(i);
+        links.push({
+          socketColor: findSocketColor(socketItem),
+          isLinked: i !== socket.length - 1,
+        });
+      }
+    } else {
+      links.push({
+        socketColor: findSocketColor(socket),
+        isLinked: false,
+      });
+    }
   });
   return links;
 }

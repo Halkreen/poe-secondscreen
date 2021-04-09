@@ -8,9 +8,10 @@
     />
   </div>
   <div class="links little">
-    <ng-template ngFor let-link [ngForOf]="links">
+    <ng-template ngFor let-link [ngForOf]="links" let-last="last">
       <div class="{{ link.socketColor }} socket"></div>
       <div *ngIf="link.isLinked" class="link"></div>
+      <div *ngIf="!link.isLinked && !last" class="nolink"></div>
     </ng-template>
   </div>
   <div class="links left">

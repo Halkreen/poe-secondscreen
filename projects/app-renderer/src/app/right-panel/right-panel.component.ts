@@ -3,7 +3,6 @@ import {
   Component,
   Input,
   OnChanges,
-  SimpleChanges,
 } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';

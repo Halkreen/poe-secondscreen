@@ -1,7 +1,5 @@
-import { SocketColor } from './socket-color.enum';
-
 export interface Gear {
   type: string;
-  sockets: SocketColor[];
+  sockets: string[];
   gems: string[];
 }

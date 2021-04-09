@@ -5,7 +5,7 @@
       "gear": [
         {
           "type": "helmet",
-          "sockets": ["B", "G"],
+          "sockets": ["BG"],
           "gems": ["Freezing Pulse", "Onslaught"]
         },
         {
@@ -35,7 +35,7 @@
       "gear": [
         {
           "type": "helmet",
-          "sockets": ["B", "G", "B"],
+          "sockets": ["BGB"],
           "gems": ["Frost Bomb", "Onslaught", "Orb of Storms"]
         },
         {
@@ -45,12 +45,12 @@
         },
         {
           "type": "gloves",
-          "sockets": ["B", "G"],
+          "sockets": ["BG"],
           "gems": ["Stormblast Mine", "Swift Assembly"]
         },
         {
           "type": "boots",
-          "sockets": ["B", "B"],
+          "sockets": ["BB"],
           "gems": ["Frostblink", "Arcane Surge (lv.1)"]
         },
         {
@@ -65,7 +65,7 @@
       "gear": [
         {
           "type": "helmet",
-          "sockets": ["B", "G", "B"],
+          "sockets": ["BGB"],
           "gems": ["Frost Bomb", "Onslaught", "Orb of Storms"]
         },
         {
@@ -75,7 +75,7 @@
         },
         {
           "type": "gloves",
-          "sockets": ["B", "G", "B"],
+          "sockets": ["BGB"],
           "gems": [
             "Stormblast Mine",
             "Swift Assembly",
@@ -84,7 +84,7 @@
         },
         {
           "type": "boots",
-          "sockets": ["B", "B"],
+          "sockets": ["BB"],
           "gems": ["Flame Dash", "Arcane Surge (lv.1)"]
         },
         {
@@ -99,17 +99,17 @@
       "gear": [
         {
           "type": "helmet",
-          "sockets": ["B", "G", "B"],
+          "sockets": ["BGB"],
           "gems": ["Frost Bomb", "Onslaught", "Orb of Storms"]
         },
         {
           "type": "body_armor",
-          "sockets": ["B", "B"],
+          "sockets": ["BB"],
           "gems": ["Creeping Frost", "Efficacy"]
         },
         {
           "type": "gloves",
-          "sockets": ["B", "G", "B"],
+          "sockets": ["BGB"],
           "gems": [
             "Stormblast Mine",
             "Swift Assembly",
@@ -118,7 +118,7 @@
         },
         {
           "type": "boots",
-          "sockets": ["B", "B"],
+          "sockets": ["BB"],
           "gems": ["Flame Dash", "Arcane Surge (lv.1)"]
         },
         {
@@ -133,17 +133,17 @@
       "gear": [
         {
           "type": "helmet",
-          "sockets": ["B", "G", "B"],
+          "sockets": ["BGB"],
           "gems": ["Frost Bomb", "Onslaught", "Orb of Storms"]
         },
         {
           "type": "body_armor",
-          "sockets": ["B", "B"],
+          "sockets": ["BB"],
           "gems": ["Creeping Frost", "Efficacy"]
         },
         {
           "type": "gloves",
-          "sockets": ["B", "G", "B"],
+          "sockets": ["BGB"],
           "gems": [
             "Stormblast Mine",
             "Swift Assembly",
@@ -152,7 +152,7 @@
         },
         {
           "type": "boots",
-          "sockets": ["B", "B"],
+          "sockets": ["BB"],
           "gems": ["Flame Dash", "Arcane Surge (lv.1)"]
         },
         {
@@ -167,12 +167,12 @@
       "gear": [
         {
           "type": "helmet",
-          "sockets": ["B", "G", "B"],
+          "sockets": ["BGB"],
           "gems": ["Orb of Storms", "Onslaught", "Increased Critical Strikes"]
         },
         {
           "type": "body_armor",
-          "sockets": ["B", "B", "B"],
+          "sockets": ["BBB"],
           "gems": [
             "Creeping Frost",
             "Elemental Focus",
@@ -181,7 +181,7 @@
         },
         {
           "type": "gloves",
-          "sockets": ["B", "G", "B"],
+          "sockets": ["BGB"],
           "gems": [
             "Stormblast Mine",
             "Trap and Mine Damage",
@@ -190,12 +190,12 @@
         },
         {
           "type": "boots",
-          "sockets": ["B", "B", "B"],
+          "sockets": ["BB", "B"],
           "gems": ["Flame Dash", "Arcane Surge (lv.1)", "Summon Skitterbots"]
         },
         {
           "type": "two_handed",
-          "sockets": ["B", "B", "B"],
+          "sockets": ["BBB"],
           "gems": ["Cold Snap", "Elemental Focus", "Controlled Destruction"]
         }
       ]
@@ -205,7 +205,7 @@
       "gear": [
         {
           "type": "helmet",
-          "sockets": ["B", "G", "B", "B"],
+          "sockets": ["BGB", "B"],
           "gems": [
             "Orb of Storms",
             "Onslaught",
@@ -215,7 +215,7 @@
         },
         {
           "type": "body_armor",
-          "sockets": ["B", "B", "B"],
+          "sockets": ["BBB"],
           "gems": [
             "Creeping Frost",
             "Elemental Focus",
@@ -224,7 +224,7 @@
         },
         {
           "type": "gloves",
-          "sockets": ["B", "G", "B"],
+          "sockets": ["BGB"],
           "gems": [
             "Stormblast Mine",
             "Trap and Mine Damage",
@@ -233,7 +233,7 @@
         },
         {
           "type": "boots",
-          "sockets": ["B", "B", "B", "B"],
+          "sockets": ["BB", "B", "B"],
           "gems": [
             "Flame Dash",
             "Arcane Surge (lv.1)",
@@ -243,7 +243,7 @@
         },
         {
           "type": "two_handed",
-          "sockets": ["B", "B", "B", "B"],
+          "sockets": ["BBB", "B"],
           "gems": [
             "Cold Snap",
             "Elemental Focus",
@@ -258,12 +258,12 @@
       "gear": [
         {
           "type": "helmet",
-          "sockets": ["B", "B", "B", "B"],
+          "sockets": ["BBBB"],
           "gems": ["Cold Snap", "Efficacy", "Elemental Focus", "Hypothermia"]
         },
         {
           "type": "body_armor",
-          "sockets": ["B", "B", "B", "B"],
+          "sockets": ["BBBB"],
           "gems": [
             "Creeping Frost",
             "Efficacy",
@@ -273,7 +273,7 @@
         },
         {
           "type": "gloves",
-          "sockets": ["B", "B", "B", "G"],
+          "sockets": ["BBBG"],
           "gems": ["Vortex", "Efficacy", "Elemental Focus", "Hypothermia"]
         },
         {
@@ -288,7 +288,7 @@
         },
         {
           "type": "two_handed",
-          "sockets": ["B", "G", "B", "B", "B", "G"],
+          "sockets": ["BGB", "BBG"],
           "gems": [
             "Orb of Storms",
             "Onslaught",
@@ -305,12 +305,12 @@
       "gear": [
         {
           "type": "helmet",
-          "sockets": ["B", "B", "B", "B"],
+          "sockets": ["BBBB"],
           "gems": ["Cold Snap", "Efficacy", "Bonechill", "Hypothermia"]
         },
         {
           "type": "body_armor",
-          "sockets": ["B", "B", "B", "B"],
+          "sockets": ["BBBB"],
           "gems": [
             "Creeping Frost",
             "Efficacy",
@@ -320,7 +320,7 @@
         },
         {
           "type": "gloves",
-          "sockets": ["B", "B", "B", "G"],
+          "sockets": ["BBBG"],
           "gems": ["Vortex", "Efficacy", "Elemental Focus", "Hypothermia"]
         },
         {
@@ -335,7 +335,7 @@
         },
         {
           "type": "two_handed",
-          "sockets": ["B", "G", "B", "B", "B", "G"],
+          "sockets": ["BGB", "BBG"],
           "gems": [
             "Orb of Storms",
             "Onslaught",
@@ -443,28 +443,28 @@
   "itemsToLookFor": [
     {
       "level": 1,
-      "links": ["B", "G", "B"]
+      "links": ["BGB"]
     },
     {
       "level": 1,
-      "links": ["B", "G", "B"]
+      "links": ["BGB"]
     },
     {
       "level": 1,
       "levelMax": 23,
-      "links": ["B", "B", "B"]
+      "links": ["BBB"]
     },
     {
       "level": 24,
-      "links": ["B", "B", "B", "B"]
+      "links": ["BBBB"]
     },
     {
       "level": 24,
-      "links": ["B", "B", "B", "G"]
+      "links": ["BBBG"]
     },
     {
       "level": 24,
-      "links": ["B", "B", "B", "B"]
+      "links": ["BBBB"]
     }
   ]
 }
