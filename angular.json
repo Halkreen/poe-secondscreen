@@ -288,16 +288,45 @@
             },
             "electronBuilderConfig": {
               "config": {
-                "appId": "com.electron.poe-secondscreen",
-                "productName": "PoE: Second Screen",
+                "appId": "com.halkreen.poe-secondscreen",
+                "productName": "Path of Exile Second Screen",
+                "artifactName": "Path of Exile Second Screen.${ext}",
                 "files": ["**/*", "assets/icon/icon.*"],
                 "directories": {
                   "app": "dist/app-electron-package/app",
                   "output": "dist/app-electron-package/pkg",
                   "buildResources": "assets/icon"
                 },
+                "dmg": {
+                  "background": null,
+                  "backgroundColor": "#ffffff",
+                  "window": {
+                    "width": "400",
+                    "height": "300"
+                  },
+                  "contents": [
+                    {
+                      "x": 100,
+                      "y": 100
+                    },
+                    {
+                      "x": 300,
+                      "y": 100,
+                      "type": "link",
+                      "path": "/Applications"
+                    }
+                  ]
+                },
+                "mac": {
+                  "target": "dmg",
+                  "category": "public.app-category.utilities"
+                },
                 "win": {
-                  "target": "portable"
+                  "target": "nsis"
+                },
+                "linux": {
+                  "target": "AppImage",
+                  "category": "Utility"
                 }
               }
             }
