@@ -53,6 +53,7 @@ function flushQueue(win: BrowserWindow): void {
 
 function createWindow(): BrowserWindow {
   const win = new BrowserWindow({
+    show: false,
     width: 800,
     height: 600,
     webPreferences: {
@@ -61,6 +62,8 @@ function createWindow(): BrowserWindow {
       nodeIntegration: false,
     },
   });
+  win.maximize();
+  win.show();
 
   ipcMain.on('messageFromRenderer', (event, message) => {
     if (message === 'openDialog') {
