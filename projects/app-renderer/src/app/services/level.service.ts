@@ -1,6 +1,6 @@
 import { Injectable, NgZone } from '@angular/core';
 import { CustomWindow } from 'my-api';
-import { BehaviorSubject, Observable } from 'rxjs';
+import { BehaviorSubject, Observable, Subject } from 'rxjs';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { State } from '../types/state';
 

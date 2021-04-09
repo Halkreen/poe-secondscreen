@@ -5,6 +5,9 @@ import { SocketColor } from '../types/socket-color.enum';
 
 export function formatLinks(sockets: SocketColor[]): Link[] {
   const links: Link[] = [];
+  if (!sockets) {
+    return [];
+  }
   sockets.forEach((socket, index) => {
     links.push({
       socketColor: socket,
@@ -15,6 +18,10 @@ export function formatLinks(sockets: SocketColor[]): Link[] {
 }
 
 export function formatGems(gems: string[], previousGems: string[]): Gem[] {
+  if (!gems) {
+    return [];
+  }
+
   if (!previousGems) {
     return gems.map((gem: string) => {
       return { gemName: gem, isNew: false };

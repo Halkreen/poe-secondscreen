@@ -1,0 +1,470 @@
+{
+  "gearing": [
+    {
+      "level": 1,
+      "gear": [
+        {
+          "type": "helmet",
+          "sockets": ["B", "G"],
+          "gems": ["Freezing Pulse", "Onslaught"]
+        },
+        {
+          "type": "body_armor",
+          "sockets": [],
+          "gems": []
+        },
+        {
+          "type": "gloves",
+          "sockets": ["B"],
+          "gems": ["Stormblast Mine"]
+        },
+        {
+          "type": "boots",
+          "sockets": [],
+          "gems": []
+        },
+        {
+          "type": "two_handed",
+          "sockets": [],
+          "gems": []
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "gear": [
+        {
+          "type": "helmet",
+          "sockets": ["B", "G", "B"],
+          "gems": ["Frost Bomb", "Onslaught", "Orb of Storms"]
+        },
+        {
+          "type": "body_armor",
+          "sockets": [],
+          "gems": []
+        },
+        {
+          "type": "gloves",
+          "sockets": ["B", "G"],
+          "gems": ["Stormblast Mine", "Swift Assembly"]
+        },
+        {
+          "type": "boots",
+          "sockets": ["B", "B"],
+          "gems": ["Frostblink", "Arcane Surge (lv.1)"]
+        },
+        {
+          "type": "two_handed",
+          "sockets": [],
+          "gems": []
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "gear": [
+        {
+          "type": "helmet",
+          "sockets": ["B", "G", "B"],
+          "gems": ["Frost Bomb", "Onslaught", "Orb of Storms"]
+        },
+        {
+          "type": "body_armor",
+          "sockets": [],
+          "gems": []
+        },
+        {
+          "type": "gloves",
+          "sockets": ["B", "G", "B"],
+          "gems": [
+            "Stormblast Mine",
+            "Swift Assembly",
+            "Added Lightning Damage"
+          ]
+        },
+        {
+          "type": "boots",
+          "sockets": ["B", "B"],
+          "gems": ["Flame Dash", "Arcane Surge (lv.1)"]
+        },
+        {
+          "type": "two_handed",
+          "sockets": [],
+          "gems": []
+        }
+      ]
+    },
+    {
+      "level": 14,
+      "gear": [
+        {
+          "type": "helmet",
+          "sockets": ["B", "G", "B"],
+          "gems": ["Frost Bomb", "Onslaught", "Orb of Storms"]
+        },
+        {
+          "type": "body_armor",
+          "sockets": ["B", "B"],
+          "gems": ["Creeping Frost", "Efficacy"]
+        },
+        {
+          "type": "gloves",
+          "sockets": ["B", "G", "B"],
+          "gems": [
+            "Stormblast Mine",
+            "Swift Assembly",
+            "Added Lightning Damage"
+          ]
+        },
+        {
+          "type": "boots",
+          "sockets": ["B", "B"],
+          "gems": ["Flame Dash", "Arcane Surge (lv.1)"]
+        },
+        {
+          "type": "two_handed",
+          "sockets": [],
+          "gems": []
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "gear": [
+        {
+          "type": "helmet",
+          "sockets": ["B", "G", "B"],
+          "gems": ["Frost Bomb", "Onslaught", "Orb of Storms"]
+        },
+        {
+          "type": "body_armor",
+          "sockets": ["B", "B"],
+          "gems": ["Creeping Frost", "Efficacy"]
+        },
+        {
+          "type": "gloves",
+          "sockets": ["B", "G", "B"],
+          "gems": [
+            "Stormblast Mine",
+            "Swift Assembly",
+            "Added Lightning Damage"
+          ]
+        },
+        {
+          "type": "boots",
+          "sockets": ["B", "B"],
+          "gems": ["Flame Dash", "Arcane Surge (lv.1)"]
+        },
+        {
+          "type": "two_handed",
+          "sockets": ["B", "B"],
+          "gems": ["Cold Snap", "Summon Skitterbots"]
+        }
+      ]
+    },
+    {
+      "level": 18,
+      "gear": [
+        {
+          "type": "helmet",
+          "sockets": ["B", "G", "B"],
+          "gems": ["Orb of Storms", "Onslaught", "Increased Critical Strikes"]
+        },
+        {
+          "type": "body_armor",
+          "sockets": ["B", "B", "B"],
+          "gems": [
+            "Creeping Frost",
+            "Elemental Focus",
+            "Controlled Destruction"
+          ]
+        },
+        {
+          "type": "gloves",
+          "sockets": ["B", "G", "B"],
+          "gems": [
+            "Stormblast Mine",
+            "Trap and Mine Damage",
+            "Added Lightning Damage"
+          ]
+        },
+        {
+          "type": "boots",
+          "sockets": ["B", "B", "B"],
+          "gems": ["Flame Dash", "Arcane Surge (lv.1)", "Summon Skitterbots"]
+        },
+        {
+          "type": "two_handed",
+          "sockets": ["B", "B", "B"],
+          "gems": ["Cold Snap", "Elemental Focus", "Controlled Destruction"]
+        }
+      ]
+    },
+    {
+      "level": 24,
+      "gear": [
+        {
+          "type": "helmet",
+          "sockets": ["B", "G", "B", "B"],
+          "gems": [
+            "Orb of Storms",
+            "Onslaught",
+            "Increased Critical Strikes",
+            "Frostbite"
+          ]
+        },
+        {
+          "type": "body_armor",
+          "sockets": ["B", "B", "B"],
+          "gems": [
+            "Creeping Frost",
+            "Elemental Focus",
+            "Controlled Destruction"
+          ]
+        },
+        {
+          "type": "gloves",
+          "sockets": ["B", "G", "B"],
+          "gems": [
+            "Stormblast Mine",
+            "Trap and Mine Damage",
+            "Added Lightning Damage"
+          ]
+        },
+        {
+          "type": "boots",
+          "sockets": ["B", "B", "B", "B"],
+          "gems": [
+            "Flame Dash",
+            "Arcane Surge (lv.1)",
+            "Summon Skitterbots",
+            "Discipline"
+          ]
+        },
+        {
+          "type": "two_handed",
+          "sockets": ["B", "B", "B", "B"],
+          "gems": [
+            "Cold Snap",
+            "Elemental Focus",
+            "Controlled Destruction",
+            "Malevolence"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 31,
+      "gear": [
+        {
+          "type": "helmet",
+          "sockets": ["B", "B", "B", "B"],
+          "gems": ["Cold Snap", "Efficacy", "Elemental Focus", "Hypothermia"]
+        },
+        {
+          "type": "body_armor",
+          "sockets": ["B", "B", "B", "B"],
+          "gems": [
+            "Creeping Frost",
+            "Efficacy",
+            "Elemental Focus",
+            "Controlled Destruction"
+          ]
+        },
+        {
+          "type": "gloves",
+          "sockets": ["B", "B", "B", "G"],
+          "gems": ["Vortex", "Efficacy", "Elemental Focus", "Hypothermia"]
+        },
+        {
+          "type": "boots",
+          "sockets": ["B", "B", "B", "B"],
+          "gems": [
+            "Malevolence",
+            "Frostbite",
+            "Summon Skitterbots",
+            "Discipline"
+          ]
+        },
+        {
+          "type": "two_handed",
+          "sockets": ["B", "G", "B", "B", "B", "G"],
+          "gems": [
+            "Orb of Storms",
+            "Onslaught",
+            "Increased Critical Strikes",
+            "Flame Dash",
+            "Arcane Surge (lv.1)",
+            "Second Wind"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 38,
+      "gear": [
+        {
+          "type": "helmet",
+          "sockets": ["B", "B", "B", "B"],
+          "gems": ["Cold Snap", "Efficacy", "Bonechill", "Hypothermia"]
+        },
+        {
+          "type": "body_armor",
+          "sockets": ["B", "B", "B", "B"],
+          "gems": [
+            "Creeping Frost",
+            "Efficacy",
+            "Elemental Focus",
+            "Controlled Destruction"
+          ]
+        },
+        {
+          "type": "gloves",
+          "sockets": ["B", "B", "B", "G"],
+          "gems": ["Vortex", "Efficacy", "Elemental Focus", "Hypothermia"]
+        },
+        {
+          "type": "boots",
+          "sockets": ["B", "B", "B", "B"],
+          "gems": [
+            "Malevolence",
+            "Frostbite",
+            "Summon Skitterbots",
+            "Discipline"
+          ]
+        },
+        {
+          "type": "two_handed",
+          "sockets": ["B", "G", "B", "B", "B", "G"],
+          "gems": [
+            "Orb of Storms",
+            "Onslaught",
+            "Increased Critical Strikes",
+            "Flame Dash",
+            "Arcane Surge (lv.1)",
+            "Second Wind"
+          ]
+        }
+      ]
+    }
+  ],
+  "notables": [
+    {
+      "order": 1,
+      "name": "Arcanist's Dominion"
+    },
+    {
+      "order": 2,
+      "name": "Heart and Soul"
+    },
+    {
+      "order": 3,
+      "name": "Elemental Overload",
+      "imgLink": "https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/84/KeystoneElementalOverload_passive_skill_icon.png",
+      "isKeystone": true
+    },
+    {
+      "order": 4,
+      "name": "Quick Recovery"
+    },
+    {
+      "order": 5,
+      "name": "Arcane Will"
+    },
+    {
+      "order": 6,
+      "name": "Cruel Preparation"
+    },
+    {
+      "order": 7,
+      "name": "Breath of Rime"
+    },
+    {
+      "order": 8,
+      "name": "Arcane Expanse"
+    },
+    {
+      "order": 9,
+      "name": "Melding"
+    },
+    {
+      "order": 10,
+      "name": "Written in Blood"
+    },
+    {
+      "order": 11,
+      "name": "Fingers of Frost"
+    },
+    {
+      "order": 12,
+      "name": "Soul Thief"
+    },
+    {
+      "order": 13,
+      "name": "No Witnesses"
+    },
+    {
+      "order": 14,
+      "name": "Growth and Decay"
+    },
+    {
+      "order": 15,
+      "name": "Arcane Focus"
+    },
+    {
+      "order": 16,
+      "name": "Coldhearted Calculation"
+    },
+    {
+      "order": 17,
+      "name": "Lethal Assault"
+    },
+    {
+      "order": 18,
+      "name": "Resourcefulness"
+    },
+    {
+      "order": 19,
+      "name": "Arcane Guarding"
+    },
+    {
+      "order": 20,
+      "name": "Arcane Swiftness"
+    },
+    {
+      "order": 21,
+      "name": "Essence Surge"
+    },
+    {
+      "order": 22,
+      "name": "Mystic Bulwark"
+    }
+  ],
+  "itemsToLookFor": [
+    {
+      "level": 1,
+      "links": ["B", "G", "B"]
+    },
+    {
+      "level": 1,
+      "links": ["B", "G", "B"]
+    },
+    {
+      "level": 1,
+      "levelMax": 23,
+      "links": ["B", "B", "B"]
+    },
+    {
+      "level": 24,
+      "links": ["B", "B", "B", "B"]
+    },
+    {
+      "level": 24,
+      "links": ["B", "B", "B", "G"]
+    },
+    {
+      "level": 24,
+      "links": ["B", "B", "B", "B"]
+    }
+  ]
+}

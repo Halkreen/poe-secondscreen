@@ -1,6 +1,11 @@
 <div class="gear-content">
   <div class="gear-icon">
-    <img src="assets/{{ icon }}.png" alt="{{ icon }}" class="gear-img" />
+    <img
+      *ngIf="icon && links.length"
+      src="assets/{{ icon }}.png"
+      alt="{{ icon }}"
+      class="gear-img"
+    />
   </div>
   <div class="links little">
     <ng-template ngFor let-link [ngForOf]="links">

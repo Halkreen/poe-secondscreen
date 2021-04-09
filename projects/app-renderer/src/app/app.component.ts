@@ -7,7 +7,7 @@ import {
   OnInit,
 } from '@angular/core';
 import { EMPTY, Observable, Subject } from 'rxjs';
-import { switchMap, takeUntil } from 'rxjs/operators';
+import { debounceTime, skip, switchMap, takeUntil } from 'rxjs/operators';
 import { DialogService } from './services/dialog.service';
 import { LevelService } from './services/level.service';
 import { CharactersData } from './types/character-data';
@@ -34,6 +34,7 @@ export class AppComponent implements OnDestroy, OnInit, AfterViewInit {
 
   public levelThresholds: number[] = [];
   public firstTime = true;
+  public firstEmit = true;
 
   public level$: Observable<number> = this.levelService.characterLevel$;
   public destroy$: Subject<void> = new Subject<void>();
@@ -51,6 +52,7 @@ export class AppComponent implements OnDestroy, OnInit, AfterViewInit {
   public ngOnInit(): void {
     this.dialogService.data$
       .pipe(
+        skip(1),
         switchMap((data: CharactersData) => {
           if (!data || !data.gearing || !data.notables) {
             return EMPTY;
@@ -58,13 +60,16 @@ export class AppComponent implements OnDestroy, OnInit, AfterViewInit {
           this.setInitialData(data);
           return this.levelService.characterLevel$;
         }),
+        debounceTime(300),
         takeUntil(this.destroy$)
       )
       .subscribe((level: number) => {
+        this.setInitialSteps(level, this.firstEmit);
         if (this.hasNoNextSteps() || !this.shouldGoToNextSection(level)) {
           this.cdr.markForCheck();
           return;
         }
+
         this.goToNextStep();
       });
   }
@@ -86,15 +91,10 @@ export class AppComponent implements OnDestroy, OnInit, AfterViewInit {
 
   public setInitialData(data: CharactersData): void {
     this.data = data.gearing.sort((a, b) => a.level - b.level);
-    if (this.data && this.data.length) {
-      this.nextStep = this.data.length <= 1 ? null : this.data[1];
-      this.currentStep = this.data[0];
-      this.levelThresholds = this.data.map(
-        (data1: LevelingData) => data1.level
-      );
-    }
+    this.levelThresholds = this.data.map((data1: LevelingData) => data1.level);
     this.notables = data.notables;
     this.items = data.itemsToLookFor;
+
     if (this.firstTime) {
       this.firstTime = false;
     } else {
@@ -110,5 +110,45 @@ export class AppComponent implements OnDestroy, OnInit, AfterViewInit {
       ? null
       : this.data[this.currentIndex + 1];
     this.cdr.markForCheck();
+  }
+
+  public setInitialSteps(level: number, firstEmit: boolean): void {
+    if (!firstEmit) {
+      return;
+    }
+    this.firstEmit = false;
+
+    if (!this.data || !this.data.length) {
+      return;
+    }
+
+    if (level === 1) {
+      this.nextStep = this.data.length <= 1 ? null : this.data[1];
+      this.currentStep = this.data[0];
+      this.previousStep = null;
+      this.currentIndex = 0;
+      return;
+    }
+
+    let currentStep = 0;
+    let lastStep = false;
+    let firstStep = false;
+
+    for (let i = 0; i < this.data.length; i++) {
+      firstStep = i === 0;
+      if (i === this.data.length - 1) {
+        lastStep = true;
+        currentStep = i;
+        break;
+      }
+      if (level >= this.data[i].level && level < this.data[i + 1].level) {
+        currentStep = i;
+        break;
+      }
+    }
+    this.currentIndex = currentStep;
+    this.previousStep = firstStep ? null : this.data[currentStep - 1];
+    this.currentStep = this.data[currentStep];
+    this.nextStep = this.data[currentStep + 1];
   }
 }
