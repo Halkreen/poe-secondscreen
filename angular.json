@@ -23,9 +23,7 @@
               "projects/app-renderer/src/favicon.ico",
               "projects/app-renderer/src/assets"
             ],
-            "styles": [
-              "projects/app-renderer/src/styles.css"
-            ],
+            "styles": ["projects/app-renderer/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -86,9 +84,7 @@
               "projects/app-renderer/src/favicon.ico",
               "projects/app-renderer/src/assets"
             ],
-            "styles": [
-              "projects/app-renderer/src/styles.css"
-            ],
+            "styles": ["projects/app-renderer/src/styles.css"],
             "scripts": []
           }
         },
@@ -100,9 +96,7 @@
               "projects/app-renderer/tsconfig.spec.json",
               "projects/app-renderer/e2e/tsconfig.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {
@@ -296,9 +290,11 @@
               "config": {
                 "appId": "com.electron.poe-secondscreen",
                 "productName": "PoE: Second Screen",
+                "files": ["**/*", "assets/icon/icon.*"],
                 "directories": {
                   "app": "dist/app-electron-package/app",
-                  "output": "dist/app-electron-package/pkg"
+                  "output": "dist/app-electron-package/pkg",
+                  "buildResources": "assets/icon"
                 },
                 "win": {
                   "target": "portable"
