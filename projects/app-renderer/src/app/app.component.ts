@@ -57,6 +57,7 @@ export class AppComponent implements OnDestroy, OnInit, AfterViewInit {
           if (!data || !data.gearing || !data.notables) {
             return EMPTY;
           }
+          this.firstEmit = true;
           this.setInitialData(data);
           return this.levelService.characterLevel$;
         }),
