@@ -22,6 +22,7 @@
   <mat-grid-tile [colspan]="1" [style.background]="'rgba(40, 40, 40, 0.5)'">
     <app-right-panel
       [level]="level$ | async"
+      [passivePoints]="passivePoints$ | async"
       [noData]="!data.length"
       [notableData]="notables"
       [items]="items"

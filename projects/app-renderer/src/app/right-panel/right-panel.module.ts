@@ -7,6 +7,8 @@ import { LevelService } from '../services/level.service';
 import { DialogService } from '../services/dialog.service';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatButtonModule } from '@angular/material/button';
+import { MatDialogModule } from '@angular/material/dialog';
+import { CharacterModalModule } from '../components/character-modal/character-modal.module';
 
 @NgModule({
   declarations: [RightPanelComponent],
@@ -16,6 +18,8 @@ import { MatButtonModule } from '@angular/material/button';
     MatCardModule,
     MatSnackBarModule,
     MatButtonModule,
+    MatDialogModule,
+    CharacterModalModule,
   ],
   exports: [RightPanelComponent],
   providers: [LevelService, DialogService],

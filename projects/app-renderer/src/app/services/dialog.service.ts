@@ -1,4 +1,5 @@
 import { Injectable, NgZone } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { CustomWindow } from 'my-api';
 import { BehaviorSubject, Observable } from 'rxjs';
@@ -17,7 +18,8 @@ export class DialogService {
 
   constructor(
     private readonly zone: NgZone,
-    private readonly snackBar: MatSnackBar
+    private readonly snackBar: MatSnackBar,
+    private readonly dialog: MatDialog
   ) {
     this.data$ = this.dataSubject$.asObservable();
 
@@ -31,14 +33,15 @@ export class DialogService {
     }
   }
 
-  public openDialog(): void {
+  public openDialog(characterName: string): void {
     if (this.window.api) {
-      this.window.api.sendToMain('openDialog');
+      this.window.api.sendToMain('openDialog ' + characterName);
     }
   }
 
   public setData(data: CharactersData): void {
     this.zone.run(() => {
+      this.dialog.closeAll();
       this.dataSubject$.next(data);
       this.openSnackBar();
     });

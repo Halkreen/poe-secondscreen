@@ -1,5 +1,5 @@
 export interface Notable {
-  order: number;
+  passivesRequired: number;
   name: string;
   imgLink?: string;
   isKeystone?: boolean;

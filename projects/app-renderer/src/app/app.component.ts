@@ -37,6 +37,8 @@ export class AppComponent implements OnDestroy, OnInit, AfterViewInit {
   public firstEmit = true;
 
   public level$: Observable<number> = this.levelService.characterLevel$;
+  public passivePoints$: Observable<number> = this.levelService
+    .characterNotable$;
   public destroy$: Subject<void> = new Subject<void>();
 
   constructor(

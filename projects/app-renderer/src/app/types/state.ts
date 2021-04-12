@@ -1,4 +1,4 @@
 export interface State {
-  level: number;
-  notable: number;
+  level: any;
+  passivePoints: any;
 }

@@ -1,0 +1,36 @@
+<mat-horizontal-stepper linear #stepper>
+  <mat-step
+    [stepControl]="firstFormGroup"
+    errorMessage="Character name is required. It should respect PoE naming restrictions"
+    color="accent"
+  >
+    <form [formGroup]="firstFormGroup">
+      <ng-template matStepLabel>Fill out your character name</ng-template>
+      <mat-form-field>
+        <mat-label>Character name</mat-label>
+        <input
+          matInput
+          placeholder="Character name"
+          formControlName="firstCtrl"
+          required
+        />
+      </mat-form-field>
+      <div>
+        <button mat-flat-button color="accent" matStepperNext>Next</button>
+      </div>
+    </form>
+  </mat-step>
+  <mat-step color="accent" [editable]="isEditable">
+    <ng-template matStepLabel>Import your leveling file</ng-template>
+    <div style="display: flex; justify-content: center; margin: 30px">
+      <button
+        mat-flat-button
+        color="accent"
+        class="import-button"
+        (click)="openDialog()"
+      >
+        Import leveling file
+      </button>
+    </div>
+  </mat-step>
+</mat-horizontal-stepper>

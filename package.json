@@ -1,6 +1,6 @@
 {
   "name": "poe-secondscreen",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "A second screen helper for PoE leveling",
   "author": {
     "name": "halkreen"
@@ -35,8 +35,8 @@
     "@angular/platform-browser": "~11.2.8",
     "@angular/platform-browser-dynamic": "~11.2.8",
     "@angular/router": "~11.2.8",
-    "@ngrx/store": "^11.1.0",
     "electron-store": "^7.0.3",
+    "read-last-lines": "^1.8.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
