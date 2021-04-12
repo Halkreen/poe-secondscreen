@@ -61,7 +61,6 @@ Here's how the JSON should be organized:
             ...
         ],
         // This contains the notable passives list
-        // Make sure the order number are continuous (1, 2, 3, ...)
         "notables": [
             // This next section is repeatable
             {
