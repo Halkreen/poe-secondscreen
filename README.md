@@ -13,6 +13,8 @@ How does it work :
 - Click the "New leveling" button
 - Enter your character name. It **MUST MATCH** your PoE character name.
 - Click "Next"
+- Put your client.txt location. It's a one time thing, it is used to track your in-game evolution. This file is located in the `logs` folder in the PoE installation directory. For example, mine is at : `C:/Program Files (x86)/Steam/steamapps/common/Path of Exile/logs/client.txt` so this is what I would put in this field (don't forget the `client.txt` part !)
+- Click "Next"
 - Import your file with "Import leveling file" button
 - Put the application window on your second screen
 - Play _PoE_

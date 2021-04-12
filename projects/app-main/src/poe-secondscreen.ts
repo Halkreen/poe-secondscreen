@@ -11,6 +11,7 @@ export class PoeSecondScreen {
   public watcher: Watcher = new Watcher();
   public characterName: string = null;
   public timerId = null;
+  public clientPath = null;
 
   constructor() {
     this.startMessageCatching();
@@ -72,7 +73,11 @@ export class PoeSecondScreen {
     });
 
     const lastCharacter = this.store.get('data.lastCharacter');
-    if (lastCharacter && this.store.get('data.' + lastCharacter)) {
+    if (
+      lastCharacter &&
+      this.store.get('data.' + lastCharacter) &&
+      this.store.get('data.clientPath')
+    ) {
       this.watcher.startWatcher(
         'C:/Program Files (x86)/Steam/steamapps/common/Path of Exile/logs/client.txt',
         lastCharacter as string,
@@ -111,22 +116,30 @@ export class PoeSecondScreen {
 
   // Event catching methods
 
-  private afterLoad(err: any, data: string, path: string): void {
+  private afterLoad(
+    err: any,
+    data: string,
+    path: string,
+    clientPath: string
+  ): void {
     if (err) {
       this.sendDataInQueue('err: ' + err.message);
       return;
     }
 
     this.store.set(`data.lastCharacter`, this.characterName);
+    this.store.set(`data.clientPath`, clientPath);
     this.store.set(`data.${this.characterName}.file`, path);
     this.store.set(`data.${this.characterName}.level`, 1);
     this.store.set(`data.${this.characterName}.passivePoints`, 0);
     this.store.set(`data.${this.characterName}.extraPassivePoints`, 0);
 
     console.log('Data loaded for ' + this.characterName + ' at ' + path);
-    this.watcher.stopWatcher();
+    if (this.watcher.watcher) {
+      this.watcher.stopWatcher();
+    }
     this.watcher.startWatcher(
-      'C:/Program Files (x86)/Steam/steamapps/common/Path of Exile/logs/client.txt',
+      clientPath,
       this.characterName,
       (char, level) => this.onPassivePointsUp(char, level),
       (char, increment) => this.onLevelUp(char, increment)
@@ -139,6 +152,12 @@ export class PoeSecondScreen {
     ipcMain.on('messageFromRenderer', (_, message) => {
       if (message.startsWith('openDialog ')) {
         const characterName = (message as string).split(' ')[1];
+        const clientPath = (message as string).split(' || ')[1];
+
+        if (clientPath && clientPath.length) {
+          this.clientPath = clientPath;
+          this.store.set('data.clientPath', clientPath);
+        }
 
         if (!characterName.length) {
           return;
@@ -152,7 +171,7 @@ export class PoeSecondScreen {
 
         if (pathToJson && pathToJson[0]) {
           readFile(pathToJson[0], 'utf-8', (err, data) =>
-            this.afterLoad(err, data, pathToJson[0])
+            this.afterLoad(err, data, pathToJson[0], clientPath)
           );
         }
       }

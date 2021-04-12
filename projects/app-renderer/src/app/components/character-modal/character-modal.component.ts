@@ -8,6 +8,7 @@ import { DialogService } from '../../services/dialog.service';
 })
 export class CharacterModalComponent implements OnInit {
   public firstFormGroup: FormGroup;
+  public secondFormGroup: FormGroup;
   public isEditable = false;
 
   constructor(
@@ -26,9 +27,21 @@ export class CharacterModalComponent implements OnInit {
         ]),
       ],
     });
+
+    this.secondFormGroup = this.formBuilder.group({
+      secondCtrl: ['', Validators.compose([Validators.required])],
+    });
+
+    const filePath = localStorage.getItem('filePath');
+    if (filePath !== '') {
+      this.secondFormGroup.get('secondCtrl').setValue(filePath);
+    }
   }
 
   public openDialog(): void {
-    this.dialogService.openDialog(this.firstFormGroup.get('firstCtrl').value);
+    this.dialogService.openDialog(
+      this.firstFormGroup.get('firstCtrl').value,
+      this.secondFormGroup.get('secondCtrl').value
+    );
   }
 }

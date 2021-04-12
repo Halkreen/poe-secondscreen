@@ -6,23 +6,60 @@
   >
     <form [formGroup]="firstFormGroup">
       <ng-template matStepLabel>Fill out your character name</ng-template>
-      <mat-form-field>
-        <mat-label>Character name</mat-label>
-        <input
-          matInput
-          placeholder="Character name"
-          formControlName="firstCtrl"
-          required
-        />
-      </mat-form-field>
-      <div>
-        <button mat-flat-button color="accent" matStepperNext>Next</button>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          margin: 30px;
+          flex-direction: column;
+        "
+      >
+        <mat-form-field>
+          <mat-label>Character name</mat-label>
+          <input
+            matInput
+            placeholder="Character name"
+            formControlName="firstCtrl"
+            required
+          />
+        </mat-form-field>
+        <div>
+          <button mat-flat-button color="accent" matStepperNext>Next</button>
+        </div>
+      </div>
+    </form>
+  </mat-step>
+  <mat-step [stepControl]="secondFormGroup" color="accent">
+    <form [formGroup]="secondFormGroup">
+      <ng-template matStepLabel>Client.txt</ng-template>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          margin: 30px;
+          flex-direction: column;
+        "
+      >
+        <mat-form-field>
+          <mat-label>Path to your Client.txt file</mat-label>
+          <input matInput formControlName="secondCtrl" required />
+        </mat-form-field>
+        <div>
+          <button mat-flat-button color="accent" matStepperNext>Next</button>
+        </div>
       </div>
     </form>
   </mat-step>
   <mat-step color="accent" [editable]="isEditable">
     <ng-template matStepLabel>Import your leveling file</ng-template>
-    <div style="display: flex; justify-content: center; margin: 30px">
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+        flex-direction: column;
+      "
+    >
       <button
         mat-flat-button
         color="accent"

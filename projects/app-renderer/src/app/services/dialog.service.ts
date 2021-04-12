@@ -16,6 +16,8 @@ export class DialogService {
   );
   public data$: Observable<CharactersData>;
 
+  public filePath = '';
+
   constructor(
     private readonly zone: NgZone,
     private readonly snackBar: MatSnackBar,
@@ -33,9 +35,12 @@ export class DialogService {
     }
   }
 
-  public openDialog(characterName: string): void {
+  public openDialog(characterName: string, filePath: string): void {
     if (this.window.api) {
-      this.window.api.sendToMain('openDialog ' + characterName);
+      const client = this.setFilePath(filePath);
+      this.window.api.sendToMain(
+        'openDialog ' + characterName + ' || ' + client
+      );
     }
   }
 
@@ -57,5 +62,12 @@ export class DialogService {
     if (this.window.api) {
       this.window.api.sendToMain('applicationReady');
     }
+  }
+
+  private setFilePath(path: string): string {
+    if (localStorage.getItem('filePath') !== path) {
+      localStorage.setItem('filePath', path);
+    }
+    return path;
   }
 }

@@ -9,6 +9,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
 import { CharacterModalModule } from '../components/character-modal/character-modal.module';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   declarations: [RightPanelComponent],
@@ -20,6 +22,8 @@ import { CharacterModalModule } from '../components/character-modal/character-mo
     MatButtonModule,
     MatDialogModule,
     CharacterModalModule,
+    MatInputModule,
+    MatFormFieldModule,
   ],
   exports: [RightPanelComponent],
   providers: [LevelService, DialogService],
