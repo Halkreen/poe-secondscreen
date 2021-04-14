@@ -1,0 +1,392 @@
+{
+  "gearing": [
+    {
+      "level": 1,
+      "gear": [
+        {
+          "type": "helmet",
+          "sockets": ["BBG"],
+          "gems": ["Rolling Magma", "Onslaught", "Arcane surge (lv.1)"]
+        },
+        {
+          "type": "body_armor",
+          "sockets": [],
+          "gems": []
+        },
+        {
+          "type": "gloves",
+          "sockets": ["G"],
+          "gems": ["Pierce"]
+        },
+        {
+          "type": "boots",
+          "sockets": [],
+          "gems": []
+        },
+        {
+          "type": "two_handed",
+          "sockets": [],
+          "gems": []
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "gear": [
+        {
+          "type": "helmet",
+          "sockets": ["RG"],
+          "gems": ["Holy Flame totem", "Onslaught"]
+        },
+        {
+          "type": "body_armor",
+          "sockets": ["B"],
+          "gems": ["Flame Wall"]
+        },
+        {
+          "type": "gloves",
+          "sockets": [],
+          "gems": []
+        },
+        {
+          "type": "boots",
+          "sockets": ["BB"],
+          "gems": ["Frostblink", "Arcane surge (lv.1)"]
+        },
+        {
+          "type": "two_handed",
+          "sockets": [],
+          "gems": []
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "gear": [
+        {
+          "type": "helmet",
+          "sockets": ["RGB"],
+          "gems": ["Holy Flame totem", "Onslaught", "Combustion"]
+        },
+        {
+          "type": "body_armor",
+          "sockets": ["BB"],
+          "gems": ["Flame Wall", "Efficacy"]
+        },
+        {
+          "type": "gloves",
+          "sockets": ["G"],
+          "gems": ["Pierce"]
+        },
+        {
+          "type": "boots",
+          "sockets": ["BB"],
+          "gems": ["Frostblink", "Arcane surge (lv.1)"]
+        },
+        {
+          "type": "two_handed",
+          "sockets": [],
+          "gems": []
+        }
+      ]
+    },
+    {
+      "level": 12,
+      "gear": [
+        {
+          "type": "helmet",
+          "sockets": ["RGB"],
+          "gems": ["Holy Flame totem", "Onslaught", "Combustion"]
+        },
+        {
+          "type": "body_armor",
+          "sockets": ["BB"],
+          "gems": ["Flame Wall", "Efficacy"]
+        },
+        {
+          "type": "gloves",
+          "sockets": ["BG"],
+          "gems": ["Power Siphon", "Pierce"]
+        },
+        {
+          "type": "boots",
+          "sockets": ["BB"],
+          "gems": ["Flame Dash", "Arcane surge (lv.1)"]
+        },
+        {
+          "type": "two_handed",
+          "sockets": ["G", "R"],
+          "gems": ["Smoke Mine", "Vitality"]
+        }
+      ]
+    },
+    {
+      "level": 18,
+      "gear": [
+        {
+          "type": "helmet",
+          "sockets": ["RBB"],
+          "gems": ["Holy Flame totem", "Controlled Destruction", "Combustion"]
+        },
+        {
+          "type": "body_armor",
+          "sockets": ["BBB"],
+          "gems": ["Flame Wall", "Efficacy", "Elemental Focus"]
+        },
+        {
+          "type": "gloves",
+          "sockets": ["BG"],
+          "gems": ["Power Siphon", "Pierce"]
+        },
+        {
+          "type": "boots",
+          "sockets": ["BB"],
+          "gems": ["Flame Dash", "Arcane surge (lv.1)"]
+        },
+        {
+          "type": "two_handed",
+          "sockets": ["G", "R", "B", "R"],
+          "gems": [
+            "Smoke Mine",
+            "Vitality",
+            "Wave of Conviction",
+            "Herald of Ash"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 24,
+      "gear": [
+        {
+          "type": "helmet",
+          "sockets": ["RBB"],
+          "gems": ["Holy Flame totem", "Controlled Destruction", "Flammability"]
+        },
+        {
+          "type": "body_armor",
+          "sockets": ["BBBB"],
+          "gems": ["Flame Wall", "Efficacy", "Elemental Focus", "Spellslinger"]
+        },
+        {
+          "type": "gloves",
+          "sockets": ["BGB"],
+          "gems": ["Power Siphon", "Pierce", "Combustion"]
+        },
+        {
+          "type": "boots",
+          "sockets": ["BB"],
+          "gems": ["Flame Dash", "Arcane surge (lv.1)"]
+        },
+        {
+          "type": "two_handed",
+          "sockets": ["G", "R", "B", "R"],
+          "gems": [
+            "Smoke Mine",
+            "Vitality",
+            "Wave of Conviction",
+            "Herald of Ash"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 34,
+      "gear": [
+        {
+          "type": "helmet",
+          "sockets": ["BBB"],
+          "gems": ["Kinectic Bolt", "Controlled Destruction", "Flammability"]
+        },
+        {
+          "type": "body_armor",
+          "sockets": ["BBBB"],
+          "gems": ["Flame Wall", "Efficacy", "Elemental Focus", "Spellslinger"]
+        },
+        {
+          "type": "gloves",
+          "sockets": ["BGB"],
+          "gems": ["Power Siphon", "Pierce", "Combustion"]
+        },
+        {
+          "type": "boots",
+          "sockets": ["RBRB"],
+          "gems": ["Stone Golem", "Ice Golem", "Flame Golem", "Minion Life"]
+        },
+        {
+          "type": "two_handed",
+          "sockets": ["G", "R", "B", "R", "BB"],
+          "gems": [
+            "Smoke Mine",
+            "Vitality",
+            "Wave of Conviction",
+            "Herald of Ash",
+            "Flame Dash",
+            "Arcane surge (lv.1)"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 38,
+      "gear": [
+        {
+          "type": "helmet",
+          "sockets": ["BGBB"],
+          "gems": ["KB/PS", "Chain", "Flammability", "Hextouch"]
+        },
+        {
+          "type": "body_armor",
+          "sockets": ["BRBB"],
+          "gems": [
+            "Flame Wall",
+            "Burning damage",
+            "Elemental Focus",
+            "Spellslinger"
+          ]
+        },
+        {
+          "type": "gloves",
+          "sockets": ["BB"],
+          "gems": ["Flame Dash", "Arcane surge (lv.1)"]
+        },
+        {
+          "type": "boots",
+          "sockets": ["RBRB"],
+          "gems": ["Stone Golem", "Ice Golem", "Flame Golem", "Minion Life"]
+        },
+        {
+          "type": "two_handed",
+          "sockets": ["G", "R", "B", "R"],
+          "gems": [
+            "Smoke Mine",
+            "Vitality",
+            "Wave of Conviction",
+            "Herald of Ash"
+          ]
+        }
+      ]
+    }
+  ],
+  "notables": [
+    {
+      "passivesRequired": 6,
+      "name": "Arcanist's Dominion"
+    },
+    {
+      "passivesRequired": 9,
+      "name": "Heart and Soul"
+    },
+    {
+      "passivesRequired": 15,
+      "name": "Elemental Overload",
+      "imgLink": "https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/84/KeystoneElementalOverload_passive_skill_icon.png",
+      "isKeystone": true
+    },
+    {
+      "passivesRequired": 18,
+      "name": "Quick Recovery"
+    },
+    {
+      "passivesRequired": 23,
+      "name": "Holy Fire"
+    },
+    {
+      "passivesRequired": 28,
+      "name": "Purity of Flesh"
+    },
+    {
+      "passivesRequired": 32,
+      "name": "Sovereignty"
+    },
+    {
+      "passivesRequired": 37,
+      "name": "Cruel Preparation"
+    },
+    {
+      "passivesRequired": 43,
+      "name": "Golem Commander"
+    },
+    {
+      "passivesRequired": 46,
+      "name": "Retribution"
+    },
+    {
+      "passivesRequired": 48,
+      "name": "Precision"
+    },
+    {
+      "passivesRequired": 51,
+      "name": "Discipline and Training"
+    },
+    {
+      "passivesRequired": 53,
+      "name": "Light of Divinity"
+    },
+    {
+      "passivesRequired": 54,
+      "name": "Holy Dominion"
+    },
+    {
+      "passivesRequired": 59,
+      "name": "Devotion"
+    },
+    {
+      "passivesRequired": 64,
+      "name": "Sanctuary"
+    },
+    {
+      "passivesRequired": 69,
+      "name": "Arsonist"
+    },
+    {
+      "passivesRequired": 74,
+      "name": "Breath of Flames"
+    },
+    {
+      "passivesRequired": 79,
+      "name": "Shaper"
+    },
+    {
+      "passivesRequired": 89,
+      "name": "Constitution"
+    }
+  ],
+  "itemsToLookFor": [
+    {
+      "level": 1,
+      "levelMax": 24,
+      "links": ["BBB"]
+    },
+    {
+      "level": 1,
+      "levelMax": 8,
+      "links": ["BBG"]
+    },
+    {
+      "level": 1,
+      "levelMax": 24,
+      "links": ["RBG"]
+    },
+    {
+      "level": 1,
+      "links": ["G", "G", "R", "B"]
+    },
+    {
+      "level": 24,
+      "links": ["BBBB"]
+    },
+    {
+      "level": 24,
+      "links": ["BBBG"]
+    },
+    {
+      "level": 24,
+      "links": ["BBBR"]
+    },
+    {
+      "level": 24,
+      "links": ["BBRR"]
+    }
+  ]
+}
