@@ -95,6 +95,7 @@ export class PoeSecondScreen {
       file: string;
       level: number;
       passivePoints: number;
+      extraPassivePoints: number;
     };
 
     readFile(stored.file, 'utf-8', (err, data) => {
@@ -107,7 +108,9 @@ export class PoeSecondScreen {
         'levelingData: ' + data,
         'levelsAndNotable: ' +
           JSON.stringify({
-            passivePoints: stored.passivePoints,
+            passivePoints:
+              parseInt((stored.passivePoints as any) as string, 10) +
+              parseInt((stored.extraPassivePoints as any) as string, 10),
             level: stored.level,
           })
       );
@@ -221,7 +224,7 @@ export class PoeSecondScreen {
       `data.${characterName}.extraPassivePoints`
     ) as string;
 
-    if (currentExtraPassives) {
+    if (parseInt(currentExtraPassives as string, 10) >= 0) {
       this.store.set(
         `data.${characterName}.extraPassivePoints`,
         parseInt(currentExtraPassives as string, 10) + increment
@@ -232,7 +235,9 @@ export class PoeSecondScreen {
       'levelsAndNotable: ' +
         JSON.stringify({
           passivePoints:
-            parseInt(currentPassives, 10) + parseInt(currentExtraPassives, 10),
+            parseInt(currentPassives, 10) +
+            parseInt(currentExtraPassives as string, 10) +
+            increment,
           level: currentLevel,
         })
     );

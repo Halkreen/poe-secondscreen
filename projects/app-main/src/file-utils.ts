@@ -16,6 +16,19 @@ export function findLastAction(
     }
   }
 
+  const multiplePassives = [
+    ...filePath.matchAll(/Passive Skill Points/g),
+  ].map((m) => (m[0] ? m[0] : null));
+
+  if (
+    multiplePassives &&
+    multiplePassives.length &&
+    multiplePassives[0] !== null
+  ) {
+    console.log('Added passives !');
+    return { newPassive: 2 };
+  }
+
   const passives = [...filePath.matchAll(/Passive Skill Point/g)].map((m) =>
     m[0] ? m[0] : null
   );
