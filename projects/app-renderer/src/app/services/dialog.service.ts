@@ -15,7 +15,7 @@ export class DialogService {
     new BehaviorSubject<CharactersData>(null);
   public data$: Observable<CharactersData>;
 
-  private classSubject$: BehaviorSubject<string> = new BehaviorSubject<string>(
+  public classSubject$: BehaviorSubject<string> = new BehaviorSubject<string>(
     ''
   );
   public class$: Observable<string>;
@@ -28,6 +28,7 @@ export class DialogService {
     private readonly dialog: MatDialog
   ) {
     this.data$ = this.dataSubject$.asObservable();
+    this.class$ = this.classSubject$.asObservable();
 
     this.window = window as any as CustomWindow;
     if (this.window.api) {

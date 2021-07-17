@@ -21,7 +21,10 @@
         <p *ngIf="!gem.isNew" class="change">
           {{ gem.gemName }}
         </p>
-        <p *ngIf="gem.isNew" class="change active">
+        <p
+          *ngIf="gem.isNew && !rewardSentence(gem.gemName)"
+          class="change active"
+        >
           {{ gem.gemName }}
           <button
             mat-icon-button
@@ -32,6 +35,24 @@
             <mat-icon>swap_vert</mat-icon>
           </button>
         </p>
+
+        <div
+          *ngIf="gem.isNew && rewardSentence(gem.gemName)"
+          class="change active new"
+        >
+          <div class="gem-name-block">
+            <p class="gem-lines">{{ gem.gemName }}</p>
+            <p class="gem-sublines">{{ rewardSentence(gem.gemName) }}</p>
+          </div>
+          <button
+            mat-icon-button
+            color="accent"
+            aria-label="New gem"
+            class="active"
+          >
+            <mat-icon>swap_vert</mat-icon>
+          </button>
+        </div>
       </div>
     </ng-template>
   </div>

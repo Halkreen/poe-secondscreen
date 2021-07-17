@@ -8,10 +8,9 @@ import {
   OnInit,
 } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { Observable, of, Subject } from 'rxjs';
-import { map, take, takeUntil } from 'rxjs/operators';
+import { Subject } from 'rxjs';
 import { CharacterModalComponent } from '../components/character-modal/character-modal.component';
-import { LevelService } from '../services/level.service';
+import { DialogService } from '../services/dialog.service';
 import { ItemToLookFor } from '../types/itemToLookFor';
 import { Notable } from '../types/notable';
 import { formatLinks } from '../utils/json-formatter';
@@ -38,7 +37,8 @@ export class RightPanelComponent implements OnDestroy, OnChanges {
 
   constructor(
     private readonly dialog: MatDialog,
-    private readonly cdr: ChangeDetectorRef
+    private readonly cdr: ChangeDetectorRef,
+    public readonly dialogService: DialogService
   ) {}
 
   public ngOnChanges(): void {

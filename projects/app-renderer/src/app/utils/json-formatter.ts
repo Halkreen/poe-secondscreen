@@ -52,7 +52,7 @@ export function formatGems(gems: string[], previousGems: string[]): Gem[] {
 
   if (!previousGems) {
     return gems.map((gem: string) => {
-      return { gemName: gem, isNew: false, gemImage: findGemIcon(gem) };
+      return { gemName: gem, isNew: true, gemImage: findGemIcon(gem) };
     });
   }
 

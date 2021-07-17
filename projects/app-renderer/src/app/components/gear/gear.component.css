@@ -45,6 +45,30 @@
   margin: 7.5px 0;
 }
 
+.change.active.new {
+  display: flex;
+  border: 1px solid rgba(253, 185, 80, 0.93);
+  margin: 7.5px 0;
+}
+
+.gem-name-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.gem-lines {
+  padding-top: 5px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.gem-sublines {
+  line-height: 15px;
+  font-size: 10px;
+  color: rgba(253, 185, 80, 0.93);
+  margin: 0;
+}
+
 .socket {
   width: 32px;
   height: 32.5px;

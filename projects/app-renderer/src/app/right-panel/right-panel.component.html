@@ -1,3 +1,5 @@
+<p class="card-title" *ngIf="!noData">{{ dialogService.class$ | async }}</p>
+
 <mat-card class="card" *ngIf="!noData">
   <mat-card-content class="center">
     <mat-card-title class="card-title">Current Level</mat-card-title>
