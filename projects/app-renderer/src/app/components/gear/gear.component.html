@@ -16,20 +16,23 @@
   </div>
   <div class="links left">
     <ng-template ngFor let-gem [ngForOf]="gems">
-      <p *ngIf="!gem.isNew" class="change">
-        {{ gem.gemName }}
-      </p>
-      <p *ngIf="gem.isNew" class="change active">
-        {{ gem.gemName }}
-        <button
-          mat-icon-button
-          color="accent"
-          aria-label="New gem"
-          class="active"
-        >
-          <mat-icon>swap_vert</mat-icon>
-        </button>
-      </p>
+      <div class="gems-icon">
+        <img width="40.5px" src="{{ gem.gemImage }}" />
+        <p *ngIf="!gem.isNew" class="change">
+          {{ gem.gemName }}
+        </p>
+        <p *ngIf="gem.isNew" class="change active">
+          {{ gem.gemName }}
+          <button
+            mat-icon-button
+            color="accent"
+            aria-label="New gem"
+            class="active"
+          >
+            <mat-icon>swap_vert</mat-icon>
+          </button>
+        </p>
+      </div>
     </ng-template>
   </div>
 </div>

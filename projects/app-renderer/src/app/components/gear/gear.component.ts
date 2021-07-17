@@ -2,7 +2,6 @@ import {
   ChangeDetectionStrategy,
   Component,
   Input,
-  OnChanges,
 } from '@angular/core';
 import { Gem } from '../../types/gem';
 import { Link } from '../../types/link';

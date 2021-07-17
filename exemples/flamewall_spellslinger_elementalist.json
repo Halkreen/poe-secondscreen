@@ -6,7 +6,7 @@
         {
           "type": "helmet",
           "sockets": ["BBG"],
-          "gems": ["Rolling Magma", "Onslaught", "Arcane surge (lv.1)"]
+          "gems": ["Rolling Magma", "Onslaught", "Arcane surge"]
         },
         {
           "type": "body_armor",
@@ -51,7 +51,7 @@
         {
           "type": "boots",
           "sockets": ["BB"],
-          "gems": ["Frostblink", "Arcane surge (lv.1)"]
+          "gems": ["Frostblink", "Arcane surge"]
         },
         {
           "type": "two_handed",
@@ -81,7 +81,7 @@
         {
           "type": "boots",
           "sockets": ["BB"],
-          "gems": ["Frostblink", "Arcane surge (lv.1)"]
+          "gems": ["Frostblink", "Arcane surge"]
         },
         {
           "type": "two_handed",
@@ -111,7 +111,7 @@
         {
           "type": "boots",
           "sockets": ["BB"],
-          "gems": ["Flame Dash", "Arcane surge (lv.1)"]
+          "gems": ["Flame Dash", "Arcane surge"]
         },
         {
           "type": "two_handed",
@@ -141,7 +141,7 @@
         {
           "type": "boots",
           "sockets": ["BB"],
-          "gems": ["Flame Dash", "Arcane surge (lv.1)"]
+          "gems": ["Flame Dash", "Arcane surge"]
         },
         {
           "type": "two_handed",
@@ -176,7 +176,7 @@
         {
           "type": "boots",
           "sockets": ["BB"],
-          "gems": ["Flame Dash", "Arcane surge (lv.1)"]
+          "gems": ["Flame Dash", "Arcane surge"]
         },
         {
           "type": "two_handed",
@@ -222,7 +222,7 @@
             "Wave of Conviction",
             "Herald of Ash",
             "Flame Dash",
-            "Arcane surge (lv.1)"
+            "Arcane surge"
           ]
         }
       ]
@@ -248,7 +248,7 @@
         {
           "type": "gloves",
           "sockets": ["BB"],
-          "gems": ["Flame Dash", "Arcane surge (lv.1)"]
+          "gems": ["Flame Dash", "Arcane surge"]
         },
         {
           "type": "boots",

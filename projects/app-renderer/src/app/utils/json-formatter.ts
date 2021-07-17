@@ -2,6 +2,7 @@ import { Gear } from '../types/gear';
 import { Gem } from '../types/gem';
 import { Link } from '../types/link';
 import { SocketColor } from '../types/socket-color.enum';
+import { gemData } from './gems';
 
 function findSocketColor(socket: string): SocketColor {
   if (socket === 'R') {
@@ -51,12 +52,16 @@ export function formatGems(gems: string[], previousGems: string[]): Gem[] {
 
   if (!previousGems) {
     return gems.map((gem: string) => {
-      return { gemName: gem, isNew: false };
+      return { gemName: gem, isNew: false, gemImage: findGemIcon(gem) };
     });
   }
 
   return gems.map((gem: string) => {
-    return { gemName: gem, isNew: !previousGems.includes(gem) };
+    return {
+      gemName: gem,
+      isNew: !previousGems.includes(gem),
+      gemImage: findGemIcon(gem),
+    };
   });
 }
 
@@ -65,4 +70,18 @@ export function findGearPiece(gear: Gear[] | null, type: string): Gear {
     return null;
   }
   return gear.find((gearPiece) => gearPiece.type === type);
+}
+
+export function findGemIcon(gemName: string): string {
+  const permissiveGemName = gemName
+    .toLowerCase()
+    .replace(/ /g, '')
+    .replace(/support/g, '');
+  return gemData.find(
+    (gem) =>
+      gem.name
+        .toLowerCase()
+        .replace(/ /g, '')
+        .replace(/support/g, '') === permissiveGemName
+  )?.image;
 }

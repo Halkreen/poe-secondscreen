@@ -31,14 +31,13 @@
 
 .links.little {
   flex: 1;
-  margin-right: 5px;
 }
 
 .change {
   padding-left: 20px;
   border-radius: 20px;
-  margin: 12.5px 0;
-  line-height: 32.5px;
+  margin: 8.5px 0;
+  line-height: 42.5px;
 }
 
 .change.active {
@@ -86,4 +85,9 @@ button.active {
   background-position: -140px -1111115px;
   width: 15px;
   height: 25px;
+}
+
+.gems-icon {
+  display: flex;
+  align-items: center;
 }
