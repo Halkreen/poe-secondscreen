@@ -26,6 +26,7 @@ export class CharacterModalComponent implements OnInit {
           Validators.maxLength(24),
         ]),
       ],
+      classCtrl: ['', Validators.compose([Validators.required])],
     });
 
     this.secondFormGroup = this.formBuilder.group({
@@ -41,7 +42,8 @@ export class CharacterModalComponent implements OnInit {
   public openDialog(): void {
     this.dialogService.openDialog(
       this.firstFormGroup.get('firstCtrl').value,
-      this.secondFormGroup.get('secondCtrl').value
+      this.secondFormGroup.get('secondCtrl').value,
+      this.firstFormGroup.get('classCtrl').value
     );
   }
 }

@@ -79,7 +79,7 @@ export class PoeSecondScreen {
       this.store.get('data.clientPath')
     ) {
       this.watcher.startWatcher(
-        'C:/Program Files (x86)/Steam/steamapps/common/Path of Exile/logs/client.txt',
+        this.store.get('data.clientPath') as string,
         lastCharacter as string,
         (characterName: string, newLevel: number) =>
           this.onPassivePointsUp(characterName, newLevel),
@@ -96,6 +96,7 @@ export class PoeSecondScreen {
       level: number;
       passivePoints: number;
       extraPassivePoints: number;
+      className: string;
     };
 
     readFile(stored.file, 'utf-8', (err, data) => {
@@ -105,12 +106,12 @@ export class PoeSecondScreen {
       }
 
       this.sendDataInQueue(
-        'levelingData: ' + data,
+        'levelingData: ' + data + ' || ' + stored.className,
         'levelsAndNotable: ' +
           JSON.stringify({
             passivePoints:
-              parseInt((stored.passivePoints as any) as string, 10) +
-              parseInt((stored.extraPassivePoints as any) as string, 10),
+              parseInt(stored.passivePoints as any as string, 10) +
+              parseInt(stored.extraPassivePoints as any as string, 10),
             level: stored.level,
           })
       );
@@ -123,7 +124,8 @@ export class PoeSecondScreen {
     err: any,
     data: string,
     path: string,
-    clientPath: string
+    clientPath: string,
+    className: string
   ): void {
     if (err) {
       this.sendDataInQueue('err: ' + err.message);
@@ -133,11 +135,20 @@ export class PoeSecondScreen {
     this.store.set(`data.lastCharacter`, this.characterName);
     this.store.set(`data.clientPath`, clientPath);
     this.store.set(`data.${this.characterName}.file`, path);
+    this.store.set(`data.${this.characterName}.className`, className);
     this.store.set(`data.${this.characterName}.level`, 1);
     this.store.set(`data.${this.characterName}.passivePoints`, 0);
     this.store.set(`data.${this.characterName}.extraPassivePoints`, 0);
 
-    console.log('Data loaded for ' + this.characterName + ' at ' + path);
+    console.log(
+      'Data loaded for ' +
+        this.characterName +
+        ' (' +
+        className +
+        ')' +
+        ' at ' +
+        path
+    );
     if (this.watcher.watcher) {
       this.watcher.stopWatcher();
     }
@@ -147,7 +158,7 @@ export class PoeSecondScreen {
       (char, level) => this.onPassivePointsUp(char, level),
       (char, increment) => this.onLevelUp(char, increment)
     );
-    this.sendDataInQueue('levelingData: ' + data);
+    this.sendDataInQueue('levelingData: ' + data + ' || ' + className);
     console.log('Data sent in queue');
   }
 
@@ -156,7 +167,7 @@ export class PoeSecondScreen {
       if (message.startsWith('openDialog ')) {
         const characterName = (message as string).split(' ')[1];
         const clientPath = (message as string).split(' || ')[1];
-
+        const className = (message as string).split(' || ')[2];
         if (clientPath && clientPath.length) {
           this.clientPath = clientPath;
           this.store.set('data.clientPath', clientPath);
@@ -174,7 +185,7 @@ export class PoeSecondScreen {
 
         if (pathToJson && pathToJson[0]) {
           readFile(pathToJson[0], 'utf-8', (err, data) =>
-            this.afterLoad(err, data, pathToJson[0], clientPath)
+            this.afterLoad(err, data, pathToJson[0], clientPath, className)
           );
         }
       }

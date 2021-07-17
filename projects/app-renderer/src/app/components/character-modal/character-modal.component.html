@@ -23,6 +23,27 @@
             required
           />
         </mat-form-field>
+        <mat-form-field>
+          <mat-label>Class</mat-label>
+          <mat-select formControlName="classCtrl">
+            <mat-option
+              *ngFor="
+                let class of [
+                  'Marauder',
+                  'Duelist',
+                  'Ranger',
+                  'Shadow',
+                  'Witch',
+                  'Templar',
+                  'Scion'
+                ]
+              "
+              [value]="class"
+            >
+              {{ class }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
         <div>
           <button mat-flat-button color="accent" matStepperNext>Next</button>
         </div>
