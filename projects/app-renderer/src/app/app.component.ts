@@ -14,6 +14,7 @@ import { CharactersData } from './types/character-data';
 import { ItemToLookFor } from './types/itemToLookFor';
 import { LevelingData } from './types/leveling-data';
 import { Notable } from './types/notable';
+import { findNotableData } from './utils/json-formatter';
 
 @Component({
   selector: 'app-root',
@@ -37,8 +38,8 @@ export class AppComponent implements OnDestroy, OnInit, AfterViewInit {
   public firstEmit = true;
 
   public level$: Observable<number> = this.levelService.characterLevel$;
-  public passivePoints$: Observable<number> = this.levelService
-    .characterNotable$;
+  public passivePoints$: Observable<number> =
+    this.levelService.characterNotable$;
   public destroy$: Subject<void> = new Subject<void>();
 
   constructor(
@@ -95,7 +96,7 @@ export class AppComponent implements OnDestroy, OnInit, AfterViewInit {
   public setInitialData(data: CharactersData): void {
     this.data = data.gearing.sort((a, b) => a.level - b.level);
     this.levelThresholds = this.data.map((data1: LevelingData) => data1.level);
-    this.notables = data.notables;
+    this.notables = data.notables.map(findNotableData);
     this.items = data.itemsToLookFor;
 
     if (this.firstTime) {

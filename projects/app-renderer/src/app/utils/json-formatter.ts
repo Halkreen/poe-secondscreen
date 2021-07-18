@@ -1,8 +1,10 @@
 import { Gear } from '../types/gear';
 import { Gem } from '../types/gem';
 import { Link } from '../types/link';
+import { Notable } from '../types/notable';
 import { SocketColor } from '../types/socket-color.enum';
 import { gemData } from './gems';
+import { passives } from './passives';
 
 function findSocketColor(socket: string): SocketColor {
   if (socket === 'R') {
@@ -84,4 +86,22 @@ export function findGemIcon(gemName: string): string {
         .replace(/ /g, '')
         .replace(/support/g, '') === permissiveGemName
   )?.image;
+}
+
+export function findNotableData(notable: Notable): Notable {
+  const permissiveNotableName = notable.name.toLowerCase().replace(/ /g, '');
+  const dataAssociated = passives.notables.find(
+    (passive) =>
+      passive.name.toLowerCase().replace(/ /g, '') === permissiveNotableName
+  );
+
+  if (!dataAssociated) {
+    return notable;
+  }
+
+  return {
+    ...notable,
+    imgLink: dataAssociated.imgLink,
+    isKeystone: dataAssociated.isKeystone,
+  };
 }

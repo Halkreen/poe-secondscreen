@@ -26,6 +26,12 @@
   text-align: center;
 }
 
+.card-title.class {
+  min-height: 86px;
+  margin: 0;
+  line-height: 86px;
+}
+
 .center {
   justify-content: center;
   align-items: center;

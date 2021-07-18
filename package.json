@@ -37,6 +37,7 @@
     "@angular/router": "~11.2.8",
     "@ngrx/store": "^12.2.0",
     "electron-store": "^7.0.3",
+    "jsdom": "^16.6.0",
     "read-last-lines": "^1.8.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",

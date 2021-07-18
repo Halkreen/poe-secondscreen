@@ -6,19 +6,20 @@ It uses Electron as a way to make it desktop ready.
 
 # 🔍 Overview
 
-![image info](./assets/overview.png)
+![image info](./assets/overview_new.png)
 
 How does it work :
 
 - Click the "New leveling" button
 - Enter your character name. It **MUST MATCH** your PoE character name.
+- Select your class from the dropdown.
 - Click "Next"
 - Put your client.txt location. It's a one time thing, it is used to track your in-game evolution. This file is located in the `logs` folder in the PoE installation directory. For example, mine is at : `C:/Program Files (x86)/Steam/steamapps/common/Path of Exile/logs/client.txt` so this is what I would put in this field (don't forget the `client.txt` part !)
 - Click "Next"
 - Import your file with "Import leveling file" button
 - Put the application window on your second screen
 - Play _PoE_
-- When you reach the next level threshold, the gems and link will change, **highlighting the new additions**. Use it to make the appropriate changes in your character !
+- When you reach the next level threshold, the gems and link will change, **highlighting the new additions, and where they come from**. Use it to make the appropriate changes in your character !
 - Enjoy your leveling !
 - (Optional) Use the _"Socket to look for"_ section if you want to have some notes about which item you should pick
 
@@ -48,7 +49,7 @@ Here's how the JSON should be organized:
                         // If wrote together, sockets will form a link
                         // (["BB", "GB", "R"] will form a gear piece like that "B-B G-B R")
                         "sockets": ["BG", "B"],
-                        // Corresponding gems
+                        // Corresponding gems, be careful of typos !
                         "gems": ["Frost bomb", "Onslaught", "Orb of Storms"]
                     },
                     // Empty gear example
@@ -69,13 +70,8 @@ Here's how the JSON should be organized:
                 // Number of passive points required to link this notable
                 // Careful here: it's INCREMENTAL (see examples)
                 passivesRequired: 7,
-                // Notable name
+                // Notable name, be careful of typos !
                 name: "Arcanist's Dominion",
-                // Optional: link to the wiki image for display only
-                imgLink: "...",
-                // Optional: true if the notable is a keystone
-                // (like Elemental Overload)
-                isKeystone: true,
             }
             ...
         ],
@@ -120,6 +116,7 @@ Here's how the JSON should be organized:
 
 - Gems & gear links are displayed in the left side
 - New gems appear highlighted
+- You can find the related quest where the gem can be found, if available (depends on the class you chose)
 - Links to look for a displayed in the right side (max number of items: 5 / 6 and 5-links max for readability issues)
 
 ## Steps
@@ -148,8 +145,8 @@ Submit your PR if you want to add build examples, or for app evolutions.
 Possible improvements :
 
 - ~~Watch the PoE files to automatically level up~~ Done in v1.0.0 !
-- Add gem images
-- Use a dedicated PoE database
+- ~~Add gem images~~ Done in v1.1.0
+- ~~Use a dedicated PoE database~~ (kinda) Done in v1.1.0
 - Added a one handed / two handed option
 
 I might also work on a web tool that will allow you to create your leveling without manually editing a JSON file. It would generate a link, and this link could be pasted into the app (like pastebin url's for PoB)
