@@ -10,6 +10,7 @@ import { EMPTY, Observable, Subject } from 'rxjs';
 import { debounceTime, skip, switchMap, takeUntil } from 'rxjs/operators';
 import { DialogService } from './services/dialog.service';
 import { LevelService } from './services/level.service';
+import { TreeService } from './services/tree.service';
 import { CharactersData } from './types/character-data';
 import { ItemToLookFor } from './types/itemToLookFor';
 import { LevelingData } from './types/leveling-data';
@@ -36,6 +37,7 @@ export class AppComponent implements OnDestroy, OnInit, AfterViewInit {
   public levelThresholds: number[] = [];
   public firstTime = true;
   public firstEmit = true;
+  public hasPassiveTree = false;
 
   public level$: Observable<number> = this.levelService.characterLevel$;
   public passivePoints$: Observable<number> =
@@ -45,7 +47,8 @@ export class AppComponent implements OnDestroy, OnInit, AfterViewInit {
   constructor(
     private readonly levelService: LevelService,
     private readonly dialogService: DialogService,
-    private readonly cdr: ChangeDetectorRef
+    private readonly cdr: ChangeDetectorRef,
+    private readonly treeService: TreeService
   ) {}
 
   public ngAfterViewInit(): void {
@@ -57,7 +60,7 @@ export class AppComponent implements OnDestroy, OnInit, AfterViewInit {
       .pipe(
         skip(1),
         switchMap((data: CharactersData) => {
-          if (!data || !data.gearing || !data.notables) {
+          if (!data || !data.gearing) {
             return EMPTY;
           }
           this.firstEmit = true;
@@ -96,13 +99,25 @@ export class AppComponent implements OnDestroy, OnInit, AfterViewInit {
   public setInitialData(data: CharactersData): void {
     this.data = data.gearing.sort((a, b) => a.level - b.level);
     this.levelThresholds = this.data.map((data1: LevelingData) => data1.level);
-    this.notables = data.notables.map(findNotableData);
+    if (data.notables) {
+      this.notables = data.notables.map(findNotableData);
+    } else {
+      this.notables = [];
+    }
     this.items = data.itemsToLookFor;
 
     if (this.firstTime) {
       this.firstTime = false;
     } else {
       this.levelService.resetData();
+    }
+
+    if (data.passiveTree && data.passiveTree.length) {
+      this.treeService.setTree(data.passiveTree);
+      this.hasPassiveTree = true;
+    } else {
+      this.treeService.resetTree();
+      this.hasPassiveTree = false;
     }
   }
 

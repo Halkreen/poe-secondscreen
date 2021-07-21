@@ -71,24 +71,54 @@
       </div>
     </form>
   </mat-step>
-  <mat-step color="accent" [editable]="isEditable">
-    <ng-template matStepLabel>Import your leveling file</ng-template>
-    <div
-      style="
-        display: flex;
-        justify-content: center;
-        margin: 30px;
-        flex-direction: column;
-      "
-    >
-      <button
-        mat-flat-button
-        color="accent"
-        class="import-button"
-        (click)="openDialog()"
+  <mat-step
+    [stepControl]="thirdFormGroup"
+    color="accent"
+    [editable]="isEditable"
+  >
+    <form [formGroup]="thirdFormGroup">
+      <ng-template matStepLabel>Import your leveling file</ng-template>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          margin: 30px;
+          flex-direction: column;
+        "
       >
-        Import leveling file
-      </button>
-    </div>
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: row;
+          "
+        >
+          <mat-form-field style="flex: 2; margin-right: 10px">
+            <mat-label>Path of Building Pastebin link: </mat-label>
+            <input matInput formControlName="pobCtrl" />
+          </mat-form-field>
+          <button
+            mat-flat-button
+            color="accent"
+            class="import-button"
+            style="max-height: 36px; flex: 1"
+            (click)="openAndSendPoB()"
+          >
+            Import PoB
+          </button>
+        </div>
+
+        <div class="separator"><p class="separator-text">-- OR --</p></div>
+        <button
+          mat-flat-button
+          color="accent"
+          class="import-button"
+          (click)="openDialog()"
+        >
+          Import leveling file
+        </button>
+      </div>
+    </form>
   </mat-step>
 </mat-horizontal-stepper>

@@ -3,7 +3,8 @@ import { LevelingData } from './leveling-data';
 import { Notable } from './notable';
 
 export interface CharactersData {
-  notables: Notable[];
+  notables?: Notable[];
   gearing: LevelingData[];
-  itemsToLookFor: ItemToLookFor[];
+  itemsToLookFor?: ItemToLookFor[];
+  passiveTree?: number[];
 }

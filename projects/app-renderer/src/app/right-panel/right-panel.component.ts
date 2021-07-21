@@ -25,6 +25,7 @@ export class RightPanelComponent implements OnDestroy, OnChanges {
   @Input() public level = 1;
   @Input() public passivePoints = 0;
   @Input() public noData = true;
+  @Input() public hasPassiveTree = false;
   @Input() public notableData: Notable[] = [];
   @Input() public items: ItemToLookFor[] = [];
 
@@ -43,11 +44,13 @@ export class RightPanelComponent implements OnDestroy, OnChanges {
 
   public ngOnChanges(): void {
     this.levelData = this.level;
-    this.visibleItems = this.items.filter(
-      (item) =>
-        this.levelData >= item.level &&
-        (item.levelMax ? this.levelData <= item.levelMax : true)
-    );
+    this.visibleItems = this.items
+      ? this.items.filter(
+          (item) =>
+            this.levelData >= item.level &&
+            (item.levelMax ? this.levelData <= item.levelMax : true)
+        )
+      : [];
     this.cdr.markForCheck();
 
     if (this.noData && !this.notableData.length) {

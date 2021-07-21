@@ -18,6 +18,7 @@
 </mat-card>
 <div *ngIf="!noData">
   <ng-template
+    *ngIf="notableData.length"
     let-notable
     [ngTemplateOutletContext]="{ $implicit: currentNotable }"
     [ngTemplateOutlet]="notableSection"
@@ -59,7 +60,7 @@
     </p>
   </ng-template>
 </div>
-<div *ngIf="!noData" class="notes">
+<div *ngIf="!noData && items && items.length" class="notes">
   <div class="notes-box">
     <h3 class="notes-title">Sockets to look for</h3>
     <div *ngFor="let item of visibleItems" class="linkWrapper">
@@ -84,3 +85,7 @@
 >
   New leveling
 </button>
+
+<div class="credits" *ngIf="!noData && hasPassiveTree">
+  <code class="shortcut-code">Ctrl+Alt+P</code> - Show passive tree
+</div>

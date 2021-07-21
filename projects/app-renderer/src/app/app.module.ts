@@ -7,6 +7,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { AppComponent } from './app.component';
 import { LeftPanelModule } from './left-panel/left-panel.module';
 import { RightPanelModule } from './right-panel/right-panel.module';
+import { PassiveModalModule } from './components/passive-modal/passive-modal.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,6 +19,8 @@ import { RightPanelModule } from './right-panel/right-panel.module';
     StoreModule.forRoot({}),
     LeftPanelModule,
     RightPanelModule,
+    HttpClientModule,
+    PassiveModalModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

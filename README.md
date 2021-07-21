@@ -4,6 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 It uses Electron as a way to make it desktop ready.
 
+Passive tree version: PoE version **3.14** (Ultimatum)
+
 # 🔍 Overview
 
 ![image info](./assets/overview_new.png)
@@ -15,17 +17,25 @@ How does it work :
 - Select your class from the dropdown.
 - Click "Next"
 - Put your client.txt location. It's a one time thing, it is used to track your in-game evolution. This file is located in the `logs` folder in the PoE installation directory. For example, mine is at : `C:/Program Files (x86)/Steam/steamapps/common/Path of Exile/logs/client.txt` so this is what I would put in this field (don't forget the `client.txt` part !)
-- Click "Next"
-- Import your file with "Import leveling file" button
+- Click "Next". Two choices here:
+  - Import your file with "Import leveling file"
+  - Paste your POB pastebin link and click "Import PoB" (⚠️ See PoB Format section !! ⚠️)
 - Put the application window on your second screen
 - Play _PoE_
 - When you reach the next level threshold, the gems and link will change, **highlighting the new additions, and where they come from**. Use it to make the appropriate changes in your character !
+- If you use the PoB, `Ctrl + Alt + P` will show the final passive tree. If you don't have the PoB, you should have a step-by-step notable passives to pick up.
 - Enjoy your leveling !
 - (Optional) Use the _"Socket to look for"_ section if you want to have some notes about which item you should pick
 
+# ⚠️ Version 1.2.0
+
+It's finally here !
+
+PoE Second Screen v1.20 introduces **POB support** along with a few changes. Check the PoB Format section to see how this work
+
 # 📝 Leveling file
 
-Here's how the JSON should be organized:
+Here's how the JSON should be organized, if you chose the leveling file way:
 
 ```typescript
     {
@@ -94,11 +104,28 @@ Here's how the JSON should be organized:
     }
 ```
 
+# PoB Format
+
+![image info](./assets/pob.jpg)
+
+Your PoB must respect a few rules to be able to be imported (see above pob screenshot) :
+
+- You need to separate your leveling gems with an empty socket group, named `levelX` where X is the minimum level requirement for the next gem groups. On the screenshot you can see 2 groups, in blue and green, once is valid from 1 - 10, the other from 10 to the end of leveling. The orange section determines where you should put the `levelX` label.
+- You must have only **one tree** in the PoB tree section.
+- To keep the gem section clean, you should remove every active effect that behaves like a spell, or else they will count as a gem slot (Commandment of War is a relevant example above)
+
+If you can't load a PoB and **before creating an issue**, please check all of the above, and that the pastebin link you entered exists (pastebin sometimes removes PoB-created pastes, thinking it's spam)
+
+Using `Ctrl + Alt + P` will open the simplified, undirected passive tree, which looks like this
+
+![image info](./assets/passive.png)
+
 # 💥 Features
 
 ## File system
 
 - Import a `.json` file with proper structure to get started (see `exemples/vortex_occultist.json` for guidance)
+- Import a PoB file with proper structure to get started
 - The leveling file is saved to a local storage after exiting the application.
 
 ## Levels
@@ -126,7 +153,7 @@ Here's how the JSON should be organized:
 
 # 🐛 Issues
 
-Before opening an issue, please verify that your JSON file is configured accordingly (see `exemples/vortex_occultist.json` for guidance)
+Before opening an issue, please verify that your JSON file is configured accordingly (see `exemples/vortex_occultist.json` for guidance) or that your PoB pastebin link is correct (see PoB format section)
 
 A JSON file can also be validated for integrity, make sure your file is OK by submitting it here: https://jsonlint.com/
 
@@ -148,9 +175,9 @@ Possible improvements :
 - ~~Add gem images~~ Done in v1.1.0
 - ~~Use a dedicated PoE database~~ (kinda) Done in v1.1.0
 - Added a one handed / two handed option
+- Better error handling
+- Smoother animations (get rid of material ?)
 
-I might also work on a web tool that will allow you to create your leveling without manually editing a JSON file. It would generate a link, and this link could be pasted into the app (like pastebin url's for PoB)
-
-I'm not sure I will have the time to do that before Ultimatum (3.14) is released, although PRs are welcome!
+~~I might also work on a web tool that will allow you to create your leveling without manually editing a JSON file. It would generate a link, and this link could be pasted into the app (like pastebin url's for PoB)~~ Done in v1.2.0 !
 
 > Have a nice day, exile ! 👋

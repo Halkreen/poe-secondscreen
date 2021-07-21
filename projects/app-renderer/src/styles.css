@@ -19,3 +19,7 @@ h2,
 h3 {
   font-weight: 600;
 }
+
+mat-dialog-container {
+  background-color: rgb(71, 71, 71) !important;
+}

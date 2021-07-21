@@ -36,11 +36,14 @@
     "@angular/platform-browser-dynamic": "~11.2.8",
     "@angular/router": "~11.2.8",
     "@ngrx/store": "^12.2.0",
+    "buffer": "^6.0.3",
     "electron-store": "^7.0.3",
     "jsdom": "^16.6.0",
+    "pako": "^2.0.3",
     "read-last-lines": "^1.8.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
+    "zlibt2": "^0.5.1",
     "zone.js": "~0.11.3"
   },
   "devDependencies": {
@@ -52,6 +55,7 @@
     "@richapps/ngnode": ">=1.0.2-rc.4 <2",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^14.6.2",
+    "@types/pako": "^1.0.2",
     "codelyzer": "^6.0.0",
     "electron": "latest",
     "jasmine-core": "~3.6.0",

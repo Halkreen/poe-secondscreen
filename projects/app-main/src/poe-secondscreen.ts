@@ -1,5 +1,5 @@
 import { BrowserWindow, globalShortcut, ipcMain, dialog } from 'electron';
-import { readFile } from 'fs';
+import { readFile, writeFile } from 'fs';
 import { createWindow } from './create-window';
 import { Watcher } from './watcher';
 import Store = require('electron-store');
@@ -64,12 +64,8 @@ export class PoeSecondScreen {
   public createProcess(): void {
     this.win = createWindow();
 
-    globalShortcut.register('Alt+CommandOrControl+L', () => {
-      this.win.webContents.send('messageFromMain', 'levelUp');
-    });
-
     globalShortcut.register('Alt+CommandOrControl+P', () => {
-      this.win.webContents.send('messageFromMain', 'nextNotable');
+      this.win.webContents.send('messageFromMain', 'toggleTree');
     });
 
     const lastCharacter = this.store.get('data.lastCharacter');
@@ -188,6 +184,30 @@ export class PoeSecondScreen {
             this.afterLoad(err, data, pathToJson[0], clientPath, className)
           );
         }
+      }
+
+      if (message.startsWith('pobData ')) {
+        const characterName = (message as string).split(' ')[1];
+        const clientPath = (message as string).split(' || ')[1];
+        const className = (message as string).split(' || ')[2];
+        const pob = (message as string).split(' || ')[3];
+        if (clientPath && clientPath.length) {
+          this.clientPath = clientPath;
+          this.store.set('data.clientPath', clientPath);
+        }
+
+        if (!characterName.length) {
+          return;
+        }
+        this.characterName = characterName;
+
+        const fileName = `../pob_import_${
+          this.characterName
+        }_${className}_${Date.now()}.json`;
+
+        writeFile(fileName, pob, (err) => {
+          this.afterLoad(err, pob, fileName, clientPath, className);
+        });
       }
 
       if (message === 'applicationReady') {

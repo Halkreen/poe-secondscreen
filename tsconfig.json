@@ -4,6 +4,10 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": ["node"],
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
