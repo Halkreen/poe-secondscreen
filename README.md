@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 It uses Electron as a way to make it desktop ready.
 
-Passive tree version: PoE version **3.14** (Ultimatum)
+Passive tree version: PoE version **3.15** (Expedition)
 
 # 🔍 Overview
 
