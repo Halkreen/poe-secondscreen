@@ -38,7 +38,6 @@ export class GearComponent implements OnChanges {
     const className = this.dialogService.classSubject$.getValue();
     this.rewardsList = [];
     this.gems.forEach((gem) => {
-      console.log('gem: ' + gem.gemName);
       const gemAssociated = gemData.find(
         (gemdata) =>
           gemdata.name
@@ -57,7 +56,6 @@ export class GearComponent implements OnChanges {
         gemAssociated?.questRewardClasses.includes(className) &&
         !this.questUsed.find((q) => q.quest === gemAssociated.questReward)
       ) {
-        console.log(gem.gemName + ' is not associated with quests');
         this.newQuestUsed.next({
           name: gem.gemName,
           quest: gemAssociated.questReward,
@@ -71,8 +69,6 @@ export class GearComponent implements OnChanges {
         this.questUsed.find((q) => q.quest === gemAssociated.questReward)
           .name === gem.gemName
       ) {
-        console.log(gem.gemName + ' is associated with quests but it is ok');
-
         this.rewardsList.push({
           name: gem.gemName,
           quest: gemAssociated.questReward,
@@ -99,7 +95,6 @@ export class GearComponent implements OnChanges {
     vendorList: any[],
     gemName: string
   ): string {
-    console.log('reward', rewardsList);
     const rewards = rewardsList.find((reward) => reward.name === gemName);
     if (rewards) {
       // tslint:disable-next-line: quotemark

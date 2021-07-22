@@ -5,6 +5,7 @@ import * as Pako from 'pako';
 import * as bfr from '../../../../../node_modules/buffer/index';
 import { CharactersData } from '../types/character-data';
 import { LevelingData } from '../types/leveling-data';
+import { gemData } from '../utils/gems';
 
 @Injectable({
   providedIn: 'root',
@@ -130,15 +131,23 @@ export class PobService {
         allLevels.push(currentLevel);
       } else {
         const gemGroup = [];
-        skillGroup
-          .querySelectorAll('Gem')
-          .forEach((gemNode) =>
-            gemGroup.push(gemNode.getAttribute('nameSpec'))
-          );
+        let socketColors = '';
+        skillGroup.querySelectorAll('Gem').forEach((gemNode) => {
+          gemGroup.push(gemNode.getAttribute('nameSpec'));
+          const socketColor = gemData.find(
+            (g) => g.name === gemNode.getAttribute('nameSpec')
+          )?.socketColor;
+          if (socketColor) {
+            socketColors = socketColors.concat(socketColor);
+          } else {
+            socketColors = socketColors.concat('W');
+          }
+        });
 
         gemGroupsByLevel.push({
           level: currentLevel,
           gemGroup,
+          socketColors,
           gemNumber: gemGroup.length,
         });
       }
@@ -167,14 +176,14 @@ export class PobService {
             gear.push({
               type: available6link[0].type,
               gems: g.gemGroup,
-              sockets: ['W'.repeat(g.gemNumber)],
+              sockets: [g.socketColors],
             });
             available6link[0].taken += g.gemNumber;
           } else if (!available6link[1].taken) {
             gear.push({
               type: available6link[1].type,
               gems: g.gemGroup,
-              sockets: ['W'.repeat(g.gemNumber)],
+              sockets: [g.socketColors],
             });
             available6link[1].taken += g.gemNumber;
           }
@@ -183,21 +192,21 @@ export class PobService {
             gear.push({
               type: available4link[0].type,
               gems: g.gemGroup,
-              sockets: ['W'.repeat(g.gemNumber)],
+              sockets: [g.socketColors],
             });
             available4link[0].taken += g.gemNumber;
           } else if (!available4link[1].taken) {
             gear.push({
               type: available4link[1].type,
               gems: g.gemGroup,
-              sockets: ['W'.repeat(g.gemNumber)],
+              sockets: [g.socketColors],
             });
             available4link[1].taken += g.gemNumber;
           } else if (!available4link[2].taken) {
             gear.push({
               type: available4link[2].type,
               gems: g.gemGroup,
-              sockets: ['W'.repeat(g.gemNumber)],
+              sockets: [g.socketColors],
             });
             available4link[2].taken += g.gemNumber;
           }
@@ -206,35 +215,35 @@ export class PobService {
             gear.push({
               type: available6link[0].type,
               gems: g.gemGroup,
-              sockets: ['W'.repeat(g.gemNumber)],
+              sockets: [g.socketColors],
             });
             available6link[0].taken += g.gemNumber;
           } else if (!available6link[1].taken <= g.gemNumber) {
             gear.push({
               type: available6link[1].type,
               gems: g.gemGroup,
-              sockets: ['W'.repeat(g.gemNumber)],
+              sockets: [g.socketColors],
             });
             available6link[1].taken += g.gemNumber;
           } else if (!available4link[0].taken <= g.gemNumber) {
             gear.push({
               type: available4link[0].type,
               gems: g.gemGroup,
-              sockets: ['W'.repeat(g.gemNumber)],
+              sockets: [g.socketColors],
             });
             available4link[0].taken += g.gemNumber;
           } else if (!available4link[1].taken <= g.gemNumber) {
             gear.push({
               type: available4link[1].type,
               gems: g.gemGroup,
-              sockets: ['W'.repeat(g.gemNumber)],
+              sockets: [g.socketColors],
             });
             available4link[1].taken += g.gemNumber;
           } else if (!available4link[2].taken <= g.gemNumber) {
             gear.push({
               type: available4link[2].type,
               gems: g.gemGroup,
-              sockets: ['W'.repeat(g.gemNumber)],
+              sockets: [g.socketColors],
             });
             available4link[2].taken += g.gemNumber;
           }

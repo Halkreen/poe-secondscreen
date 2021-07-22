@@ -34,8 +34,6 @@ export class LeftPanelComponent {
   >([]);
   public questUsed = this.questUsedSubject.asObservable();
 
-  constructor(private readonly cdr: ChangeDetectorRef) {}
-
   public newQuestUsed(event: { name: string; quest: string }): void {
     if (event?.name && event?.quest) {
       this.questUsedSubject.next([...this.questUsedSubject.getValue(), event]);

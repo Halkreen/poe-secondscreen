@@ -3,117 +3,128 @@ export const gemData = [
     name: 'Added Cold Damage Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/39/Added_Cold_Damage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180726',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/39/Added_Cold_Damage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180726',
     socketColor: 'G',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Shadow', 'Ranger', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Animate Weapon',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0d/Animate_Weapon_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0d/Animate_Weapon_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Scion'],
   },
   {
     name: 'Exsanguinate',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/86/Exsanguinate_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/86/Exsanguinate_inventory_icon.png',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Enduring Cry',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/25/Enduring_Cry_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/25/Enduring_Cry_inventory_icon.png',
     socketColor: 'R',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Duelist', 'Marauder'],
     vendor: 'Nessa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Earthshatter',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9c/Earthshatter_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9c/Earthshatter_inventory_icon.png',
     socketColor: 'R',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Duelist', 'Marauder'],
     vendor: 'Nessa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
-    name: 'General%27s Cry',
+    name: "General's Cry",
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1d/General%27s_Cry_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1d/General%27s_Cry_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Lost in Love',
     questRewardClasses: ['Marauder'],
     vendor: 'Clarissa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Earthquake',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/83/Earthquake_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/83/Earthquake_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Dread Banner',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9a/Dread_Banner_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9a/Dread_Banner_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Lost in Love',
     questRewardClasses: ['Duelist'],
     vendor: 'Clarissa',
-    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Ground Slam',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d9/Ground_Slam_inventory_icon.png',
-    socketColor: 'W',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d9/Ground_Slam_inventory_icon.png',
+    socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Heavy Strike',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/58/Heavy_Strike_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/58/Heavy_Strike_inventory_icon.png',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Dominating Blow',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/8b/Dominating_Blow_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/8b/Dominating_Blow_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Templar'],
@@ -125,14 +136,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Herald of Ash',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/3f/Herald_of_Ash_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/3f/Herald_of_Ash_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Intruders in Black',
     questRewardClasses: [
@@ -142,7 +154,7 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
+      'Scion',
     ],
     vendor: 'Yeena',
     vendorClasses: [
@@ -152,36 +164,39 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Glacial Hammer',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f9/Glacial_Hammer_inventory_icon.png',
-    socketColor: 'W',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f9/Glacial_Hammer_inventory_icon.png',
+    socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Flesh and Stone',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/61/Flesh_and_Stone_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/61/Flesh_and_Stone_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Intruders in Black',
     questRewardClasses: ['Duelist'],
     vendor: 'Yeena',
-    vendorClasses: ['Duelist', 'Marauder', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Scion'],
   },
   {
     name: 'Devouring Totem',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/7e/Devouring_Totem_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/7e/Devouring_Totem_inventory_icon.png',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
@@ -192,102 +207,111 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Determination',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d8/Determination_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d8/Determination_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Lost in Love',
     questRewardClasses: ['Marauder'],
     vendor: 'Clarissa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar'],
   },
   {
     name: 'Unleash Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/51/Unleash_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190308205344',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/51/Unleash_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190308205344',
     socketColor: 'B',
     questReward: 'The Eternal Nightmare',
     questRewardClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
     vendor: 'Petarus and Vanja',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Trinity Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/29/Trinity_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20210120050406',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/29/Trinity_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20210120050406',
     socketColor: 'B',
     questReward: 'Sharp and Cruel',
     questRewardClasses: ['Witch', 'Ranger', 'Duelist'],
     vendor: 'Yeena',
-    vendorClasses: ['Witch', 'Ranger', 'Duelist', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Ranger', 'Duelist', 'Templar', 'Scion'],
   },
   {
     name: 'Predator Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0d/Predator_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205631',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0d/Predator_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205631',
     socketColor: 'B',
     questReward: 'Sharp and Cruel',
     questRewardClasses: ['Witch'],
     vendor: 'Yeena',
-    vendorClasses: ['Witch', 'Templar', 'Scion', 'Witch', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Templar', 'Scion', 'Witch', 'Templar', 'Scion'],
   },
   {
     name: 'Unbound Ailments Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a3/Unbound_Ailments_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100525',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a3/Unbound_Ailments_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100525',
     socketColor: 'B',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Witch', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Spell Cascade Support',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/51/Spell_Cascade_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20171208113301',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/51/Spell_Cascade_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20171208113301',
     socketColor: 'B',
     questReward: 'Mercy Mission',
     questRewardClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Swiftbrand Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d5/Swiftbrand_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20200619183429',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d5/Swiftbrand_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20200619183429',
     socketColor: 'B',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Witch', 'Templar'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Summon Phantasm Support',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/5c/Summon_Phantasm_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20180302190038',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/5c/Summon_Phantasm_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20180302190038',
     socketColor: 'B',
     questReward: 'Mercy Mission',
     questRewardClasses: ['Witch', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Spell Echo Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/07/Spell_Echo_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20140320062923',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/07/Spell_Echo_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20140320062923',
     socketColor: 'B',
     questReward: 'The Eternal Nightmare',
     questRewardClasses: [
@@ -297,7 +321,7 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
+      'Scion',
     ],
     vendor: 'Petarus and Vanja',
     vendorClasses: [
@@ -307,14 +331,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Physical to Lightning Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/89/Physical_to_Lightning_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20141213065258',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/89/Physical_to_Lightning_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20141213065258',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
@@ -331,25 +356,27 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Pinpoint Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/7b/Pinpoint_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20200929172831',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/7b/Pinpoint_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20200929172831',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Power Charge On Critical Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/53/Power_Charge_On_Critical_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162347',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/53/Power_Charge_On_Critical_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162347',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
@@ -362,190 +389,207 @@ export const gemData = [
       'Witch',
       'Shadow',
       'Ranger',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Minion Life Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/92/Minion_Life_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162324',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/92/Minion_Life_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162324',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Yeena',
-    vendorClasses: ['Witch', 'Templar', 'Scion', 'Witch', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Templar', 'Scion', 'Witch', 'Templar', 'Scion'],
   },
   {
     name: 'Minefield Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/ff/Minefield_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20160307140508',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/ff/Minefield_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20160307140508',
     socketColor: 'B',
     questReward: 'The Eternal Nightmare',
     questRewardClasses: ['Shadow'],
     vendor: 'Petarus and Vanja',
-    vendorClasses: ['Witch', 'Shadow', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Scion'],
   },
   {
     name: 'Lightning Penetration Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/80/Lightning_Penetration_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162315',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/80/Lightning_Penetration_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162315',
     socketColor: 'G',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Minion Speed Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/ee/Minion_Speed_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162324',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/ee/Minion_Speed_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162324',
     socketColor: 'B',
     questReward: 'Sharp and Cruel',
     questRewardClasses: ['Witch'],
     vendor: 'Yeena',
-    vendorClasses: ['Witch', 'Templar', 'Scion', 'Witch', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Templar', 'Scion', 'Witch', 'Templar', 'Scion'],
   },
   {
     name: 'Meat Shield Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/13/Meat_Shield_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205640',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/13/Meat_Shield_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205640',
     socketColor: 'B',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Witch', 'Templar'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Templar', 'Scion'],
   },
   {
     name: 'Item Rarity Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/70/Item_Rarity_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162308',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/70/Item_Rarity_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162308',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Minion Damage Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/66/Minion_Damage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162324',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/66/Minion_Damage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162324',
     socketColor: 'B',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Witch'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Templar', 'Scion'],
   },
   {
     name: 'Innervate Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1d/Innervate_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20150707194345',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1d/Innervate_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20150707194345',
     socketColor: 'B',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Shadow', 'Scion'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion'],
   },
   {
     name: 'Intensify Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/ce/Intensify_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190308205330',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/ce/Intensify_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190308205330',
     socketColor: 'B',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Witch', 'Templar', 'Scion'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Increased Critical Strikes Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f0/Increased_Critical_Strikes_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162305',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f0/Increased_Critical_Strikes_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162305',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Infused Channelling Support',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e6/Infused_Channelling_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20171208113333',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e6/Infused_Channelling_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20171208113333',
     socketColor: 'B',
     questReward: 'Mercy Mission',
     questRewardClasses: ['Witch', 'Shadow', 'Templar'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Ignite Proliferation Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/5d/Ignite_Proliferation_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100446',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/5d/Ignite_Proliferation_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100446',
     socketColor: 'B',
     questReward: 'The Eternal Nightmare',
     questRewardClasses: ['Templar'],
     vendor: 'Petarus and Vanja',
-    vendorClasses: ['Witch', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Templar', 'Scion'],
   },
   {
     name: 'Immolate Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f6/Immolate_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100456',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f6/Immolate_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100456',
     socketColor: 'B',
     questReward: 'The Eternal Nightmare',
     questRewardClasses: ['Witch', 'Scion'],
     vendor: 'Petarus and Vanja',
-    vendorClasses: ['Witch', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Impending Doom Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/18/Doom_Blast_skill_icon.png/revision/latest/scale-to-width-down/64?cb=20200930020012',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/18/Doom_Blast_skill_icon.png/revision/latest/scale-to-width-down/64?cb=20200930020012',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Increased Area of Effect Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/ae/Increased_Area_of_Effect_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180850',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/ae/Increased_Area_of_Effect_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180850',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Infernal Legion Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e0/Infernal_Legion_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205638',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e0/Infernal_Legion_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205638',
     socketColor: 'B',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Witch'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Templar']
+    vendorClasses: ['Witch', 'Templar'],
   },
   {
     name: 'Hextouch Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/02/Hextouch_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20160408161437',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/02/Hextouch_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20160408161437',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
@@ -557,14 +601,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Increased Critical Damage Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/09/Increased_Critical_Damage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180853',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/09/Increased_Critical_Damage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180853',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
@@ -577,25 +622,27 @@ export const gemData = [
       'Witch',
       'Shadow',
       'Ranger',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'High-Impact Mine Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/05/High-Impact_Mine_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205635',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/05/High-Impact_Mine_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205635',
     socketColor: 'B',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Shadow'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Scion'],
   },
   {
     name: 'Faster Casting Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/43/Faster_Casting_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180826',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/43/Faster_Casting_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180826',
     socketColor: 'B',
     questReward: 'Sharp and Cruel',
     questRewardClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
@@ -608,69 +655,75 @@ export const gemData = [
       'Witch',
       'Shadow',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Feeding Frenzy Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/21/Feeding_Frenzy_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205634',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/21/Feeding_Frenzy_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205634',
     socketColor: 'B',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Witch', 'Templar'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Templar', 'Scion'],
   },
   {
     name: 'Energy Leech Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/ca/Energy_Leech_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180821',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/ca/Energy_Leech_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180821',
     socketColor: 'B',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Enlighten Support',
     gemCostUnit: 'Divine Orb',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/3d/Enlighten_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180823',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/3d/Enlighten_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180823',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Elemental Army Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d9/Elemental_Army_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205633',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d9/Elemental_Army_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205633',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Decay Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c9/Decay_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100426',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c9/Decay_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100426',
     socketColor: 'G',
     questReward: 'The Eternal Nightmare',
     questRewardClasses: ['Witch', 'Scion'],
     vendor: 'Petarus and Vanja',
-    vendorClasses: ['Witch', 'Shadow', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Scion'],
   },
   {
     name: 'Controlled Destruction Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/75/Controlled_Destruction_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20151211232209',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/75/Controlled_Destruction_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20151211232209',
     socketColor: 'B',
     questReward: 'Sharp and Cruel',
     questRewardClasses: ['Witch', 'Templar'],
@@ -683,25 +736,27 @@ export const gemData = [
       'Witch',
       'Shadow',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Combustion Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/18/Combustion_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180802',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/18/Combustion_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180802',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Concentrated Effect Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d4/Concentrated_Effect_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180805',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d4/Concentrated_Effect_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180805',
     socketColor: 'B',
     questReward: 'Sharp and Cruel',
     questRewardClasses: ['Witch', 'Templar', 'Scion'],
@@ -714,14 +769,15 @@ export const gemData = [
       'Witch',
       'Shadow',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Elemental Focus Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0e/Elemental_Focus_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20160307140528',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0e/Elemental_Focus_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20160307140528',
     socketColor: 'G',
     questReward: 'Sharp and Cruel',
     questRewardClasses: ['Witch', 'Shadow', 'Templar'],
@@ -734,36 +790,39 @@ export const gemData = [
       'Witch',
       'Shadow',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Efficacy Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a5/Efficacy_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100437',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a5/Efficacy_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100437',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Elemental Proliferation Support',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e2/Elemental_Proliferation_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180816',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e2/Elemental_Proliferation_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180816',
     socketColor: 'B',
     questReward: 'Mercy Mission',
     questRewardClasses: ['Witch', 'Shadow', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Templar', 'Witch', 'Shadow', 'Scion']
+    vendorClasses: ['Templar', 'Witch', 'Shadow', 'Scion'],
   },
   {
     name: 'Detonate Mines',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e5/Detonate_Mines_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e5/Detonate_Mines_inventory_icon.png',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
@@ -775,69 +834,75 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Zealotry',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/8f/Zealotry_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/8f/Zealotry_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Lost in Love',
     questRewardClasses: ['Witch', 'Templar', 'Scion'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Wrath',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a2/Wrath_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a2/Wrath_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Lost in Love',
     questRewardClasses: ['Shadow', 'Scion'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion'],
   },
   {
     name: 'Void Sphere',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/78/Void_Sphere_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/78/Void_Sphere_inventory_icon.png',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Wintertide Brand',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f3/Wintertide_Brand_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f3/Wintertide_Brand_inventory_icon.png',
     socketColor: 'B',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Witch', 'Templar'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Wave of Conviction',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/62/Wave_of_Conviction_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/62/Wave_of_Conviction_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Intruders in Black',
     questRewardClasses: ['Templar'],
     vendor: 'Yeena',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Winter Orb',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/91/Winter_Orb_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/91/Winter_Orb_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Witch'],
@@ -849,14 +914,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Vortex',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/30/Vortex_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/30/Vortex_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
@@ -868,14 +934,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Tempest Shield',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/71/Tempest_Shield_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/71/Tempest_Shield_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
@@ -886,58 +953,63 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Wither',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/bb/Wither_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/bb/Wither_inventory_icon.png',
     socketColor: 'B',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Witch'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Summon Skitterbots',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/00/Summon_Skitterbots_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/00/Summon_Skitterbots_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Intruders in Black',
     questRewardClasses: ['Shadow'],
     vendor: 'Yeena',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Summon Skeletons',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0b/Summon_Skeletons_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0b/Summon_Skeletons_inventory_icon.png',
     socketColor: 'B',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Witch'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Templar', 'Scion'],
   },
   {
     name: 'Summon Raging Spirit',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0a/Summon_Raging_Spirit_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0a/Summon_Raging_Spirit_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Breaking Some Eggs',
     questRewardClasses: ['Witch'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Templar', 'Scion'],
   },
   {
     name: 'Summon Chaos Golem',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/44/Summon_Chaos_Golem_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/44/Summon_Chaos_Golem_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Breaking the Seal',
     questRewardClasses: [
@@ -947,7 +1019,7 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
+      'Scion',
     ],
     vendor: 'Petarus and Vanja',
     vendorClasses: [
@@ -957,36 +1029,39 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Summon Carrion Golem',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/13/Summon_Carrion_Golem_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/13/Summon_Carrion_Golem_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Breaking the Seal',
     questRewardClasses: ['Witch', 'Templar', 'Scion'],
     vendor: 'Petarus and Vanja',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion'],
   },
   {
     name: 'Summon Holy Relic',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/8e/Summon_Holy_Relic_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/8e/Summon_Holy_Relic_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Breaking Some Eggs',
     questRewardClasses: ['Templar'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Templar']
+    vendorClasses: ['Witch', 'Templar'],
   },
   {
     name: 'Summon Lightning Golem',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/ad/Summon_Lightning_Golem_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/ad/Summon_Lightning_Golem_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Breaking the Seal',
     questRewardClasses: [
@@ -996,7 +1071,7 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
+      'Scion',
     ],
     vendor: 'Petarus and Vanja',
     vendorClasses: [
@@ -1006,91 +1081,99 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Stormblast Mine',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c1/Stormblast_Mine_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c1/Stormblast_Mine_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Shadow'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Storm Call',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9b/Storm_Call_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9b/Storm_Call_inventory_icon.png',
     socketColor: 'R',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Templar'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Stormbind',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/ee/Stormbind_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/ee/Stormbind_inventory_icon.png',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Storm Burst',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0a/Storm_Burst_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0a/Storm_Burst_inventory_icon.png',
     socketColor: 'R',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Witch', 'Templar', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Storm Brand',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/7e/Storm_Brand_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/7e/Storm_Brand_inventory_icon.png',
     socketColor: 'B',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Witch', 'Templar'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Templar', 'Scion'],
   },
   {
     name: 'Spellslinger',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/52/Spellslinger_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/52/Spellslinger_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Lost in Love',
     questRewardClasses: ['Witch'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Spark',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/4b/Spark_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/4b/Spark_inventory_icon.png',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Soulrend',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/96/Soulrend_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/96/Soulrend_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Witch', 'Shadow', 'Scion'],
@@ -1102,47 +1185,51 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Spirit Offering',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/ba/Spirit_Offering_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/ba/Spirit_Offering_inventory_icon.png',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Templar', 'Scion'],
   },
   {
     name: 'Siphoning Trap',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/00/Siphoning_Trap_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/00/Siphoning_Trap_inventory_icon.png',
     socketColor: 'G',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Shadow'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Scion'],
   },
   {
     name: 'Sigil of Power',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/41/Sigil_of_Power_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/41/Sigil_of_Power_inventory_icon.png',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Shock Nova',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/2c/Shock_Nova_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/2c/Shock_Nova_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Templar'],
@@ -1154,36 +1241,39 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Scorching Ray',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/01/Scorching_Ray_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/01/Scorching_Ray_inventory_icon.png',
     socketColor: 'G',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Witch', 'Templar', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Charged Mines Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d5/Charged_Mines_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205625',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d5/Charged_Mines_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205625',
     socketColor: 'B',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Shadow'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Scion'],
   },
   {
     name: 'Raise Spectre',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0b/Raise_Spectre_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0b/Raise_Spectre_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Witch'],
@@ -1195,36 +1285,39 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Cast while Channelling Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/67/Cast_while_Channelling_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20161202183556',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/67/Cast_while_Channelling_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20161202183556',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Raise Zombie',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/ff/Raise_Zombie_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/ff/Raise_Zombie_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Witch'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Templar', 'Scion'],
   },
   {
     name: 'Cast when Stunned Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/4a/Cast_when_Stunned_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20131024002607',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/4a/Cast_when_Stunned_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20131024002607',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
@@ -1236,36 +1329,39 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Righteous Fire',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d8/Righteous_Fire_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d8/Righteous_Fire_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Yeena',
-    vendorClasses: ['Witch', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Rolling Magma',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/da/Rolling_Magma_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/da/Rolling_Magma_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Blasphemy Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D',
+    image:
+      'data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D',
     socketColor: 'B',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Witch', 'Templar'],
@@ -1277,58 +1373,63 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Bonechill Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/51/Bonechill_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20181207183135',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/51/Bonechill_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20181207183135',
     socketColor: 'B',
     questReward: 'The Eternal Nightmare',
     questRewardClasses: ['Witch', 'Shadow'],
     vendor: 'Petarus and Vanja',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Blastchain Mine Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a8/Blastchain_Mine_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205623',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a8/Blastchain_Mine_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205623',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion'],
   },
   {
     name: 'Archmage Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/41/Archmage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20200313190347',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/41/Archmage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20200313190347',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Arcane Surge Support',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/5c/Arcane_Surge_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100323',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/5c/Arcane_Surge_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100323',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Shockwave Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/84/Shockwave_skill_icon.png/revision/latest/scale-to-width-down/64?cb=20190917121530',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/84/Shockwave_skill_icon.png/revision/latest/scale-to-width-down/64?cb=20190917121530',
     socketColor: 'R',
     questReward: 'Sharp and Cruel',
     questRewardClasses: ['Marauder', 'Templar'],
@@ -1341,58 +1442,63 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Ruthless Support',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/7b/Ruthless_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100354',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/7b/Ruthless_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100354',
     socketColor: 'R',
     questReward: 'Mercy Mission',
     questRewardClasses: ['Duelist', 'Templar', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Marauder', 'Duelist', 'Templar', 'Scion']
+    vendorClasses: ['Marauder', 'Duelist', 'Templar', 'Scion'],
   },
   {
     name: 'Spell Totem Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/dd/Spell_Totem_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162418',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/dd/Spell_Totem_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162418',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Stun Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d9/Stun_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162423',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d9/Stun_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162423',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Urgent Orders Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/50/Urgent_Orders_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20200619183414',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/50/Urgent_Orders_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20200619183414',
     socketColor: 'R',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Duelist', 'Marauder'],
     vendor: 'Clarissa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Rage Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c5/Rage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607182532',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c5/Rage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607182532',
     socketColor: 'R',
     questReward: 'Sharp and Cruel',
     questRewardClasses: ['Duelist', 'Marauder'],
@@ -1409,14 +1515,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Added Chaos Damage Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/2e/Added_Chaos_Damage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180724',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/2e/Added_Chaos_Damage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180724',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
@@ -1428,25 +1535,27 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Added Lightning Damage Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1b/Added_Lightning_Damage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180729',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1b/Added_Lightning_Damage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180729',
     socketColor: 'B',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Multiple Totems Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/cd/Multiple_Totems_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20181207183143',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/cd/Multiple_Totems_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20181207183143',
     socketColor: 'G',
     questReward: 'The Eternal Nightmare',
     questRewardClasses: ['Witch', 'Marauder', 'Templar'],
@@ -1458,25 +1567,27 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Pulverise Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/32/Pulverise_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607182531',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/32/Pulverise_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607182531',
     socketColor: 'R',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Duelist', 'Marauder', 'Templar'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Ranger', 'Duelist', 'Marauder', 'Scion']
+    vendorClasses: ['Witch', 'Ranger', 'Duelist', 'Marauder', 'Scion'],
   },
   {
     name: 'Multistrike Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/2e/Multistrike_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162325',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/2e/Multistrike_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162325',
     socketColor: 'B',
     questReward: 'The Eternal Nightmare',
     questRewardClasses: [
@@ -1486,7 +1597,7 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
+      'Scion',
     ],
     vendor: 'Petarus and Vanja',
     vendorClasses: [
@@ -1496,14 +1607,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Melee Splash Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/3e/Melee_Splash_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162322',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/3e/Melee_Splash_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162322',
     socketColor: 'R',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Ranger', 'Duelist', 'Marauder', 'Templar', 'Scion'],
@@ -1515,14 +1627,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Melee Physical Damage Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/68/Melee_Physical_Damage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162322',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/68/Melee_Physical_Damage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162322',
     socketColor: 'R',
     questReward: 'Sharp and Cruel',
     questRewardClasses: ['Shadow', 'Duelist', 'Marauder', 'Templar', 'Scion'],
@@ -1534,69 +1647,75 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Lifetap Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/41/Lifetap_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20210427094723',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/41/Lifetap_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20210427094723',
     socketColor: 'B',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Less Duration Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/00/Less_Duration_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20131024002539',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/00/Less_Duration_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20131024002539',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Clarissa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Knockback Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/08/Knockback_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162310',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/08/Knockback_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162310',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Life Gain on Hit Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/8d/Life_Gain_on_Hit_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162314',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/8d/Life_Gain_on_Hit_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162314',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Maim Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/13/Maim_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100516',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/13/Maim_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100516',
     socketColor: 'R',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Duelist'],
     vendor: 'Nessa',
-    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Scion']
+    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Scion'],
   },
   {
     name: 'Life Leech Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f6/Life_Leech_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162314',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f6/Life_Leech_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162314',
     socketColor: 'R',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Ranger', 'Duelist', 'Marauder', 'Scion'],
@@ -1607,14 +1726,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Iron Grip Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/3c/Iron_Grip_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162307',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/3c/Iron_Grip_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162307',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
@@ -1629,14 +1749,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Iron Will Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1b/Iron_Will_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162308',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1b/Iron_Will_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162308',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
@@ -1649,69 +1770,75 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Increased Duration Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/11/Increased_Duration_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162305',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/11/Increased_Duration_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162305',
     socketColor: 'R',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Marauder'],
     vendor: 'Clarissa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar'],
   },
   {
     name: 'Generosity Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e5/Generosity_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20140821084426',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e5/Generosity_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20140821084426',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Inspiration Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/2c/Inspiration_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205639',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/2c/Inspiration_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205639',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Clarissa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Damage on Full Life Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/20/Damage_on_Full_Life_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180808',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/20/Damage_on_Full_Life_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180808',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Elemental Damage with Attacks Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/14/Elemental_Damage_with_Attacks_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180814',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/14/Elemental_Damage_with_Attacks_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180814',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Fortify Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d5/Fortify_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20150527063217',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d5/Fortify_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20150527063217',
     socketColor: 'R',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Ranger', 'Duelist', 'Marauder', 'Templar', 'Scion'],
@@ -1722,47 +1849,51 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Empower Support',
     gemCostUnit: 'Divine Orb',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f8/Empower_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20140109020442',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f8/Empower_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20140109020442',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Fist of War Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/3f/Fist_of_War_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20200619183404',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/3f/Fist_of_War_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20200619183404',
     socketColor: 'B',
     questReward: 'The Eternal Nightmare',
     questRewardClasses: ['Duelist', 'Marauder', 'Templar'],
     vendor: 'Petarus and Vanja',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Cruelty Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/ed/Cruelty_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20210505020052',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/ed/Cruelty_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20210505020052',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Endurance Charge on Melee Stun Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e4/Endurance_Charge_on_Melee_Stun_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130925082430',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e4/Endurance_Charge_on_Melee_Stun_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130925082430',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
@@ -1775,25 +1906,27 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Fire Penetration Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d4/Fire_Penetration_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180831',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d4/Fire_Penetration_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180831',
     socketColor: 'G',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Witch', 'Templar', 'Scion'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Cold to Fire Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b0/Cold_to_Fire_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180800',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b0/Cold_to_Fire_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180800',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
@@ -1806,25 +1939,27 @@ export const gemData = [
       'Witch',
       'Shadow',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Chance to Bleed Support',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c4/Chance_to_Bleed_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100404',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c4/Chance_to_Bleed_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100404',
     socketColor: 'R',
     questReward: 'Mercy Mission',
     questRewardClasses: ['Marauder', 'Templar', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Duelist', 'Ranger', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Ranger', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Cast on Melee Kill Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/ea/Cast_on_Melee_Kill_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20131024002640',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/ea/Cast_on_Melee_Kill_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20131024002640',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
@@ -1836,14 +1971,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Cast when Damage Taken Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c4/Cast_when_Damage_Taken_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20131024002621',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c4/Cast_when_Damage_Taken_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20131024002621',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
@@ -1855,113 +1991,123 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Ballista Totem Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/66/Ballista_Totem_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162356',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/66/Ballista_Totem_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162356',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Arrogance Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/71/Arrogance_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20210417043522',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/71/Arrogance_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20210417043522',
     socketColor: 'R',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
     vendor: 'Clarissa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Bloodthirst Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/fc/Bloodthirst_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20210427105701',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/fc/Bloodthirst_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20210427105701',
     socketColor: 'R',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Duelist', 'Marauder', 'Scion'],
     vendor: 'Clarissa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Bloodlust Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/3f/Bloodlust_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20150707194010',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/3f/Bloodlust_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20150707194010',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Brutality Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c9/Brutality_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100332',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c9/Brutality_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100332',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Ancestral Call Support',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f5/Ancestral_Call_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20171208113232',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f5/Ancestral_Call_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20171208113232',
     socketColor: 'R',
     questReward: 'Mercy Mission',
     questRewardClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Burning Damage Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/96/Burning_Damage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170807154904',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/96/Burning_Damage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170807154904',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Withering Touch Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/17/Withering_Touch_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20180831201519',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/17/Withering_Touch_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20180831201519',
     socketColor: 'G',
     questReward: 'The Eternal Nightmare',
     questRewardClasses: ['Shadow', 'Ranger'],
     vendor: 'Petarus and Vanja',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Added Fire Damage Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/5b/Added_Fire_Damage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180728',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/5b/Added_Fire_Damage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180728',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Volley Support',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e0/Volley_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20191230205013',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e0/Volley_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20191230205013',
     socketColor: 'G',
     questReward: 'Mercy Mission',
     questRewardClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
@@ -1972,109 +2118,111 @@ export const gemData = [
       'Ranger',
       'Duelist',
       'Marauder',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Void Manipulation Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/78/Void_Manipulation_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20151211232252',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/78/Void_Manipulation_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20151211232252',
     socketColor: 'G',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Witch', 'Shadow', 'Ranger'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion'],
   },
   {
     name: 'Trap Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/04/Trap_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162433',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/04/Trap_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162433',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Vicious Projectiles Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/42/Vicious_Projectiles_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20140109020336',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/42/Vicious_Projectiles_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20140109020336',
     socketColor: 'G',
     questReward: 'Sharp and Cruel',
     questRewardClasses: ['Ranger', 'Duelist', 'Scion'],
     vendor: 'Yeena',
-    vendorClasses: [
-      'Ranger',
-      'Duelist',
-      'Scion',
-      'Ranger',
-      'Duelist',
-      'Scion'
-    ]
+    vendorClasses: ['Ranger', 'Duelist', 'Scion', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Vile Toxins Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f8/Vile_Toxins_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100534',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f8/Vile_Toxins_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100534',
     socketColor: 'G',
     questReward: 'The Eternal Nightmare',
     questRewardClasses: ['Shadow'],
     vendor: 'Petarus and Vanja',
-    vendorClasses: ['Shadow', 'Ranger', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Swift Assembly Support',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c4/Swift_Assembly_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205701',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c4/Swift_Assembly_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205701',
     socketColor: 'G',
     questReward: 'Mercy Mission',
     questRewardClasses: ['Shadow'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Slower Projectiles Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/71/Slower_Projectiles_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20131024002525',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/71/Slower_Projectiles_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20131024002525',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Clarissa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Second Wind Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/18/Second_Wind_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20200313190401',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/18/Second_Wind_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20200313190401',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Swift Affliction Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/16/Swift_Affliction_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170807155327',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/16/Swift_Affliction_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170807155327',
     socketColor: 'G',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Witch', 'Shadow'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion'],
   },
   {
     name: 'Point Blank Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/41/Point_Blank_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162346',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/41/Point_Blank_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162346',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
@@ -2087,23 +2235,18 @@ export const gemData = [
       'Shadow',
       'Ranger',
       'Duelist',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Onslaught Support',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e9/Onslaught_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100342',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e9/Onslaught_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100342',
     socketColor: 'G',
     questReward: 'Mercy Mission',
-    questRewardClasses: [
-      'Shadow',
-      'Ranger',
-      'Duelist',
-      'Marauder',
-      'Templar'
-    ],
+    questRewardClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder', 'Templar'],
     vendor: 'Nessa',
     vendorClasses: [
       'Scion',
@@ -2111,14 +2254,15 @@ export const gemData = [
       'Ranger',
       'Duelist',
       'Marauder',
-      'Templar'
-    ]
+      'Templar',
+    ],
   },
   {
     name: 'Trap and Mine Damage Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/3d/Trap_and_Mine_Damage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20160406111110',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/3d/Trap_and_Mine_Damage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20160406111110',
     socketColor: 'G',
     questReward: 'Sharp and Cruel',
     questRewardClasses: ['Shadow'],
@@ -2133,80 +2277,87 @@ export const gemData = [
       'Shadow',
       'Ranger',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Nightblade Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b9/Nightblade_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205641',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b9/Nightblade_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190906205641',
     socketColor: 'G',
     questReward: 'Sharp and Cruel',
     questRewardClasses: ['Shadow'],
     vendor: 'Yeena',
-    vendorClasses: ['Shadow', 'Ranger', 'Scion', 'Shadow', 'Ranger', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Scion', 'Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Pierce Support',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/32/Pierce_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162344',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/32/Pierce_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162344',
     socketColor: 'G',
     questReward: 'Mercy Mission',
     questRewardClasses: ['Shadow', 'Duelist', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Ranger', 'Shadow', 'Duelist', 'Scion']
+    vendorClasses: ['Ranger', 'Shadow', 'Duelist', 'Scion'],
   },
   {
     name: 'Mirage Archer Support',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b0/Mirage_Archer_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20171208113246',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b0/Mirage_Archer_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20171208113246',
     socketColor: 'G',
     questReward: 'Mercy Mission',
     questRewardClasses: ['Ranger', 'Duelist'],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Multiple Traps Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a2/Multiple_Traps_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130925082451',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a2/Multiple_Traps_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130925082451',
     socketColor: 'G',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Shadow'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Lesser Multiple Projectiles Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c6/Lesser_Multiple_Projectiles_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162314',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c6/Lesser_Multiple_Projectiles_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162314',
     socketColor: 'G',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Mana Leech Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/ea/Mana_Leech_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162320',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/ea/Mana_Leech_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162320',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Greater Volley Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/3a/Greater_Volley_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20191213185056',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/3a/Greater_Volley_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20191213185056',
     socketColor: 'G',
     questReward: 'The Eternal Nightmare',
     questRewardClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
@@ -2218,76 +2369,75 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Ice Bite Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e2/Ice_Bite_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20150707194255',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e2/Ice_Bite_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20150707194255',
     socketColor: 'G',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Shadow', 'Ranger', 'Scion'],
     vendor: 'Clarissa',
-    vendorClasses: [
-      'Witch',
-      'Shadow',
-      'Ranger',
-      'Duelist',
-      'Templar',
-      'Scion'
-    ]
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Duelist', 'Templar', 'Scion'],
   },
   {
     name: 'Impale Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c0/Impale_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180848',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c0/Impale_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180848',
     socketColor: 'G',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Ranger', 'Duelist', 'Marauder'],
     vendor: 'Clarissa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder', 'Scion'],
   },
   {
     name: 'Fork Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/38/Fork_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180833',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/38/Fork_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180833',
     socketColor: 'G',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Ranger'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Hypothermia Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/62/Hypothermia_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20150707194136',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/62/Hypothermia_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20150707194136',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Faster Projectiles Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/97/Faster_Projectiles_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180829',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/97/Faster_Projectiles_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180829',
     socketColor: 'G',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Shadow'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Faster Attacks Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/21/Faster_Attacks_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180824',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/21/Faster_Attacks_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180824',
     socketColor: 'G',
     questReward: 'Sharp and Cruel',
     questRewardClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder', 'Scion'],
@@ -2304,14 +2454,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Greater Multiple Projectiles Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d2/Greater_Multiple_Projectiles_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180844',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d2/Greater_Multiple_Projectiles_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180844',
     socketColor: 'G',
     questReward: 'The Eternal Nightmare',
     questRewardClasses: [
@@ -2321,7 +2472,7 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
+      'Scion',
     ],
     vendor: 'Petarus and Vanja',
     vendorClasses: [
@@ -2331,124 +2482,135 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Culling Strike Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/cf/Culling_Strike_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180806',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/cf/Culling_Strike_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180806',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Enhance Support',
     gemCostUnit: 'Divine Orb',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/78/Enhance_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20131113134315',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/78/Enhance_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20131113134315',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Deadly Ailments Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/31/Deadly_Ailments_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100413',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/31/Deadly_Ailments_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100413',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Cold Penetration Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/6a/Cold_Penetration_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180759',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/6a/Cold_Penetration_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180759',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Critical Strike Affliction Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/14/Critical_Strike_Affliction_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20151211232220',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/14/Critical_Strike_Affliction_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20151211232220',
     socketColor: 'G',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Shadow', 'Ranger'],
     vendor: 'Clarissa',
-    vendorClasses: ['Shadow', 'Ranger', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Close Combat Support',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/5a/Close_Combat_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180756',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/5a/Close_Combat_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180756',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Cluster Traps Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/71/Cluster_Traps_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20160307140516',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/71/Cluster_Traps_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20160307140516',
     socketColor: 'G',
     questReward: 'The Eternal Nightmare',
     questRewardClasses: ['Shadow'],
     vendor: 'Petarus and Vanja',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Chain Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/49/Chain_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180753',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/49/Chain_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180753',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Cast On Critical Strike Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/29/Cast_On_Critical_Strike_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180743',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/29/Cast_On_Critical_Strike_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180743',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Charged Traps Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/7d/Charged_Traps_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20180608063919',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/7d/Charged_Traps_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20180608063919',
     socketColor: 'G',
     questReward: 'A Fixture of Fate',
     questRewardClasses: ['Shadow'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Scion'],
   },
   {
     name: 'Cast on Death Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b6/Cast_on_Death_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20131024002657',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b6/Cast_on_Death_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20131024002657',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
@@ -2460,91 +2622,99 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Chance to Poison Support',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/91/Chance_to_Poison_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100506',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/91/Chance_to_Poison_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100506',
     socketColor: 'G',
     questReward: 'Mercy Mission',
     questRewardClasses: ['Witch', 'Ranger', 'Duelist', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Chance to Flee Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b9/Chance_to_Flee_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180754',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b9/Chance_to_Flee_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180754',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder', 'Scion'],
   },
   {
     name: 'Blind Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/96/Blind_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180734',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/96/Blind_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20190607180734',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Barrage Support',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/4c/Barrage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20191213185054',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/4c/Barrage_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20191213185054',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Arrow Nova Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/ee/Arrow_Nova_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20191213184946',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/ee/Arrow_Nova_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20191213184946',
     socketColor: 'G',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Ranger'],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Purifying Flame',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/19/Purifying_Flame_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/19/Purifying_Flame_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Templar'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Advanced Traps Support',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/5d/Advanced_Traps_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20160310160150',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/5d/Advanced_Traps_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20160310160150',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Pyroclast Mine',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/7b/Pyroclast_Mine_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/7b/Pyroclast_Mine_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Shadow'],
@@ -2556,25 +2726,27 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Purity of Lightning',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e7/Purity_of_Lightning_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e7/Purity_of_Lightning_inventory_icon.png',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Penance Brand',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/82/Penance_Brand_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/82/Penance_Brand_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Witch', 'Templar'],
@@ -2586,36 +2758,39 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Power Siphon',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/52/Power_Siphon_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/52/Power_Siphon_inventory_icon.png',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Scion'],
   },
   {
     name: 'Additional Accuracy Support',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/05/Additional_Accuracy_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162148',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/05/Additional_Accuracy_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20130626162148',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Purity of Elements',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/59/Purity_of_Elements_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/59/Purity_of_Elements_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Lost in Love',
     questRewardClasses: ['Witch'],
@@ -2627,58 +2802,63 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Lightning Warp',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/da/Lightning_Warp_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/da/Lightning_Warp_inventory_icon.png',
     socketColor: 'G',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Witch'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Orb of Storms',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/84/Orb_of_Storms_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/84/Orb_of_Storms_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Breaking Some Eggs',
     questRewardClasses: ['Witch', 'Shadow'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Malevolence',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/24/Malevolence_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/24/Malevolence_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Lost in Love',
     questRewardClasses: ['Witch', 'Shadow', 'Scion'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Lightning Trap',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/17/Lightning_Trap_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/17/Lightning_Trap_inventory_icon.png',
     socketColor: 'G',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Shadow'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Lightning Spire Trap',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/91/Lightning_Spire_Trap_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/91/Lightning_Spire_Trap_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Shadow'],
@@ -2690,80 +2870,87 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Lightning Tendrils',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/2d/Lightning_Tendrils_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/2d/Lightning_Tendrils_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Witch', 'Templar', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Ice Nova',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/33/Ice_Nova_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/33/Ice_Nova_inventory_icon.png',
     socketColor: 'G',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Incinerate',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/ae/Incinerate_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/ae/Incinerate_inventory_icon.png',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Hydrosphere',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/83/Hydrosphere_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/83/Hydrosphere_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Breaking the Seal',
     questRewardClasses: ['Witch', 'Shadow', 'Templar'],
     vendor: 'Petarus and Vanja',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Ice Spear',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f2/Ice_Spear_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f2/Ice_Spear_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Hexblast',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/bf/Hexblast_inventory_icon.png',
-    socketColor: 'W',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/bf/Hexblast_inventory_icon.png',
+    socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Kinetic Blast',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0c/Kinetic_Blast_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0c/Kinetic_Blast_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Witch'],
@@ -2775,36 +2962,39 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Kinetic Bolt',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/19/Kinetic_Bolt_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/19/Kinetic_Bolt_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Witch'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Icicle Mine',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1f/Icicle_Mine_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1f/Icicle_Mine_inventory_icon.png',
     socketColor: 'G',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Shadow'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Glacial Cascade',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/db/Glacial_Cascade_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/db/Glacial_Cascade_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Witch'],
@@ -2816,25 +3006,27 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Frostbolt',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d3/Frostbolt_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d3/Frostbolt_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Templar'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Herald of Thunder',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/7b/Herald_of_Thunder_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/7b/Herald_of_Thunder_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Intruders in Black',
     questRewardClasses: [
@@ -2844,7 +3036,7 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
+      'Scion',
     ],
     vendor: 'Yeena',
     vendorClasses: [
@@ -2854,14 +3046,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Frostblink',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/ec/Frostblink_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/ec/Frostblink_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Breaking Some Eggs',
     questRewardClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
@@ -2873,102 +3066,111 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Flesh Offering',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d7/Flesh_Offering_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d7/Flesh_Offering_inventory_icon.png',
     socketColor: 'B',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Witch'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Templar', 'Scion'],
   },
   {
     name: 'Freezing Pulse',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/87/Freezing_Pulse_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/87/Freezing_Pulse_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Witch', 'Shadow'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar']
+    vendorClasses: ['Witch', 'Shadow', 'Templar'],
   },
   {
     name: 'Frostbite',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1c/Frostbite_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1c/Frostbite_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Lost in Love',
     questRewardClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Frost Shield',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/ec/Frost_Shield_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/ec/Frost_Shield_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Frost Bomb',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a6/Frost_Bomb_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a6/Frost_Bomb_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Breaking Some Eggs',
     questRewardClasses: ['Witch', 'Templar', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Flammability',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/16/Flammability_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/16/Flammability_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Lost in Love',
     questRewardClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Flame Surge',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/fe/Flame_Surge_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/fe/Flame_Surge_inventory_icon.png',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Frost Wall',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/22/Frost_Wall_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/22/Frost_Wall_inventory_icon.png',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Duelist', 'Templar']
+    vendorClasses: ['Witch', 'Duelist', 'Templar'],
   },
   {
     name: 'Flameblast',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/22/Flameblast_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/22/Flameblast_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Witch', 'Templar', 'Scion'],
@@ -2980,36 +3182,39 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Flame Wall',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/25/Flame_Wall_inventory_icon.png',
-    socketColor: 'W',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/25/Flame_Wall_inventory_icon.png',
+    socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Flame Dash',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/55/Flame_Dash_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/55/Flame_Dash_inventory_icon.png',
     socketColor: 'B',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Firestorm',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/35/Firestorm_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/35/Firestorm_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Witch', 'Templar'],
@@ -3021,47 +3226,51 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Enfeeble',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/01/Enfeeble_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/01/Enfeeble_inventory_icon.png',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Elemental Weakness',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D',
+    image:
+      'data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Discipline',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b2/Discipline_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b2/Discipline_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Lost in Love',
     questRewardClasses: ['Witch'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Discharge',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/83/Discharge_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/83/Discharge_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
@@ -3073,25 +3282,27 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Fireball',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b2/Fireball_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b2/Fireball_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Divine Ire',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1b/Divine_Ire_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1b/Divine_Ire_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Templar', 'Scion'],
@@ -3103,43 +3314,39 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Essence Drain',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9e/Essence_Drain_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9e/Essence_Drain_inventory_icon.png',
     socketColor: 'G',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Witch', 'Shadow'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Despair',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/48/Despair_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/48/Despair_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Lost in Love',
     questRewardClasses: ['Witch', 'Shadow', 'Ranger'],
     vendor: 'Clarissa',
-    vendorClasses: [
-      'Witch',
-      'Shadow',
-      'Ranger',
-      'Duelist',
-      'Templar',
-      'Scion'
-    ]
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Duelist', 'Templar', 'Scion'],
   },
   {
     name: 'Dark Pact',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/21/Dark_Pact_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/21/Dark_Pact_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Witch'],
@@ -3151,168 +3358,183 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Creeping Frost',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c7/Creeping_Frost_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c7/Creeping_Frost_inventory_icon.png',
     socketColor: 'G',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Witch'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Crackling Lance',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/48/Crackling_Lance_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/48/Crackling_Lance_inventory_icon.png',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Brand Recall',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/ac/Brand_Recall_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/ac/Brand_Recall_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Intruders in Black',
     questRewardClasses: ['Witch', 'Templar'],
     vendor: 'Yeena',
-    vendorClasses: ['Witch', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Bone Offering',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9f/Bone_Offering_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9f/Bone_Offering_inventory_icon.png',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Templar', 'Scion'],
   },
   {
     name: 'Clarity',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/09/Clarity_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/09/Clarity_inventory_icon.png',
     socketColor: 'R',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Witch', 'Shadow', 'Templar'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar']
+    vendorClasses: ['Witch', 'Shadow', 'Templar'],
   },
   {
     name: 'Conversion Trap',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/88/Conversion_Trap_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/88/Conversion_Trap_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Conductivity',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/36/Conductivity_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/36/Conductivity_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Lost in Love',
     questRewardClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Contagion',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/5b/Contagion_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/5b/Contagion_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Breaking Some Eggs',
     questRewardClasses: ['Witch', 'Shadow'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Convocation',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/95/Convocation_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/95/Convocation_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Lost in Love',
     questRewardClasses: ['Witch'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Templar', 'Scion'],
   },
   {
     name: 'Bodyswap',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1e/Bodyswap_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1e/Bodyswap_inventory_icon.png',
     socketColor: 'B',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Witch'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion'],
   },
   {
     name: 'Blazing Salvo',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c0/Blazing_Salvo_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c0/Blazing_Salvo_inventory_icon.png',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Cold Snap',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d1/Cold_Snap_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d1/Cold_Snap_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Intruders in Black',
     questRewardClasses: ['Witch', 'Shadow'],
     vendor: 'Yeena',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion'],
   },
   {
     name: 'Blight',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/13/Blight_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/13/Blight_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Witch', 'Shadow'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'Bane',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c9/Bane_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c9/Bane_inventory_icon.png',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Ball Lightning',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e4/Ball_Lightning_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e4/Ball_Lightning_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Witch', 'Shadow'],
@@ -3324,91 +3546,99 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Arc',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/71/Arc_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/71/Arc_inventory_icon.png',
     socketColor: 'G',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Witch'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Templar']
+    vendorClasses: ['Witch', 'Shadow', 'Templar'],
   },
   {
     name: 'Arcane Cloak',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/85/Arcane_Cloak_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/85/Arcane_Cloak_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Intruders in Black',
     questRewardClasses: ['Witch', 'Shadow', 'Templar'],
     vendor: 'Yeena',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
-    name: 'Warlord%27s Mark',
+    name: "Warlord's Mark",
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a1/Warlord%27s_Mark_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a1/Warlord%27s_Mark_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Lost in Love',
     questRewardClasses: ['Duelist', 'Marauder', 'Templar'],
     vendor: 'Clarissa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar'],
   },
   {
     name: 'Vulnerability',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/7c/Vulnerability_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/7c/Vulnerability_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Lost in Love',
     questRewardClasses: ['Duelist', 'Marauder'],
     vendor: 'Clarissa',
-    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Scion']
+    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Scion'],
   },
   {
     name: 'Arcanist Brand',
     gemCostUnit: 'Orb of Alchemy',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/ff/Arcanist_Brand_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/ff/Arcanist_Brand_inventory_icon.png',
     socketColor: 'G',
     questReward: 'The Eternal Nightmare',
     questRewardClasses: ['Witch', 'Templar'],
     vendor: 'Petarus and Vanja',
-    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Templar', 'Scion'],
   },
   {
     name: 'War Banner',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/91/War_Banner_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/91/War_Banner_inventory_icon.png',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
-    name: 'Assassin%27s Mark',
+    name: "Assassin's Mark",
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e2/Assassin%27s_Mark_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e2/Assassin%27s_Mark_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Lost in Love',
     questRewardClasses: ['Shadow'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger'],
   },
   {
     name: 'Armageddon Brand',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/90/Armageddon_Brand_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/90/Armageddon_Brand_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Witch', 'Templar'],
@@ -3420,14 +3650,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Vitality',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c5/Vitality_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c5/Vitality_inventory_icon.png',
     socketColor: 'R',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Duelist', 'Marauder', 'Templar'],
@@ -3439,14 +3670,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Tectonic Slam',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/ad/Tectonic_Slam_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/ad/Tectonic_Slam_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Marauder', 'Scion'],
@@ -3458,69 +3690,75 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Vengeance',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/41/Vengeance_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/41/Vengeance_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Lost in Love',
     questRewardClasses: ['Marauder'],
     vendor: 'Clarissa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar'],
   },
   {
     name: 'Vigilant Strike',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b1/Vigilant_Strike_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b1/Vigilant_Strike_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Breaking Some Eggs',
     questRewardClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Sunder',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/2c/Sunder_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/2c/Sunder_inventory_icon.png',
     socketColor: 'R',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Marauder'],
     vendor: 'Nessa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Sweep',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/ff/Sweep_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/ff/Sweep_inventory_icon.png',
     socketColor: 'R',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Duelist', 'Marauder'],
     vendor: 'Nessa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar'],
   },
   {
     name: 'Splitting Steel',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/61/Splitting_Steel_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/61/Splitting_Steel_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Duelist', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Summon Flame Golem',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/42/Summon_Flame_Golem_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/42/Summon_Flame_Golem_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Breaking the Seal',
     questRewardClasses: [
@@ -3530,7 +3768,7 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
+      'Scion',
     ],
     vendor: 'Petarus and Vanja',
     vendorClasses: [
@@ -3540,14 +3778,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Summon Stone Golem',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9c/Summon_Stone_Golem_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9c/Summon_Stone_Golem_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Breaking the Seal',
     questRewardClasses: [
@@ -3557,7 +3796,7 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
+      'Scion',
     ],
     vendor: 'Petarus and Vanja',
     vendorClasses: [
@@ -3567,14 +3806,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Steelskin',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/dd/Steelskin_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/dd/Steelskin_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Breaking Some Eggs',
     questRewardClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
@@ -3586,36 +3826,39 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Static Strike',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/05/Static_Strike_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/05/Static_Strike_inventory_icon.png',
     socketColor: 'G',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Marauder', 'Templar', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Shield Charge',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/de/Shield_Charge_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/de/Shield_Charge_inventory_icon.png',
     socketColor: 'R',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Marauder'],
     vendor: 'Nessa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar'],
   },
   {
     name: 'Shockwave Totem',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/eb/Shockwave_Totem_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/eb/Shockwave_Totem_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Templar'],
@@ -3627,124 +3870,135 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Smite',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/31/Smite_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/31/Smite_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Templar'],
     vendor: 'Nessa',
-    vendorClasses: ['Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Seismic Cry',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/00/Seismic_Cry_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/00/Seismic_Cry_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Intruders in Black',
     questRewardClasses: ['Duelist', 'Marauder'],
     vendor: 'Yeena',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Searing Bond',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/34/Searing_Bond_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/34/Searing_Bond_inventory_icon.png',
     socketColor: 'R',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Templar'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Marauder', 'Templar']
+    vendorClasses: ['Witch', 'Marauder', 'Templar'],
   },
   {
     name: 'Rejuvenation Totem',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f3/Rejuvenation_Totem_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f3/Rejuvenation_Totem_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Reckoning',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/ed/Reckoning_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/ed/Reckoning_inventory_icon.png',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar'],
   },
   {
     name: 'Punishment',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/6b/Punishment_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/6b/Punishment_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Lost in Love',
     questRewardClasses: ['Duelist', 'Marauder'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Purity of Fire',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/78/Purity_of_Fire_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/78/Purity_of_Fire_inventory_icon.png',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Clarissa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Petrified Blood',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/dd/Petrified_Blood_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/dd/Petrified_Blood_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Lost in Love',
     questRewardClasses: ['Ranger', 'Duelist', 'Scion'],
     vendor: 'Clarissa',
-    vendorClasses: ['Templar']
+    vendorClasses: ['Templar'],
   },
   {
     name: 'Reap',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e2/Reap_inventory_icon.png',
-    socketColor: 'W',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e2/Reap_inventory_icon.png',
+    socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Rallying Cry',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/19/Rallying_Cry_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/19/Rallying_Cry_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Lost in Love',
     questRewardClasses: ['Duelist'],
     vendor: 'Clarissa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Pride',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/49/Pride_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/49/Pride_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Lost in Love',
     questRewardClasses: ['Duelist', 'Marauder'],
@@ -3756,102 +4010,111 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Perforate',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0e/Perforate_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0e/Perforate_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Duelist'],
     vendor: 'Nessa',
-    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Scion']
+    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Scion'],
   },
   {
     name: 'Molten Strike',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c1/Molten_Strike_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c1/Molten_Strike_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Molten Shell',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/cb/Molten_Shell_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/cb/Molten_Shell_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Breaking Some Eggs',
     questRewardClasses: ['Marauder'],
     vendor: 'Nessa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Intimidating Cry',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d2/Intimidating_Cry_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d2/Intimidating_Cry_inventory_icon.png',
     socketColor: 'R',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Duelist', 'Marauder'],
     vendor: 'Nessa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Leap Slam',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/76/Leap_Slam_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/76/Leap_Slam_inventory_icon.png',
     socketColor: 'G',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Holy Flame Totem',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0e/Holy_Flame_Totem_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/0e/Holy_Flame_Totem_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Breaking Some Eggs',
     questRewardClasses: ['Templar'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Marauder', 'Templar']
+    vendorClasses: ['Witch', 'Marauder', 'Templar'],
   },
   {
     name: 'Immortal Call',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/8e/Immortal_Call_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/8e/Immortal_Call_inventory_icon.png',
     socketColor: 'B',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Petarus and Vanja',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Herald of Purity',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/39/Herald_of_Purity_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/39/Herald_of_Purity_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Intruders in Black',
     questRewardClasses: ['Templar'],
     vendor: 'Yeena',
-    vendorClasses: ['Witch', 'Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Consecrated Path',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/04/Consecrated_Path_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/04/Consecrated_Path_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Templar'],
@@ -3863,47 +4126,51 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Infernal Blow',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a8/Infernal_Blow_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a8/Infernal_Blow_inventory_icon.png',
     socketColor: 'R',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Marauder'],
     vendor: 'Nessa',
-    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Infernal Cry',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/56/Infernal_Cry_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/56/Infernal_Cry_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Lost in Love',
     questRewardClasses: ['Marauder'],
     vendor: 'Clarissa',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Cleave',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/74/Cleave_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/74/Cleave_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Duelist'],
     vendor: 'Nessa',
-    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Scion']
+    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Scion'],
   },
   {
     name: 'Ice Crash',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/aa/Ice_Crash_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/aa/Ice_Crash_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Duelist', 'Marauder', 'Templar'],
@@ -3915,69 +4182,75 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Decoy Totem',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f1/Decoy_Totem_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f1/Decoy_Totem_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Breaking Some Eggs',
     questRewardClasses: ['Duelist', 'Marauder', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Chain Hook',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/cf/Chain_Hook_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/cf/Chain_Hook_inventory_icon.png',
     socketColor: 'R',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Marauder'],
     vendor: 'Nessa',
-    vendorClasses: ['Duelist', 'Marauder', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Scion'],
   },
   {
     name: 'Anger',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/16/Anger_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/16/Anger_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Lost in Love',
     questRewardClasses: ['Marauder', 'Scion'],
     vendor: 'Clarissa',
-    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Ancestral Cry',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/38/Ancestral_Cry_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/38/Ancestral_Cry_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Intruders in Black',
     questRewardClasses: ['Duelist', 'Marauder'],
     vendor: 'Yeena',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Ancestral Warchief',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f4/Ancestral_Warchief_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f4/Ancestral_Warchief_inventory_icon.png',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Bladestorm',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/28/Bladestorm_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/28/Bladestorm_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Duelist'],
@@ -3989,58 +4262,63 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Withering Step',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/20/Withering_Step_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/20/Withering_Step_inventory_icon.png',
     socketColor: 'G',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Shadow', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Berserk',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/07/Berserk_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/07/Berserk_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Breaking the Seal',
     questRewardClasses: ['Marauder'],
     vendor: 'Petarus and Vanja',
-    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion']
+    vendorClasses: ['Duelist', 'Marauder', 'Templar', 'Scion'],
   },
   {
     name: 'Blood and Sand',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/6e/Blood_and_Sand_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/6e/Blood_and_Sand_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Breaking Some Eggs',
     questRewardClasses: ['Duelist'],
     vendor: 'Nessa',
-    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Scion']
+    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Scion'],
   },
   {
     name: 'Ancestral Protector',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f2/Ancestral_Protector_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f2/Ancestral_Protector_inventory_icon.png',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Animate Guardian',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/97/Animate_Guardian_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/97/Animate_Guardian_inventory_icon.png',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
@@ -4052,91 +4330,99 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Wild Strike',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/4d/Wild_Strike_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/4d/Wild_Strike_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Venom Gyre',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/19/Venom_Gyre_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/19/Venom_Gyre_inventory_icon.png',
     socketColor: 'G',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Shadow'],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Whirling Blades',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/82/Whirling_Blades_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/82/Whirling_Blades_inventory_icon.png',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Toxic Rain',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/bb/Toxic_Rain_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/bb/Toxic_Rain_inventory_icon.png',
     socketColor: 'G',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Ranger'],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Volatile Dead',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1e/Volatile_Dead_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1e/Volatile_Dead_inventory_icon.png',
     socketColor: 'G',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Witch', 'Shadow'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion'],
   },
   {
     name: 'Unearth',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a3/Unearth_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a3/Unearth_inventory_icon.png',
     socketColor: 'G',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Shadow'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion'],
   },
   {
     name: 'Viper Strike',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/4c/Viper_Strike_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/4c/Viper_Strike_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Tornado Shot',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/26/Tornado_Shot_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/2/26/Tornado_Shot_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Ranger', 'Scion'],
@@ -4148,25 +4434,27 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Temporal Chains',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9c/Temporal_Chains_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9c/Temporal_Chains_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Lost in Love',
     questRewardClasses: ['Witch', 'Shadow', 'Scion'],
     vendor: 'Clarissa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Summon Ice Golem',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a1/Summon_Ice_Golem_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a1/Summon_Ice_Golem_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Breaking the Seal',
     questRewardClasses: [
@@ -4176,7 +4464,7 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
+      'Scion',
     ],
     vendor: 'Petarus and Vanja',
     vendorClasses: [
@@ -4186,16 +4474,17 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Spectral Shield Throw',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/41/Spectral_Shield_Throw_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/41/Spectral_Shield_Throw_inventory_icon.png',
     socketColor: 'R',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Duelist', 'Marauder'],
     vendor: 'Nessa',
     vendorClasses: [
@@ -4204,36 +4493,39 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Split Arrow',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/fc/Split_Arrow_inventory_icon.png',
-    socketColor: 'W',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/fc/Split_Arrow_inventory_icon.png',
+    socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
-    name: 'Sniper%27s Mark',
+    name: "Sniper's Mark",
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/30/Sniper%27s_Mark_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/30/Sniper%27s_Mark_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Lost in Love',
     questRewardClasses: ['Ranger'],
     vendor: 'Clarissa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist'],
   },
   {
     name: 'Spectral Throw',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b6/Spectral_Throw_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b6/Spectral_Throw_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
@@ -4244,25 +4536,27 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Smoke Mine',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a0/Smoke_Mine_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a0/Smoke_Mine_inventory_icon.png',
     socketColor: 'R',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Shadow', 'Ranger'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Duelist', 'Marauder']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Duelist', 'Marauder'],
   },
   {
     name: 'Seismic Trap',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/6e/Seismic_Trap_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/6e/Seismic_Trap_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Shadow'],
@@ -4274,69 +4568,75 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Rain of Arrows',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9a/Rain_of_Arrows_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9a/Rain_of_Arrows_inventory_icon.png',
     socketColor: 'G',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Ranger', 'Duelist', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Shrapnel Ballista',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/55/Shrapnel_Ballista_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/55/Shrapnel_Ballista_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Breaking Some Eggs',
     questRewardClasses: ['Ranger'],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder', 'Scion'],
   },
   {
     name: 'Siege Ballista',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f2/Siege_Ballista_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f2/Siege_Ballista_inventory_icon.png',
     socketColor: 'G',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Ranger'],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Shattering Steel',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/57/Shattering_Steel_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/57/Shattering_Steel_inventory_icon.png',
     socketColor: 'R',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Duelist'],
     vendor: 'Nessa',
-    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Scion']
+    vendorClasses: ['Ranger', 'Duelist', 'Marauder', 'Scion'],
   },
   {
     name: 'Riposte',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/00/Riposte_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/00/Riposte_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Breaking Some Eggs',
     questRewardClasses: ['Shadow', 'Ranger'],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder'],
   },
   {
     name: 'Scourge Arrow',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/38/Scourge_Arrow_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/38/Scourge_Arrow_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Ranger'],
@@ -4348,91 +4648,99 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Purity of Ice',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/4c/Purity_of_Ice_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/4c/Purity_of_Ice_inventory_icon.png',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Clarissa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Reave',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e1/Reave_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e1/Reave_inventory_icon.png',
     socketColor: 'G',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Shadow', 'Ranger'],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist'],
   },
   {
     name: 'Precision',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/72/Precision_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/72/Precision_inventory_icon.png',
     socketColor: 'G',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Ranger', 'Duelist'],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder', 'Scion'],
   },
   {
     name: 'Phase Run',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9b/Phase_Run_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9b/Phase_Run_inventory_icon.png',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Petarus and Vanja',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Puncture',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/cc/Puncture_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/cc/Puncture_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Breaking Some Eggs',
     questRewardClasses: ['Ranger', 'Duelist'],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist'],
   },
   {
-    name: 'Poacher%27s Mark',
+    name: "Poacher's Mark",
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d6/Poacher%27s_Mark_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d6/Poacher%27s_Mark_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Lost in Love',
     questRewardClasses: ['Ranger', 'Duelist'],
     vendor: 'Clarissa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist'],
   },
   {
     name: 'Plague Bearer',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/83/Plague_Bearer_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/83/Plague_Bearer_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Lost in Love',
     questRewardClasses: ['Shadow'],
     vendor: 'Yeena',
-    vendorClasses: ['Duelist']
+    vendorClasses: ['Duelist'],
   },
   {
     name: 'Mirror Arrow',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/8a/Mirror_Arrow_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/8a/Mirror_Arrow_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
@@ -4444,14 +4752,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Pestilent Strike',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/66/Pestilent_Strike_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/66/Pestilent_Strike_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Shadow'],
@@ -4463,36 +4772,39 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Lightning Arrow',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9e/Lightning_Arrow_inventory_icon.png',
-    socketColor: 'W',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9e/Lightning_Arrow_inventory_icon.png',
+    socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Lightning Strike',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/bc/Lightning_Strike_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/bc/Lightning_Strike_inventory_icon.png',
     socketColor: 'G',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Ranger'],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Templar', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Templar', 'Scion'],
   },
   {
     name: 'Ice Trap',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/4c/Ice_Trap_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/4c/Ice_Trap_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
@@ -4504,16 +4816,17 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Lacerate',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b9/Lacerate_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b9/Lacerate_inventory_icon.png',
     socketColor: 'R',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Duelist'],
     vendor: 'Nessa',
     vendorClasses: [
@@ -4522,14 +4835,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Lancing Steel',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/98/Lancing_Steel_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/98/Lancing_Steel_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Duelist'],
@@ -4541,14 +4855,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Herald of Ice',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e7/Herald_of_Ice_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/e/e7/Herald_of_Ice_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Intruders in Black',
     questRewardClasses: [
@@ -4558,7 +4873,7 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
+      'Scion',
     ],
     vendor: 'Yeena',
     vendorClasses: [
@@ -4568,36 +4883,39 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Ice Shot',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/08/Ice_Shot_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/08/Ice_Shot_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Ranger'],
     vendor: 'Nessa',
-    vendorClasses: ['Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Grace',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a5/Grace_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a5/Grace_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Lost in Love',
     questRewardClasses: ['Ranger', 'Duelist'],
     vendor: 'Clarissa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist'],
   },
   {
     name: 'Hatred',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/57/Hatred_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/57/Hatred_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Lost in Love',
     questRewardClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
@@ -4608,201 +4926,219 @@ export const gemData = [
       'Ranger',
       'Duelist',
       'Marauder',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Flicker Strike',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/3c/Flicker_Strike_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/3c/Flicker_Strike_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder', 'Scion'],
   },
   {
     name: 'Frost Blades',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/06/Frost_Blades_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/06/Frost_Blades_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Ranger'],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Galvanic Arrow',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/95/Galvanic_Arrow_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/95/Galvanic_Arrow_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Ranger', 'Duelist'],
     vendor: 'Nessa',
-    vendorClasses: ['Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Haste',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/06/Haste_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/06/Haste_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Clarissa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Frenzy',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/37/Frenzy_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/37/Frenzy_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Intruders in Black',
     questRewardClasses: ['Ranger', 'Duelist', 'Scion'],
     vendor: 'Yeena',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder', 'Scion'],
   },
   {
     name: 'Herald of Agony',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/fb/Herald_of_Agony_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/fb/Herald_of_Agony_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Intruders in Black',
     questRewardClasses: ['Shadow', 'Ranger'],
     vendor: 'Yeena',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Fire Trap',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/09/Fire_Trap_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/09/Fire_Trap_inventory_icon.png',
     socketColor: 'R',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Shadow'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Flamethrower Trap',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/57/Flamethrower_Trap_inventory_icon.png',
-    socketColor: 'W',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/5/57/Flamethrower_Trap_inventory_icon.png',
+    socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Explosive Arrow',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b6/Explosive_Arrow_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/b/b6/Explosive_Arrow_inventory_icon.png',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Elemental Hit',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d4/Elemental_Hit_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d4/Elemental_Hit_inventory_icon.png',
     socketColor: 'G',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Ranger'],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Explosive Trap',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a9/Explosive_Trap_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a9/Explosive_Trap_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Shadow'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Ethereal Knives',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/4a/Ethereal_Knives_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/4a/Ethereal_Knives_inventory_icon.png',
     socketColor: 'B',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Shadow'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Marauder']
+    vendorClasses: ['Witch', 'Shadow', 'Marauder'],
   },
   {
     name: 'Double Strike',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/8a/Double_Strike_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/8a/Double_Strike_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder', 'Scion'],
   },
   {
     name: 'Dual Strike',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/37/Dual_Strike_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/37/Dual_Strike_inventory_icon.png',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Marauder', 'Scion'],
   },
   {
     name: 'Ensnaring Arrow',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/6b/Ensnaring_Arrow_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/6b/Ensnaring_Arrow_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Intruders in Black',
     questRewardClasses: ['Ranger'],
     vendor: 'Yeena',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Desecrate',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/cb/Desecrate_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/cb/Desecrate_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Intruders in Black',
     questRewardClasses: ['Witch'],
     vendor: 'Yeena',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Templar', 'Scion'],
   },
   {
     name: 'Dash',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/65/Dash_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/65/Dash_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Cyclone',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/8d/Cyclone_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/8/8d/Cyclone_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Duelist', 'Marauder', 'Scion'],
@@ -4814,36 +5150,39 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Cobra Lash',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f0/Cobra_Lash_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f0/Cobra_Lash_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Shadow'],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Detonate Dead',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/31/Detonate_Dead_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/31/Detonate_Dead_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Breaking Some Eggs',
     questRewardClasses: ['Witch', 'Shadow'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger'],
   },
   {
     name: 'Cremation',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/ac/Cremation_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/ac/Cremation_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Witch', 'Shadow'],
@@ -4855,14 +5194,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Charged Dash',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a9/Charged_Dash_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/a/a9/Charged_Dash_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
@@ -4874,14 +5214,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Blast Rain',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/98/Blast_Rain_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/98/Blast_Rain_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Ranger', 'Duelist'],
@@ -4893,14 +5234,15 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Bladefall',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/30/Bladefall_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/30/Bladefall_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Shadow', 'Scion'],
@@ -4912,36 +5254,39 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Blink Arrow',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/49/Blink_Arrow_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/49/Blink_Arrow_inventory_icon.png',
     socketColor: 'G',
     questReward: 'The Caged Brute',
     questRewardClasses: ['Ranger', 'Duelist', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Burning Arrow',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/31/Burning_Arrow_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/3/31/Burning_Arrow_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Blade Flurry',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/df/Blade_Flurry_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/df/Blade_Flurry_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Sever the Right Hand',
     questRewardClasses: ['Shadow', 'Ranger', 'Scion'],
@@ -4953,102 +5298,103 @@ export const gemData = [
       'Duelist',
       'Marauder',
       'Templar',
-      'Scion'
-    ]
+      'Scion',
+    ],
   },
   {
     name: 'Caustic Arrow',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/6c/Caustic_Arrow_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/6/6c/Caustic_Arrow_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Ranger'],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Blade Blast',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1c/Blade_Blast_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/1c/Blade_Blast_inventory_icon.png',
     socketColor: 'R',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Blade Vortex',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/49/Blade_Vortex_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/49/Blade_Vortex_inventory_icon.png',
     socketColor: 'B',
-    questReward: 'The Siren%27s Cadence',
+    questReward: "The Siren's Cadence",
     questRewardClasses: ['Shadow', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion']
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Blood Rage',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f3/Blood_Rage_inventory_icon.png',
-    socketColor: 'W',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/f/f3/Blood_Rage_inventory_icon.png',
+    socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Barrage',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/7c/Barrage_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/7/7c/Barrage_inventory_icon.png',
     socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
   },
   {
     name: 'Bear Trap',
     gemCostUnit: 'Scroll of Wisdom',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d6/Bear_Trap_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/d/d6/Bear_Trap_inventory_icon.png',
     socketColor: 'G',
     questReward: 'Breaking Some Eggs',
     questRewardClasses: ['Shadow', 'Ranger', 'Scion'],
     vendor: 'Nessa',
-    vendorClasses: ['Shadow', 'Ranger', 'Marauder', 'Scion']
+    vendorClasses: ['Shadow', 'Ranger', 'Marauder', 'Scion'],
   },
   {
     name: 'Artillery Ballista',
     gemCostUnit: 'Orb of Chance',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/19/Artillery_Ballista_inventory_icon.png',
-    socketColor: 'W',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/1/19/Artillery_Ballista_inventory_icon.png',
+    socketColor: 'G',
     questReward: '',
     questRewardClasses: [],
     vendor: '',
-    vendorClasses: []
+    vendorClasses: [],
   },
   {
     name: 'Arctic Armour',
     gemCostUnit: 'Orb of Alteration',
     gemCostNumber: '1 ',
-    image: 'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/04/Arctic_Armour_inventory_icon.png',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/0/04/Arctic_Armour_inventory_icon.png',
     socketColor: 'R',
     questReward: 'Intruders in Black',
     questRewardClasses: ['Witch', 'Shadow', 'Ranger', 'Scion'],
     vendor: 'Yeena',
-    vendorClasses: [
-      'Witch',
-      'Shadow',
-      'Ranger',
-      'Duelist',
-      'Templar',
-      'Scion'
-    ]
-  }
+    vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Duelist', 'Templar', 'Scion'],
+  },
 ];
