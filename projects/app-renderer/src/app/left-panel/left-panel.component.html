@@ -17,6 +17,8 @@
         [links]="
           formatLinks(findGearPiece(currentStep?.gear, 'helmet')?.sockets)
         "
+        (newQuestUsed)="newQuestUsed($event)"
+        [questUsed]="questUsed | async"
       >
       </app-gear>
 
@@ -31,6 +33,8 @@
         [links]="
           formatLinks(findGearPiece(currentStep?.gear, 'gloves')?.sockets)
         "
+        (newQuestUsed)="newQuestUsed($event)"
+        [questUsed]="questUsed | async"
       >
       </app-gear>
 
@@ -45,6 +49,8 @@
         [links]="
           formatLinks(findGearPiece(currentStep?.gear, 'boots')?.sockets)
         "
+        (newQuestUsed)="newQuestUsed($event)"
+        [questUsed]="questUsed | async"
       >
       </app-gear>
     </div>
@@ -60,6 +66,8 @@
         [links]="
           formatLinks(findGearPiece(currentStep?.gear, 'body_armor')?.sockets)
         "
+        (newQuestUsed)="newQuestUsed($event)"
+        [questUsed]="questUsed | async"
       >
       </app-gear>
 
@@ -74,6 +82,8 @@
         [links]="
           formatLinks(findGearPiece(currentStep?.gear, 'two_handed')?.sockets)
         "
+        (newQuestUsed)="newQuestUsed($event)"
+        [questUsed]="questUsed | async"
       >
       </app-gear>
     </div>

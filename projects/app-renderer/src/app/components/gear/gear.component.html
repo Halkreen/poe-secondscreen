@@ -22,7 +22,9 @@
           {{ gem.gemName }}
         </p>
         <p
-          *ngIf="gem.isNew && !rewardSentence(gem.gemName)"
+          *ngIf="
+            gem.isNew && !rewardSentence(rewardsList, vendorList, gem.gemName)
+          "
           class="change active"
         >
           {{ gem.gemName }}
@@ -37,12 +39,16 @@
         </p>
 
         <div
-          *ngIf="gem.isNew && rewardSentence(gem.gemName)"
+          *ngIf="
+            gem.isNew && rewardSentence(rewardsList, vendorList, gem.gemName)
+          "
           class="change active new"
         >
           <div class="gem-name-block">
             <p class="gem-lines">{{ gem.gemName }}</p>
-            <p class="gem-sublines">{{ rewardSentence(gem.gemName) }}</p>
+            <p class="gem-sublines">
+              {{ rewardSentence(rewardsList, vendorList, gem.gemName) }}
+            </p>
           </div>
           <button
             mat-icon-button
