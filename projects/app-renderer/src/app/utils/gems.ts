@@ -1094,7 +1094,7 @@ export const gemData = [
     gemCostNumber: '1 ',
     image:
       'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/c/c1/Stormblast_Mine_inventory_icon.png',
-    socketColor: 'G',
+    socketColor: 'B',
     questReward: 'Enemy at the Gate',
     questRewardClasses: ['Shadow'],
     vendor: 'Nessa',
@@ -2345,6 +2345,18 @@ export const gemData = [
     questRewardClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
     vendor: 'Nessa',
     vendorClasses: ['Witch', 'Shadow', 'Ranger', 'Duelist', 'Scion'],
+  },
+  {
+    name: 'Lesser Poison Support',
+    gemCostUnit: 'Scroll of Wisdom',
+    gemCostNumber: '1 ',
+    image:
+      'https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/91/Chance_to_Poison_Support_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20170804100506',
+    socketColor: 'G',
+    questReward: 'Mercy Mission',
+    questRewardClasses: ['Witch', 'Ranger', 'Duelist', 'Scion'],
+    vendor: 'Nessa',
+    vendorClasses: ['Shadow', 'Ranger', 'Scion'],
   },
   {
     name: 'Mana Leech Support',

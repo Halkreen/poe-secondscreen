@@ -43,14 +43,16 @@ export class GearComponent implements OnChanges {
           gemdata.name
             .toLowerCase()
             .replace(/ /g, '')
-            .replace(/support/g, '')
-            // tslint:disable-next-line: quotemark
-            .replace('%27', "'") ===
+            .replace(/support/g, '') ===
           gem.gemName
             .toLowerCase()
             .replace(/ /g, '')
             .replace(/support/g, '')
       );
+
+      if (!gemAssociated) {
+        return;
+      }
 
       if (
         gemAssociated?.questRewardClasses.includes(className) &&
