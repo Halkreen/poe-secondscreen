@@ -111,6 +111,7 @@ Here's how the JSON should be organized, if you chose the leveling file way:
 Your PoB must respect a few rules to be able to be imported (see above pob screenshot) :
 
 - You need to separate your leveling gems with an empty socket group, named `levelX` where X is the minimum level requirement for the next gem groups. On the screenshot you can see 2 groups, in blue and green, once is valid from 1 - 10, the other from 10 to the end of leveling. The orange section determines where you should put the `levelX` label.
+- The first line of the gem groups part **MUST STARTS WITH** `level1`
 - You must have only **one tree** in the PoB tree section.
 - To keep the gem section clean, you should remove every active effect that behaves like a spell, or else they will count as a gem slot (Commandment of War is a relevant example above)
 
