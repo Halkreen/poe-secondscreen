@@ -135,8 +135,11 @@ export class PobService {
         skillGroup.querySelectorAll('Gem').forEach((gemNode) => {
           gemGroup.push(gemNode.getAttribute('nameSpec'));
           const socketColor = gemData.find(
-            (g) => g.name === gemNode.getAttribute('nameSpec')
+            (g) =>
+              g.name.replace(' Support', '') ===
+              gemNode.getAttribute('nameSpec').trim()
           )?.socketColor;
+
           if (socketColor) {
             socketColors = socketColors.concat(socketColor);
           } else {
