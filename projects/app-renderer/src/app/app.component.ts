@@ -113,7 +113,7 @@ export class AppComponent implements OnDestroy, OnInit, AfterViewInit {
     }
 
     if (data.passiveTree && data.passiveTree.length) {
-      this.treeService.setTree(data.passiveTree);
+      this.treeService.setTree(data.passiveTree, data.masteries);
       this.hasPassiveTree = true;
     } else {
       this.treeService.resetTree();

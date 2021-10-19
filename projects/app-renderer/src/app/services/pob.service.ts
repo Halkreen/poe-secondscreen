@@ -92,6 +92,18 @@ export class PobService {
       .split(',')
       .map((i) => parseInt(i, 10));
 
+    characterData.masteries = xml
+      .querySelector('Spec')
+      .getAttribute('masteryEffects')
+      .split('},{')
+      .map((s) =>
+        s
+          .replace('{', '')
+          .replace('}', '')
+          .split(',')
+          .map((m) => parseInt(m, 10))
+      );
+
     this.sendData(
       JSON.stringify(characterData),
       characterName,

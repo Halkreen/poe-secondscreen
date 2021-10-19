@@ -1,1 +1,9 @@
-<div [innerHtml]="svgContent"></div>
+<div class="passiveModalWrapper">
+  <div [innerHtml]="svgContent"></div>
+  <div>
+    <p class="masteryText" *ngFor="let mastery of masteryData">
+      <span class="dot" [style.background-color]="mastery.color"></span>
+      {{ mastery.masteryData }}
+    </p>
+  </div>
+</div>

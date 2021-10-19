@@ -7,4 +7,5 @@ export interface CharactersData {
   gearing: LevelingData[];
   itemsToLookFor?: ItemToLookFor[];
   passiveTree?: number[];
+  masteries?: number[][];
 }

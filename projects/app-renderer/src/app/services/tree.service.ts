@@ -10,6 +10,7 @@ import { CustomWindow } from 'my-api';
 export class TreeService {
   private window: CustomWindow;
   public tree = '';
+  public masteryData = [];
   public treeDisplayed = false;
 
   constructor(
@@ -26,7 +27,43 @@ export class TreeService {
     }
   }
 
-  public setTree(allocatedPoints: number[]): void {
+  public getMasteryDataFromTree(
+    nodeSkill: number,
+    masteryEffect: number
+  ): string {
+    const nodes = Object.entries(passiveTree.nodes as object)
+      .map((o) => o[1])
+      .filter((o) => !!o.skill);
+    return nodes
+      .find((n) => n.skill === nodeSkill)
+      .masteryEffects.find((m) => m.effect === masteryEffect)
+      .stats.join(', ');
+  }
+
+  public setTree(allocatedPoints: number[], masteries: number[][]): void {
+    const masteryColors = [
+      '#f44336',
+      '#e91e63',
+      '#9c27b0',
+      '#673ab7',
+      '#3f51b5',
+      '#2196f3',
+      '#03a9f4',
+      '#00bcd4',
+      '#009688',
+      '#4caf50',
+      '#8bc34a',
+      '#cddc39',
+      '#ffeb3b',
+      '#ffc107',
+      '#ff9800',
+      '#ff5722',
+      '#795548',
+      '#9e9e9e',
+      '#607d8b',
+    ];
+    let masteryColorIndex = 0;
+
     const computeAngle = (radius, x1, y1, x2, y2) => {
       if (radius === 0) {
         return 0;
@@ -164,6 +201,7 @@ export class TreeService {
                   y: Math.round(cy * 100) / 100,
                 },
                 orbit: node.orbit,
+                isMastery: !!node.isMastery,
               });
             }
           });
@@ -171,13 +209,36 @@ export class TreeService {
       });
 
     nodesCoordinates.forEach((node) => {
+      const fillColor = (nde) => {
+        if (!allocatedPoints.includes(nde.skill)) {
+          return 'rgba(0,0,0,0.3)';
+        }
+
+        if (!nde.isMastery) {
+          return 'rgba(253, 185, 80)';
+        }
+        masteryColorIndex++;
+
+        this.masteryData.push({
+          color: masteryColors[masteryColorIndex - 1],
+          masteryData: this.getMasteryDataFromTree(
+            nde.skill,
+            masteries.find((m) => m[0] === nde.skill)[1]
+          ),
+        });
+
+        return masteryColors[masteryColorIndex - 1];
+      };
+
+      const border =
+        node.isMastery && allocatedPoints.includes(node.skill)
+          ? 'stroke="white" stroke-width="1"'
+          : '';
+
       svg += `<circle cx="${node.x}" cy="${node.y}" r="${
         allocatedPoints.includes(node.skill) ? 2.5 : 1.5
-      }" fill="${
-        allocatedPoints.includes(node.skill)
-          ? 'rgba(253, 185, 80)'
-          : 'rgba(0,0,0,0.3)'
-      }" data-skill="${node.skill}" />`;
+      }" fill="${fillColor(node)}" data-skill="${node.skill}" ${border} />`;
+
       node.out.forEach((id: string) => {
         const outNode = nodesCoordinates.find(
           (nodeCoord) => parseInt(nodeCoord.skill, 10) === parseInt(id, 10)
@@ -244,13 +305,16 @@ export class TreeService {
   public resetTree(): void {
     this.tree = '';
     this.treeDisplayed = false;
+    this.masteryData = [];
   }
 
   private toggleTree(): void {
     this.zone.run(() => {
       if (this.tree.length > 0) {
         if (!this.treeDisplayed) {
-          this.dialog.open(PassiveModalComponent, { data: this.tree });
+          this.dialog.open(PassiveModalComponent, {
+            data: { tree: this.tree, mastery: this.masteryData },
+          });
           this.treeDisplayed = true;
         } else {
           this.dialog.closeAll();

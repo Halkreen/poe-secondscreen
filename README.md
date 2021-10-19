@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 It uses Electron as a way to make it desktop ready.
 
-Passive tree version: PoE version **3.15** (Expedition)
+Passive tree version: PoE version **3.16** (Scourge)
 
 # 🔍 Overview
 
@@ -23,7 +23,7 @@ How does it work :
 - Put the application window on your second screen
 - Play _PoE_
 - When you reach the next level threshold, the gems and link will change, **highlighting the new additions, and where they come from**. Use it to make the appropriate changes in your character !
-- If you use the PoB, `Ctrl + Alt + P` will show the final passive tree. If you don't have the PoB, you should have a step-by-step notable passives to pick up.
+- If you use the PoB, `Ctrl + Alt + P` will show the final passive tree, with masteries. If you don't have the PoB, you should have a step-by-step notable passives to pick up.
 - Enjoy your leveling !
 - (Optional) Use the _"Socket to look for"_ section if you want to have some notes about which item you should pick
 
@@ -127,6 +127,7 @@ Using `Ctrl + Alt + P` will open the simplified, undirected passive tree, which 
 
 - Import a `.json` file with proper structure to get started (see `exemples/vortex_occultist.json` for guidance)
 - Import a PoB file with proper structure to get started
+- The mastery system is now supported (PoB version: 2.10.0). This is an example of a working (yet VERY minimal) PoB: https://pastebin.com/5v7SDNWL
 - The leveling file is saved to a local storage after exiting the application.
 
 ## Levels
@@ -162,7 +163,7 @@ Start by fixing the possible errors here before opening an issue.
 
 Please open an issue if you find any bug in the application usage, along with reproduction steps.
 
-⚠️ **Don't forget to include your .json file, I can't debug and solve the issue other wise**⚠️
+⚠️ **Don't forget to include your .json file or PoB pastebin link, I can't debug and solve the issue otherwise**⚠️
 
 # 🤝 Contribution
 
