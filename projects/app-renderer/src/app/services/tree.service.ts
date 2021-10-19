@@ -45,33 +45,14 @@ export class TreeService {
         return 1;
       }
     };
-    const scale = 0.07;
+    const scale = 0.05;
 
-    const htmlBegin = `<svg width="${scale * 15000}" height="${
-      scale * 14000
+    const htmlBegin = `<svg width="${scale * 18000}" height="${
+      scale * 18000
     }">`;
     const htmlEnd = '</svg>';
 
     let svg = '';
-
-    const orbitMap = (n: number) => {
-      if (n === 0) {
-        return 1;
-      }
-      if (n === 1) {
-        return 6;
-      }
-      if (n === 2) {
-        return 12;
-      }
-      if (n === 3) {
-        return 12;
-      }
-      if (n === 4) {
-        return 40;
-      }
-      return null;
-    };
 
     const nodes = Object.entries(passiveTree.nodes as object)
       .map((o) => o[1])
@@ -93,15 +74,74 @@ export class TreeService {
         );
 
         if (nodesByGroup.length) {
-          const cx = (group.x + 7000) * scale;
-          const cy = (group.y + 7000) * scale;
-          const maxOrbit = Math.max(...group.orbits);
+          const cx = (group.x + 9000) * scale;
+          const cy = (group.y + 9000) * scale;
+          const maxOrbit = Math.abs(Math.max(...group.orbits));
           const r = maxOrbit * 100 * scale;
           nodesByGroup.forEach((node) => {
-            const maxPerimeter = orbitMap(node.orbit);
+            // const maxPerimeter = orbitMap(node.orbit);
             const orbitRatio = maxOrbit === 0 ? 0 : node.orbit / maxOrbit;
-            const index = node.orbitIndex;
-            const nodeDegrees = (index / maxPerimeter) * 2 * Math.PI;
+            // const index = node.orbitIndex;
+            // const nodeDegrees = (index / maxPerimeter) * 2 * Math.PI;
+
+            let nodeDegrees = 0;
+            const orbitMult = [
+              0,
+              Math.PI / 3,
+              Math.PI / 6,
+              Math.PI / 6,
+              Math.PI / 6,
+              Math.PI / 36,
+              Math.PI / 36,
+            ];
+            const orbitMultFull = [
+              0,
+              (10 * Math.PI) / 180,
+              (20 * Math.PI) / 180,
+              (30 * Math.PI) / 180,
+              (40 * Math.PI) / 180,
+              (45 * Math.PI) / 180,
+              (50 * Math.PI) / 180,
+              (60 * Math.PI) / 180,
+              (70 * Math.PI) / 180,
+              (80 * Math.PI) / 180,
+              (90 * Math.PI) / 180,
+              (100 * Math.PI) / 180,
+              (110 * Math.PI) / 180,
+              (120 * Math.PI) / 180,
+              (130 * Math.PI) / 180,
+              (135 * Math.PI) / 180,
+              (140 * Math.PI) / 180,
+              (150 * Math.PI) / 180,
+              (160 * Math.PI) / 180,
+              (170 * Math.PI) / 180,
+              (180 * Math.PI) / 180,
+              (190 * Math.PI) / 180,
+              (200 * Math.PI) / 180,
+              (210 * Math.PI) / 180,
+              (220 * Math.PI) / 180,
+              (225 * Math.PI) / 180,
+              (230 * Math.PI) / 180,
+              (240 * Math.PI) / 180,
+              (250 * Math.PI) / 180,
+              (260 * Math.PI) / 180,
+              (270 * Math.PI) / 180,
+              (280 * Math.PI) / 180,
+              (290 * Math.PI) / 180,
+              (300 * Math.PI) / 180,
+              (310 * Math.PI) / 180,
+              (315 * Math.PI) / 180,
+              (320 * Math.PI) / 180,
+              (330 * Math.PI) / 180,
+              (340 * Math.PI) / 180,
+              (350 * Math.PI) / 180,
+            ];
+            if (node.orbit !== 4) {
+              nodeDegrees = node.orbitIndex * orbitMult[node.orbit];
+            } else {
+              nodeDegrees = orbitMultFull[node.orbitIndex];
+            }
+
             if (
               !node.expansionJewel ||
               (node.name !== 'Medium Jewel Socket' &&
@@ -132,7 +172,7 @@ export class TreeService {
 
     nodesCoordinates.forEach((node) => {
       svg += `<circle cx="${node.x}" cy="${node.y}" r="${
-        allocatedPoints.includes(node.skill) ? 3 : 2
+        allocatedPoints.includes(node.skill) ? 2.5 : 1.5
       }" fill="${
         allocatedPoints.includes(node.skill)
           ? 'rgba(253, 185, 80)'
