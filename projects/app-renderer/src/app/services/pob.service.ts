@@ -224,6 +224,20 @@ export class PobService {
               sockets: [g.socketColors],
             });
             available4link[2].taken += g.gemNumber;
+          } else if (!available6link[0].taken) {
+            gear.push({
+              type: available6link[0].type,
+              gems: g.gemGroup,
+              sockets: [g.socketColors],
+            });
+            available6link[0].taken += g.gemNumber;
+          } else if (!available6link[1].taken) {
+            gear.push({
+              type: available6link[1].type,
+              gems: g.gemGroup,
+              sockets: [g.socketColors],
+            });
+            available6link[1].taken += g.gemNumber;
           }
         } else if (g.gemNumber <= 3) {
           if (available6link[0].taken <= g.gemNumber) {

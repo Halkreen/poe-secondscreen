@@ -162,7 +162,7 @@ export const gemData = [
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',
     image: 'https://poewiki.net/w/images/8/86/Exsanguinate_inventory_icon.png',
-    socketColor: 'G',
+    socketColor: 'R',
     questReward: "The Siren's Cadence",
     questRewardClasses: ['Scion'],
     vendor: 'Nessa',
