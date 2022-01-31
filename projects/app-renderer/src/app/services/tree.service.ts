@@ -82,6 +82,37 @@ export class TreeService {
         return 1;
       }
     };
+
+    const calculateOrbitAngles = (skillsPerOrbit) => {
+      const orbitAngles = [];
+      skillsPerOrbit.forEach((skillsInOrbit, orbit) => {
+        if (skillsInOrbit === 16) {
+          // Every 30 and 45 degrees, per https://github.com/grindinggear/skilltree-export/blob/3.17.0/README.md
+          orbitAngles[orbit] = [
+            0, 30, 45, 60, 90, 120, 135, 150, 180, 210, 225, 240, 270, 300, 315,
+            330,
+          ];
+        } else if (skillsInOrbit === 40) {
+          // Every 10 and 45 degrees
+          orbitAngles[orbit] = [
+            0, 10, 20, 30, 40, 45, 50, 60, 70, 80, 90, 100, 110, 120, 130, 135,
+            140, 150, 160, 170, 180, 190, 200, 210, 220, 225, 230, 240, 250,
+            260, 270, 280, 290, 300, 310, 315, 320, 330, 340, 350,
+          ];
+        } else {
+          // Uniformly spaced
+          orbitAngles[orbit] = [];
+          for (let i = 0; i < skillsInOrbit; i++) {
+            orbitAngles[orbit][i + 1] = (360 * i) / skillsInOrbit;
+          }
+        }
+        orbitAngles[orbit].forEach((degrees, i) => {
+          orbitAngles[orbit][i] = (degrees * Math.PI) / 180;
+        });
+      });
+      return orbitAngles;
+    };
+
     const scale = 0.05;
 
     const htmlBegin = `<svg width="${scale * 18000}" height="${
@@ -97,6 +128,10 @@ export class TreeService {
 
     const nodesCoordinates = [];
 
+    const orbitAngle = calculateOrbitAngles(
+      passiveTree.constants.skillsPerOrbit
+    );
+
     Object.entries(passiveTree.groups)
       .map((o) => ({
         id: o[0],
@@ -105,7 +140,7 @@ export class TreeService {
       .forEach((group) => {
         const nodesByGroup = nodes.filter(
           (n) =>
-            parseInt(n.group, 10) === parseInt(group.id, 10) &&
+            n.group === parseInt(group.id, 10) &&
             !n.ascendancyName &&
             !n.isProxy
         );
@@ -113,72 +148,17 @@ export class TreeService {
         if (nodesByGroup.length) {
           const cx = (group.x + 9000) * scale;
           const cy = (group.y + 9000) * scale;
-          const maxOrbit = Math.abs(Math.max(...group.orbits));
+          const maxOrbit = Math.max(...nodesByGroup.map((n) => n.orbit));
           const r = maxOrbit * 100 * scale;
           nodesByGroup.forEach((node) => {
             // const maxPerimeter = orbitMap(node.orbit);
             const orbitRatio = maxOrbit === 0 ? 0 : node.orbit / maxOrbit;
+            const nodeDegrees =
+              node.orbit && node.orbitIndex
+                ? orbitAngle[node.orbit][node.orbitIndex]
+                : 0;
             // const index = node.orbitIndex;
             // const nodeDegrees = (index / maxPerimeter) * 2 * Math.PI;
-
-            let nodeDegrees = 0;
-            const orbitMult = [
-              0,
-              Math.PI / 3,
-              Math.PI / 6,
-              Math.PI / 6,
-              Math.PI / 6,
-              Math.PI / 36,
-              Math.PI / 36,
-            ];
-            const orbitMultFull = [
-              0,
-              (10 * Math.PI) / 180,
-              (20 * Math.PI) / 180,
-              (30 * Math.PI) / 180,
-              (40 * Math.PI) / 180,
-              (45 * Math.PI) / 180,
-              (50 * Math.PI) / 180,
-              (60 * Math.PI) / 180,
-              (70 * Math.PI) / 180,
-              (80 * Math.PI) / 180,
-              (90 * Math.PI) / 180,
-              (100 * Math.PI) / 180,
-              (110 * Math.PI) / 180,
-              (120 * Math.PI) / 180,
-              (130 * Math.PI) / 180,
-              (135 * Math.PI) / 180,
-              (140 * Math.PI) / 180,
-              (150 * Math.PI) / 180,
-              (160 * Math.PI) / 180,
-              (170 * Math.PI) / 180,
-              (180 * Math.PI) / 180,
-              (190 * Math.PI) / 180,
-              (200 * Math.PI) / 180,
-              (210 * Math.PI) / 180,
-              (220 * Math.PI) / 180,
-              (225 * Math.PI) / 180,
-              (230 * Math.PI) / 180,
-              (240 * Math.PI) / 180,
-              (250 * Math.PI) / 180,
-              (260 * Math.PI) / 180,
-              (270 * Math.PI) / 180,
-              (280 * Math.PI) / 180,
-              (290 * Math.PI) / 180,
-              (300 * Math.PI) / 180,
-              (310 * Math.PI) / 180,
-              (315 * Math.PI) / 180,
-              (320 * Math.PI) / 180,
-              (330 * Math.PI) / 180,
-              (340 * Math.PI) / 180,
-              (350 * Math.PI) / 180,
-            ];
-            if (node.orbit !== 4) {
-              nodeDegrees = node.orbitIndex * orbitMult[node.orbit];
-            } else {
-              nodeDegrees = orbitMultFull[node.orbitIndex];
-            }
-
             if (
               !node.expansionJewel ||
               (node.name !== 'Medium Jewel Socket' &&
