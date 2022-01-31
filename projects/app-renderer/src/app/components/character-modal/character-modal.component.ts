@@ -51,6 +51,7 @@ export class CharacterModalComponent implements OnInit {
 
     this.thirdFormGroup = this.formBuilder.group({
       pobCtrl: ['', Validators.pattern(/https:\/\/pastebin.com\/\w+/)],
+      pobbinCtrl: ['', Validators.pattern(/https:\/\/pobb.in\/\w+/)],
     });
 
     const filePath = localStorage.getItem('filePath');
@@ -76,6 +77,19 @@ export class CharacterModalComponent implements OnInit {
       this.firstFormGroup.get('firstCtrl').value,
       this.secondFormGroup.get('secondCtrl').value,
       this.firstFormGroup.get('classCtrl').value
+    );
+  }
+
+  public openAndSendPoBin(): void {
+    if (this.thirdFormGroup.get('pobbinCtrl').errors) {
+      return;
+    }
+    this.pobService.parsePob(
+      this.thirdFormGroup.get('pobbinCtrl').value as string,
+      this.firstFormGroup.get('firstCtrl').value,
+      this.secondFormGroup.get('secondCtrl').value,
+      this.firstFormGroup.get('classCtrl').value,
+      true
     );
   }
 }

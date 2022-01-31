@@ -29,8 +29,23 @@ export class PobService {
     pobLink: string,
     characterName: string,
     filePath: string,
-    className: string
+    className: string,
+    isPobbinLink: boolean = false
   ): void {
+    if (isPobbinLink) {
+      this.http.get<string>(pobLink, this.httpOptions).subscribe((res) => {
+        this.handlePoBCode(
+          res
+            .split('<textarea data-hk=')[1]
+            .split('</textarea>')[0]
+            .split('readonly="">')[1],
+          characterName,
+          filePath,
+          className
+        );
+      });
+      return;
+    }
     const splitLink = pobLink.split('https://pastebin.com/');
     const rawLink = 'https://pastebin.com/raw/' + splitLink[1];
 
@@ -167,6 +182,16 @@ export class PobService {
         });
       }
     });
+
+    if (!allLevels.length && gemGroupsByLevel.every((group) => !group.level)) {
+      allLevels.push(1);
+      // tslint:disable-next-line: prefer-for-of
+      for (let i = 0; i < gemGroupsByLevel.length; i++) {
+        gemGroupsByLevel[i].level = 1;
+      }
+    }
+
+    console.log(gemGroupsByLevel);
 
     allLevels.forEach((level) => {
       available4link = [
