@@ -169,6 +169,18 @@ export const gemData = [
     vendorClasses: ['Witch', 'Shadow', 'Marauder', 'Templar', 'Scion'],
   },
   {
+    name: 'Poisonous Concoction',
+    gemCostUnit: 'Orb of Transmutation',
+    gemCostNumber: '1 ',
+    image:
+      'https://www.poewiki.net/w/images/e/ee/Poisonous_Concoction_inventory_icon.png',
+    socketColor: 'G',
+    questReward: "The Siren's Cadence",
+    questRewardClasses: ['Ranger'],
+    vendor: 'Nessa',
+    vendorClasses: ['Shadow', 'Ranger', 'Duelist', 'Scion'],
+  },
+  {
     name: 'Detonate Mines',
     gemCostUnit: 'Orb of Transmutation',
     gemCostNumber: '1 ',

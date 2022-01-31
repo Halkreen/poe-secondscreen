@@ -191,8 +191,6 @@ export class PobService {
       }
     }
 
-    console.log(gemGroupsByLevel);
-
     allLevels.forEach((level) => {
       available4link = [
         { type: 'helmet', taken: 0 },
