@@ -78,13 +78,17 @@ export function findGemIcon(gemName: string): string {
   const permissiveGemName = gemName
     .toLowerCase()
     .replace(/ /g, '')
-    .replace(/support/g, '');
+    .replace(/support/g, '')
+    .replace(/Vaal /g, '')
+    .replace(/vaal /g, '');
   return gemData.find(
     (gem) =>
       gem.name
         .toLowerCase()
         .replace(/ /g, '')
-        .replace(/support/g, '') === permissiveGemName
+        .replace(/support/g, '')
+        .replace(/Vaal /g, '')
+        .replace(/vaal /g, '') === permissiveGemName
   )?.image;
 }
 

@@ -43,11 +43,15 @@ export class GearComponent implements OnChanges {
           gemdata.name
             .toLowerCase()
             .replace(/ /g, '')
-            .replace(/support/g, '') ===
+            .replace(/support/g, '')
+            .replace(/Vaal /g, '')
+            .replace(/vaal /g, '') ===
           gem.gemName
             .toLowerCase()
             .replace(/ /g, '')
             .replace(/support/g, '')
+            .replace(/Vaal /g, '')
+            .replace(/vaal /g, '')
       );
 
       if (!gemAssociated) {

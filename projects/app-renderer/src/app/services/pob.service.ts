@@ -164,7 +164,7 @@ export class PobService {
           const socketColor = gemData.find(
             (g) =>
               g.name.replace(' Support', '') ===
-              gemNode.getAttribute('nameSpec').trim()
+              gemNode.getAttribute('nameSpec').trim().replace('Vaal ', '')
           )?.socketColor;
 
           if (socketColor) {
