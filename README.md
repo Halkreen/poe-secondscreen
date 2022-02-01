@@ -180,6 +180,6 @@ Possible improvements :
 - Better error handling
 - Smoother animations (get rid of material ?)
 
-~~I might also work on a web tool that will allow you to create your leveling without manually editing a JSON file. It would generate a link, and this link could be pasted into the app (like pastebin url's for PoB)~~ Done in v1.2.0 !
+~~I might also work on a web tool that will allow you to create your leveling without manually editing a JSON file. It would generate a link, and this link could be pasted into the app (like pastebin url's for PoB)~~ Not in my plans anymore, PoB support will enable PoB as that tool :)
 
 > Have a nice day, exile ! 👋
