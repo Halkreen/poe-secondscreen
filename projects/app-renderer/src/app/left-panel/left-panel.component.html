@@ -86,6 +86,21 @@
         [questUsed]="questUsed | async"
       >
       </app-gear>
+      <app-gear
+        [gems]="
+          formatGems(
+            findGearPiece(currentStep?.gear, 'weaponswap')?.gems,
+            findGearPiece(previousStep?.gear, 'weaponswap')?.gems
+          )
+        "
+        [icon]="findGearPiece(currentStep?.gear, 'weaponswap')?.type"
+        [links]="
+          formatLinks(findGearPiece(currentStep?.gear, 'weaponswap')?.sockets)
+        "
+        (newQuestUsed)="newQuestUsed($event)"
+        [questUsed]="questUsed | async"
+      >
+      </app-gear>
     </div>
   </div>
 </div>
